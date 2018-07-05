@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-toerisme-lb
+  labels:
+    app: chatbot-toerisme-lb
+spec:
+  ports:
+  - port: 80
+    targetPort: 3000
+  selector:
+    app: chatbot-toerisme
+  type: LoadBalancer

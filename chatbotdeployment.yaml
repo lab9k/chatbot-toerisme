@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: chatbot-toerisme
+  labels:
+    component: chatbot-toerisme
+spec:
+  replicas: 1
+  strategy:                               # how updating the deployment affect the Replicat Set and Pods
+    type: RollingUpdate                   # Recreate/RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: chatbot-toerisme
+  template:
+    metadata:
+      labels:
+        app: chatbot-toerisme
+    spec:
+      containers:
+        - name: chatbot-toerisme
+          image: lab9k/chatbot-toerisme:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
