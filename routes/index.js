@@ -17,21 +17,7 @@ router.post("/", function (request, response) {
     }
 
     const agent = new WebhookClient({request, response});
-    console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
-    console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
-    function welcome(agent) {
-        agent.add(`Welcome to my agent!`);
-    }
-
-    function fallback(agent) {
-        agent.add(`I didn't understand`);
-        agent.add(`I'm sorry, can you try again?`);
-    }
-
-    // Uncomment and edit to make your own intent handler
-    // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
-    // below to get this funciton to be run when a Dialogflow intent is matched
     function yourFunctionHandler(agent) {
       agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
       agent.add(new Card({
@@ -46,11 +32,8 @@ router.post("/", function (request, response) {
       agent.add(new Suggestion(`Suggestion`));
       agent.setContext({ name: 'weather', lifespan: 2, parameters: { city: 'Rome' }});
     }
-    //
-    // Run the proper function handler based on the matched Dialogflow intent name
+
     let intentMap = new Map();
-    intentMap.set('Default Welcome Intent', welcome);
-    intentMap.set('Default Fallback Intent', fallback);
     intentMap.set('Jorg', yourFunctionHandler);
     agent.handleRequest(intentMap);
 });
