@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { WebhookClient } = require("dialogflow-fulfillment");
-const buurtHandler = require("../handlers/buurtHandler");
+const nearbyHandler = require("../handlers/nearbyHandler");
 
 /**
  * Routes HTTP POST requests to index
@@ -24,7 +24,7 @@ router.post("/", function (request, response) {
     const agent = new WebhookClient({request, response});
 
     let intentMap = new Map();
-    intentMap.set("Plaatsen in de buurt", buurtHandler);
+    intentMap.set("Nearby Intent", nearbyHandler);
 
     agent.handleRequest(intentMap);
 });
