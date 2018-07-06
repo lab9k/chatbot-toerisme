@@ -24,7 +24,7 @@ router.post("/", function (request, response) {
     const agent = new WebhookClient({request, response});
 
     let intentMap = new Map();
-    intentMap.set("Welcome", welcomeHandler);
+    intentMap.set("Default Welcome Intent", welcomeHandler);
 
     agent.handleRequest(intentMap);
 });
