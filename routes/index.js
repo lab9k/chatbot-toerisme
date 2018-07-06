@@ -8,13 +8,13 @@ const {WebhookClient, Card, Suggestion} = require('dialogflow-fulfillment');
  */
 router.post("/", function (request, response) {
     // TODO: validate origin/host
-    // res.send("Invalid domain", 403);
-    if (!req.hasOwnProperty("body") || Object.keys(req.body).length === 0) {
-        res.send("Empty body", 400);
+    // response.send("Invalid domain", 403);
+    if (!request.hasOwnProperty("body") || Object.keys(requestbody).length === 0) {
+        response.send("Empty body", 400);
     }
-    if (!req.body.hasOwnProperty("queryResult") || Object.keys(req.body.queryResult).length === 0 ||
-        !req.body.queryResult.hasOwnProperty("queryText") || Object.keys(req.body.queryResult.queryText).length === 0) {
-        res.send("Invalid data format", 400);
+    if (!request.body.hasOwnProperty("queryResult") || Object.keys(request.body.queryResult).length === 0 ||
+        !request.body.queryResult.hasOwnProperty("queryText") || Object.keys(request.body.queryResult.queryText).length === 0) {
+        response.send("Invalid data format", 400);
     }
 
     const agent = new WebhookClient({request, response});
@@ -60,7 +60,7 @@ router.post("/", function (request, response) {
  * Blocks all other HTTP requests
  */
 router.all("/", function (req, res) {
-    res.sendStatus(405)
+    response.sendStatus(405)
 });
 
 module.exports = router;
