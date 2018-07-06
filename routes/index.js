@@ -1,5 +1,4 @@
 const express = require("express");
-const google = require("actions-on-google")
 const router = express.Router();
 const {WebhookClient, Card, Suggestion} = require('dialogflow-fulfillment');
 
@@ -30,29 +29,29 @@ router.post("/", function (request, response) {
         agent.add(`I'm sorry, can you try again?`);
     }
 
-    // // Uncomment and edit to make your own intent handler
-    // // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
-    // // below to get this funciton to be run when a Dialogflow intent is matched
-    // function yourFunctionHandler(agent) {
-    //   agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
-    //   agent.add(new Card({
-    //       title: `Title: this is a card title`,
-    //       imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
-    //       text: `This is the body text of a card.  You can even use line\n  breaks and emoji! 💁`,
-    //       buttonText: 'This is a button',
-    //       buttonUrl: 'https://assistant.google.com/'
-    //     })
-    //   );
-    //   agent.add(new Suggestion(`Quick Reply`));
-    //   agent.add(new Suggestion(`Suggestion`));
-    //   agent.setContext({ name: 'weather', lifespan: 2, parameters: { city: 'Rome' }});
-    // }
-
+    // Uncomment and edit to make your own intent handler
+    // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
+    // below to get this funciton to be run when a Dialogflow intent is matched
+    function yourFunctionHandler(agent) {
+      agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
+      agent.add(new Card({
+          title: `Title: this is a card title`,
+          imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
+          text: `This is the body text of a card.  You can even use line\n  breaks and emoji! 💁`,
+          buttonText: 'This is a button',
+          buttonUrl: 'https://assistant.google.com/'
+        })
+      );
+      agent.add(new Suggestion(`Quick Reply`));
+      agent.add(new Suggestion(`Suggestion`));
+      agent.setContext({ name: 'weather', lifespan: 2, parameters: { city: 'Rome' }});
+    }
+    //
     // Run the proper function handler based on the matched Dialogflow intent name
     let intentMap = new Map();
     intentMap.set('Default Welcome Intent', welcome);
     intentMap.set('Default Fallback Intent', fallback);
-    // intentMap.set('your intent name here', yourFunctionHandler);
+    intentMap.set('Jorg', yourFunctionHandler);
     agent.handleRequest(intentMap);
 });
 
