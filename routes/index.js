@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { WebhookClient } = require("dialogflow-fulfillment");
-const welcomeHandler = require("welcomeHandler");
+const welcomeHandler = require("../handlers/welcomeHandler");
 
 /**
  * Routes HTTP POST requests to index
