@@ -1,0 +1,14 @@
+{
+  "hello" : {
+    "nl" : "Hallo!",
+    "en" : "Hello!"
+  },
+  "vicinity" : {
+    "nl" : "Plaatsen in de buurt",
+    "en" : "Plaatsen per categorie"
+  },
+  "category" : {
+    "nl" : "Places in my area",
+    "en" : "Places per category"
+  }
+}
