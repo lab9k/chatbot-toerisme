@@ -9,7 +9,7 @@ const {WebhookClient, Card, Suggestion} = require('dialogflow-fulfillment');
 router.post("/", function (request, response) {
     // TODO: validate origin/host
     // response.send("Invalid domain", 403);
-    if (!request.hasOwnProperty("body") || Object.keys(requestbody).length === 0) {
+    if (!request.hasOwnProperty("body") || Object.keys(request.body).length === 0) {
         response.send("Empty body", 400);
     }
     if (!request.body.hasOwnProperty("queryResult") || Object.keys(request.body.queryResult).length === 0 ||
