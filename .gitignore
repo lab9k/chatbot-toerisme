@@ -64,4 +64,6 @@ typings/
 .idea
 
 config.json
-/.history
+
+# vscode
+.history
