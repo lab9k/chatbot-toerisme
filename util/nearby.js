@@ -25,7 +25,6 @@ const distance = location => toLocation => {
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
   const d = R * c;
-  console.log(`${location.properties.NAAM}: \n\t${d} meter\n`);
   return d;
 };
 
@@ -56,10 +55,12 @@ const nearest = filePath => {
 };
 
 // * example
-// console.log(
-//   nearest(FILE_PATH).then(cb =>
-//     cb({ lat: 51.055626763148624, long: 3.722346570642415 })
-//   )
-// );
+// nearest(FILE_PATH)
+//   .then(cb => {
+//     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
+//     const closest = cb(loc);
+//     console.log('nearest: ', closest);
+//   })
+//   .catch(err => console.log(err));
 
 module.exports = nearest(FILE_PATH);
