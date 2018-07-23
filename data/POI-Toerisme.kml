@@ -1,0 +1,2622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="POI-Toerisme_1" id="POI-Toerisme_1">
+            <SimpleField type="string" name="NAAM"/>
+            <SimpleField type="string" name="TYPE"/>
+            <SimpleField type="string" name="controle"/>
+            <SimpleField type="string" name="X"/>
+            <SimpleField type="string" name="Y"/>
+            <SimpleField type="string" name="X_LB72"/>
+            <SimpleField type="string" name="Y_LB72"/>
+        </Schema>
+        <Folder>
+            <name>POI-Toerisme</name>
+            <Placemark id="POI-Toerisme.1">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Michielsbrug</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72052900</SimpleData>
+                        <SimpleData name="Y">51.05383100</SimpleData>
+                        <SimpleData name="X_LB72">104637.78900000</SimpleData>
+                        <SimpleData name="Y_LB72">193968.76100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720529569876761,51.05383076389945</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.2">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Hotel Falligan</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72405300</SimpleData>
+                        <SimpleData name="Y">51.05053300</SimpleData>
+                        <SimpleData name="X_LB72">104881.69300000</SimpleData>
+                        <SimpleData name="Y_LB72">193599.72400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7240535682099014,51.0505327645043</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.3">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Capitole</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.73196400</SimpleData>
+                        <SimpleData name="Y">51.04807500</SimpleData>
+                        <SimpleData name="X_LB72">105434.06700000</SimpleData>
+                        <SimpleData name="Y_LB72">193321.50300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7319645637932117,51.0480747629402</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.4">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Vismijn</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72080200</SimpleData>
+                        <SimpleData name="Y">51.05632500</SimpleData>
+                        <SimpleData name="X_LB72">104659.34700000</SimpleData>
+                        <SimpleData name="Y_LB72">194246.04200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720802572383196,51.05632476362788</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.5">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Pomp Zandberg</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72712500</SimpleData>
+                        <SimpleData name="Y">51.05468400</SimpleData>
+                        <SimpleData name="X_LB72">105101.08200000</SimpleData>
+                        <SimpleData name="Y_LB72">194059.64400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.727125568428059,51.05468376251449</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.6">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Achtersikkel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72650800</SimpleData>
+                        <SimpleData name="Y">51.05386500</SimpleData>
+                        <SimpleData name="X_LB72">105057.03600000</SimpleData>
+                        <SimpleData name="Y_LB72">193968.90700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7265085686599813,51.05386476222183</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.7">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Huis Den Turk</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72575600</SimpleData>
+                        <SimpleData name="Y">51.05445100</SimpleData>
+                        <SimpleData name="X_LB72">105004.87300000</SimpleData>
+                        <SimpleData name="Y_LB72">194034.55300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7257565691727,51.05445076280031</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.8">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Hotel Mechelynck</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72890900</SimpleData>
+                        <SimpleData name="Y">51.05023800</SimpleData>
+                        <SimpleData name="X_LB72">105221.91100000</SimpleData>
+                        <SimpleData name="Y_LB72">193563.96600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7289095668867476,51.05023776356481</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.9">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het huis Borluut</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72227800</SimpleData>
+                        <SimpleData name="Y">51.05467900</SimpleData>
+                        <SimpleData name="X_LB72">104761.23900000</SimpleData>
+                        <SimpleData name="Y_LB72">194062.03000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.72227857087033,51.0546787635653</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.10">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kiosk Kouter</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72386000</SimpleData>
+                        <SimpleData name="Y">51.05002700</SimpleData>
+                        <SimpleData name="X_LB72">104867.67200000</SimpleData>
+                        <SimpleData name="Y_LB72">193543.55000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7238605678660717,51.050026764937066</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.11">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Mammelokker</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72498400</SimpleData>
+                        <SimpleData name="Y">51.05381900</SimpleData>
+                        <SimpleData name="X_LB72">104950.13700000</SimpleData>
+                        <SimpleData name="Y_LB72">193964.71300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.724984569593942,51.053818762924415</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.12">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Handelsbeurs</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72328500</SimpleData>
+                        <SimpleData name="Y">51.04977600</SimpleData>
+                        <SimpleData name="X_LB72">104827.11100000</SimpleData>
+                        <SimpleData name="Y_LB72">193515.97700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7232855670324905,51.049775764453145</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.13">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Jakobskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72766600</SimpleData>
+                        <SimpleData name="Y">51.05654100</SimpleData>
+                        <SimpleData name="X_LB72">105140.79400000</SimpleData>
+                        <SimpleData name="Y_LB72">194265.90200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.727666569824762,51.05654076223655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.14">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Bijloke abdij</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71655300</SimpleData>
+                        <SimpleData name="Y">51.04393800</SimpleData>
+                        <SimpleData name="X_LB72">104349.36600000</SimpleData>
+                        <SimpleData name="Y_LB72">192870.64100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.716553566242129,51.04393776790803</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.15">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Oostakker Lourdes</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.75972200</SimpleData>
+                        <SimpleData name="Y">51.08193500</SimpleData>
+                        <SimpleData name="X_LB72">107411.38200000</SimpleData>
+                        <SimpleData name="Y_LB72">197072.03300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7597225743444502,51.081934747383066</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.16">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klooster Franciscanen</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71686900</SimpleData>
+                        <SimpleData name="Y">51.05131500</SimpleData>
+                        <SimpleData name="X_LB72">104378.71800000</SimpleData>
+                        <SimpleData name="Y_LB72">193691.10800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7168695702028884,51.05131476569324</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.17">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Design Museum (pot op)</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71991200</SimpleData>
+                        <SimpleData name="Y">51.05553200</SimpleData>
+                        <SimpleData name="X_LB72">104596.17900000</SimpleData>
+                        <SimpleData name="Y_LB72">194158.36700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7199125710070473,51.055531764064185</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.18">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Domein Claeys-Bou³aert</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.67432400</SimpleData>
+                        <SimpleData name="Y">51.07598100</SimpleData>
+                        <SimpleData name="X_LB72">101421.16400000</SimpleData>
+                        <SimpleData name="Y_LB72">196462.09500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.67432459657565,51.0759807678453</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.19">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Blaarmeersen</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.68715600</SimpleData>
+                        <SimpleData name="Y">51.04939600</SimpleData>
+                        <SimpleData name="X_LB72">102293.34400000</SimpleData>
+                        <SimpleData name="Y_LB72">193496.30000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6871565776583934,51.049395772581576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.20">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Zuidpark</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73229800</SimpleData>
+                        <SimpleData name="Y">51.04519600</SimpleData>
+                        <SimpleData name="X_LB72">105454.74900000</SimpleData>
+                        <SimpleData name="Y_LB72">193001.02500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.732298561907396,51.045195764212835</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.21">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Hof Van Ryhove</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72525800</SimpleData>
+                        <SimpleData name="Y">51.05572900</SimpleData>
+                        <SimpleData name="X_LB72">104971.18700000</SimpleData>
+                        <SimpleData name="Y_LB72">194177.02700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725258570128652,51.055728762554885</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.22">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Provinciehuis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72694400</SimpleData>
+                        <SimpleData name="Y">51.05154800</SimpleData>
+                        <SimpleData name="X_LB72">105085.38200000</SimpleData>
+                        <SimpleData name="Y_LB72">193710.88600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.72694456688146,51.051547763680546</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.23">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Baudeloo-abdij</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72826600</SimpleData>
+                        <SimpleData name="Y">51.05754500</SimpleData>
+                        <SimpleData name="X_LB72">105183.82200000</SimpleData>
+                        <SimpleData name="Y_LB72">194377.23100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7282665698743687,51.05754476123844</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.24">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">SMAK</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72285900</SimpleData>
+                        <SimpleData name="Y">51.03823600</SimpleData>
+                        <SimpleData name="X_LB72">104786.09400000</SimpleData>
+                        <SimpleData name="Y_LB72">192232.46000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7228595616702234,51.03823576852762</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.25">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gravensteen</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72074600</SimpleData>
+                        <SimpleData name="Y">51.05712200</SimpleData>
+                        <SimpleData name="X_LB72">104656.19300000</SimpleData>
+                        <SimpleData name="Y_LB72">194334.73900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720746572306705,51.05712176301425</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.26">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Pand der Geschoeide Karmelieten</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72236400</SimpleData>
+                        <SimpleData name="Y">51.05903900</SimpleData>
+                        <SimpleData name="X_LB72">104771.48300000</SimpleData>
+                        <SimpleData name="Y_LB72">194547.01200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7223645719823852,51.05903876192847</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.27">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Park De Campagne (Drongen)</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.66836900</SimpleData>
+                        <SimpleData name="Y">51.07351500</SimpleData>
+                        <SimpleData name="X_LB72">101001.24900000</SimpleData>
+                        <SimpleData name="Y_LB72">196191.67400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6683695971835526,51.07351476954606</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.28">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Groene Valleipark</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.70477600</SimpleData>
+                        <SimpleData name="Y">51.05541000</SimpleData>
+                        <SimpleData name="X_LB72">103534.84500000</SimpleData>
+                        <SimpleData name="Y_LB72">194154.15900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7047765765105356,51.05540976705222</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.29">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Assels</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.67101900</SimpleData>
+                        <SimpleData name="Y">51.04654000</SimpleData>
+                        <SimpleData name="X_LB72">101158.82500000</SimpleData>
+                        <SimpleData name="Y_LB72">193189.07500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.671019580559323,51.046539776789956</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.30">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Stadhuis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72528900</SimpleData>
+                        <SimpleData name="Y">51.05441300</SimpleData>
+                        <SimpleData name="X_LB72">104972.09400000</SimpleData>
+                        <SimpleData name="Y_LB72">194030.60900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7252895700907875,51.0544127631283</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.31">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Biezekapel</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72662700</SimpleData>
+                        <SimpleData name="Y">51.05354100</SimpleData>
+                        <SimpleData name="X_LB72">105065.06800000</SimpleData>
+                        <SimpleData name="Y_LB72">193932.79100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.726627569383978,51.053540762711684</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.32">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Zwembad Van Eyck</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73392500</SimpleData>
+                        <SimpleData name="Y">51.05357700</SimpleData>
+                        <SimpleData name="X_LB72">105576.80200000</SimpleData>
+                        <SimpleData name="Y_LB72">193932.40500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7339255671938116,51.05357676189084</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.33">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Toreken</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72619000</SimpleData>
+                        <SimpleData name="Y">51.05651900</SimpleData>
+                        <SimpleData name="X_LB72">105037.29000000</SimpleData>
+                        <SimpleData name="Y_LB72">194264.34700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7261905704392984,51.05651876220475</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.34">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Michielskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71983100</SimpleData>
+                        <SimpleData name="Y">51.05351100</SimpleData>
+                        <SimpleData name="X_LB72">104588.53900000</SimpleData>
+                        <SimpleData name="Y_LB72">193933.58800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.719831570816167,51.05351076431549</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.35">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Grote Sikkel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72695800</SimpleData>
+                        <SimpleData name="Y">51.05413800</SimpleData>
+                        <SimpleData name="X_LB72">105088.84900000</SimpleData>
+                        <SimpleData name="Y_LB72">193999.00500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.726958568921785,51.05413776204659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.36">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kraankindershuis</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72178100</SimpleData>
+                        <SimpleData name="Y">51.05662000</SimpleData>
+                        <SimpleData name="X_LB72">104728.27000000</SimpleData>
+                        <SimpleData name="Y_LB72">194278.26200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7217815707528876,51.05661976362479</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.37">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Elisabethkerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71230400</SimpleData>
+                        <SimpleData name="Y">51.05701800</SimpleData>
+                        <SimpleData name="X_LB72">104064.22600000</SimpleData>
+                        <SimpleData name="Y_LB72">194328.35900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.712304575372447,51.05701776448753</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.38">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Graanspijker</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72097100</SimpleData>
+                        <SimpleData name="Y">51.05479900</SimpleData>
+                        <SimpleData name="X_LB72">104669.71700000</SimpleData>
+                        <SimpleData name="Y_LB72">194076.17700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720971570640979,51.054798763606236</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.39">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">St-Baafsabdij</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.73666800</SimpleData>
+                        <SimpleData name="Y">51.05343500</SimpleData>
+                        <SimpleData name="X_LB72">105768.99300000</SimpleData>
+                        <SimpleData name="Y_LB72">193914.97000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7366685648290434,51.05343476057427</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.40">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Jorishof</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72568600</SimpleData>
+                        <SimpleData name="Y">51.05435500</SimpleData>
+                        <SimpleData name="X_LB72">104999.87300000</SimpleData>
+                        <SimpleData name="Y_LB72">194023.91600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725686569750842,51.054354762409815</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.41">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Dulle Griet</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72412900</SimpleData>
+                        <SimpleData name="Y">51.05729700</SimpleData>
+                        <SimpleData name="X_LB72">104893.54200000</SimpleData>
+                        <SimpleData name="Y_LB72">194352.14700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7241295710728286,51.057296762418545</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.42">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Opera</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72191000</SimpleData>
+                        <SimpleData name="Y">51.04968200</SimpleData>
+                        <SimpleData name="X_LB72">104730.60400000</SimpleData>
+                        <SimpleData name="Y_LB72">193506.35800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7219105679293505,51.049681764783486</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.43">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klooster en kapel Poortakker</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71671200</SimpleData>
+                        <SimpleData name="Y">51.05255500</SimpleData>
+                        <SimpleData name="X_LB72">104368.91800000</SimpleData>
+                        <SimpleData name="Y_LB72">193829.14900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7167125707423696,51.05255476553062</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.44">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Caermersklooster</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72184500</SimpleData>
+                        <SimpleData name="Y">51.05872400</SimpleData>
+                        <SimpleData name="X_LB72">104734.79300000</SimpleData>
+                        <SimpleData name="Y_LB72">194512.28500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.721845572123592,51.05872376297048</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.45">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Pietersabdij</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72708000</SimpleData>
+                        <SimpleData name="Y">51.04239900</SimpleData>
+                        <SimpleData name="X_LB72">105086.14000000</SimpleData>
+                        <SimpleData name="Y_LB72">192693.01400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7270805628323105,51.04239876610209</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.46">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Salvatorkerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72950100</SimpleData>
+                        <SimpleData name="Y">51.06381900</SimpleData>
+                        <SimpleData name="X_LB72">105276.40300000</SimpleData>
+                        <SimpleData name="Y_LB72">195074.44700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.72950157282865,51.0638187591907</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.47">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Boeken (Ajuinlei)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71998200</SimpleData>
+                        <SimpleData name="Y">51.05075400</SimpleData>
+                        <SimpleData name="X_LB72">104596.45100000</SimpleData>
+                        <SimpleData name="Y_LB72">193626.79100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7199825686322776,51.05075376522128</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.48">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kerk OLV Ter Hoyen</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72073700</SimpleData>
+                        <SimpleData name="Y">51.04582100</SimpleData>
+                        <SimpleData name="X_LB72">104644.61100000</SimpleData>
+                        <SimpleData name="Y_LB72">193077.55300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7207375666959694,51.04582076623402</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.49">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">het Houten Huis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72005900</SimpleData>
+                        <SimpleData name="Y">51.05632800</SimpleData>
+                        <SimpleData name="X_LB72">104607.25700000</SimpleData>
+                        <SimpleData name="Y_LB72">194246.83000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7200595722184375,51.056327763568405</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.50">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Wolweverskapel</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72629300</SimpleData>
+                        <SimpleData name="Y">51.05010800</SimpleData>
+                        <SimpleData name="X_LB72">105038.35200000</SimpleData>
+                        <SimpleData name="Y_LB72">193551.08500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.726293566778207,51.05010776411447</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.51">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Boekentoren</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72580100</SimpleData>
+                        <SimpleData name="Y">51.04498500</SimpleData>
+                        <SimpleData name="X_LB72">104998.92800000</SimpleData>
+                        <SimpleData name="Y_LB72">192981.47000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725801563988651,51.04498476520671</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.52">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Lakenmetershuis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72649100</SimpleData>
+                        <SimpleData name="Y">51.05713400</SimpleData>
+                        <SimpleData name="X_LB72">105058.98300000</SimpleData>
+                        <SimpleData name="Y_LB72">194332.58200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.726491570738169,51.057133761439374</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.53">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Dieren (Oude Beestenmarkt)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73119400</SimpleData>
+                        <SimpleData name="Y">51.05420500</SimpleData>
+                        <SimpleData name="X_LB72">105385.91600000</SimpleData>
+                        <SimpleData name="Y_LB72">194003.90500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7311945674575133,51.054204762142355</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.54">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Metselaarshuis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72303100</SimpleData>
+                        <SimpleData name="Y">51.05350000</SimpleData>
+                        <SimpleData name="X_LB72">104812.89600000</SimpleData>
+                        <SimpleData name="Y_LB72">193930.41200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723031569284216,51.05349976386345</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.55">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Antoniushof</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71913500</SimpleData>
+                        <SimpleData name="Y">51.05909600</SimpleData>
+                        <SimpleData name="X_LB72">104545.16400000</SimpleData>
+                        <SimpleData name="Y_LB72">194555.32500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.719135573202038,51.05909576307029</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.56">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Pieterskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72696400</SimpleData>
+                        <SimpleData name="Y">51.04246500</SimpleData>
+                        <SimpleData name="X_LB72">105078.06800000</SimpleData>
+                        <SimpleData name="Y_LB72">192700.42600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7269645624813523,51.042464766521995</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.57">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Bio (Groentemarkt)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72216600</SimpleData>
+                        <SimpleData name="Y">51.05581100</SimpleData>
+                        <SimpleData name="X_LB72">104754.48100000</SimpleData>
+                        <SimpleData name="Y_LB72">194188.02900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.722166571615644,51.05581076304393</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.58">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Jan in d' olie/'t Rolleke</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72860700</SimpleData>
+                        <SimpleData name="Y">51.05628100</SimpleData>
+                        <SimpleData name="X_LB72">105206.51900000</SimpleData>
+                        <SimpleData name="Y_LB72">194236.41000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.728607569457898,51.0562807616547</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.59">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Augustijnenklooster</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71915300</SimpleData>
+                        <SimpleData name="Y">51.05907900</SimpleData>
+                        <SimpleData name="X_LB72">104546.40900000</SimpleData>
+                        <SimpleData name="Y_LB72">194553.42200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7191535736437102,51.059078762727175</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.60">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Baafskathedraal</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72685400</SimpleData>
+                        <SimpleData name="Y">51.05300700</SimpleData>
+                        <SimpleData name="X_LB72">105080.47200000</SimpleData>
+                        <SimpleData name="Y_LB72">193873.24800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.726854567368091,51.053006762943184</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.61">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Voormalige Kapucijnenkerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73257300</SimpleData>
+                        <SimpleData name="Y">51.04981700</SimpleData>
+                        <SimpleData name="X_LB72">105478.42900000</SimpleData>
+                        <SimpleData name="Y_LB72">193514.92900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7325735649619673,51.04981676208049</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.62">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Appelbrugparkje</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72037300</SimpleData>
+                        <SimpleData name="Y">51.05600700</SimpleData>
+                        <SimpleData name="X_LB72">104628.96100000</SimpleData>
+                        <SimpleData name="Y_LB72">194210.92800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7203735720378055,51.05600676318383</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.63">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Campo Santo</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.74938800</SimpleData>
+                        <SimpleData name="Y">51.06221100</SimpleData>
+                        <SimpleData name="X_LB72">106668.98600000</SimpleData>
+                        <SimpleData name="Y_LB72">194883.77000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7493885664200377,51.062210755182704</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.64">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kon. Nederlands Schouwburg</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72585700</SimpleData>
+                        <SimpleData name="Y">51.05364000</SimpleData>
+                        <SimpleData name="X_LB72">105011.17500000</SimpleData>
+                        <SimpleData name="Y_LB72">193944.27100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7258575694550577,51.053639762645666</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.65">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Ons Huis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72517200</SimpleData>
+                        <SimpleData name="Y">51.05748400</SimpleData>
+                        <SimpleData name="X_LB72">104966.84600000</SimpleData>
+                        <SimpleData name="Y_LB72">194372.31700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7251725717115547,51.057483761754355</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.66">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Duivelsteen</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72838200</SimpleData>
+                        <SimpleData name="Y">51.05206100</SimpleData>
+                        <SimpleData name="X_LB72">105186.70300000</SimpleData>
+                        <SimpleData name="Y_LB72">193767.08600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.728382566632071,51.05206076294812</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.67">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Justitiepaleis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72070900</SimpleData>
+                        <SimpleData name="Y">51.04997900</SimpleData>
+                        <SimpleData name="X_LB72">104646.67700000</SimpleData>
+                        <SimpleData name="Y_LB72">193540.13100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7207095680052027,51.04997876554596</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.68">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Antiek (Sint-Jacobs)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72768500</SimpleData>
+                        <SimpleData name="Y">51.05681400</SimpleData>
+                        <SimpleData name="X_LB72">105142.38800000</SimpleData>
+                        <SimpleData name="Y_LB72">194296.26100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.727685570091338,51.05681376153035</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.69">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klooster der Ongeschoeide Karmelieten</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71659300</SimpleData>
+                        <SimpleData name="Y">51.05688600</SimpleData>
+                        <SimpleData name="X_LB72">104364.79800000</SimpleData>
+                        <SimpleData name="Y_LB72">194311.03000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.716593572713331,51.05688576437059</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.70">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klooster Karmelieten</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71650700</SimpleData>
+                        <SimpleData name="Y">51.05682800</SimpleData>
+                        <SimpleData name="X_LB72">104358.71200000</SimpleData>
+                        <SimpleData name="Y_LB72">194304.63000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7165075733979034,51.056827764491075</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.71">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Onthoofdingsbrug</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72020700</SimpleData>
+                        <SimpleData name="Y">51.05667200</SimpleData>
+                        <SimpleData name="X_LB72">104617.96700000</SimpleData>
+                        <SimpleData name="Y_LB72">194285.00800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720207572356434,51.05667176279965</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.72">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Postgebouw</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72152900</SimpleData>
+                        <SimpleData name="Y">51.05426600</SimpleData>
+                        <SimpleData name="X_LB72">104708.32400000</SimpleData>
+                        <SimpleData name="Y_LB72">194016.54200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.721529569959494,51.05426576425218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.73">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Bourgoyen - Ossemeersen</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.67305900</SimpleData>
+                        <SimpleData name="Y">51.06173300</SimpleData>
+                        <SimpleData name="X_LB72">101317.68700000</SimpleData>
+                        <SimpleData name="Y_LB72">194877.88800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6730595889925497,51.06173277212804</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.74">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klein Begijnhof</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.73456500</SimpleData>
+                        <SimpleData name="Y">51.04621800</SimpleData>
+                        <SimpleData name="X_LB72">105614.69700000</SimpleData>
+                        <SimpleData name="Y_LB72">193113.36100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7345655620365235,51.04621776313923</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.75">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Martinuskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.70324900</SimpleData>
+                        <SimpleData name="Y">51.05031500</SimpleData>
+                        <SimpleData name="X_LB72">103422.71300000</SimpleData>
+                        <SimpleData name="Y_LB72">193588.31800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.703249573478203,51.050314769274706</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.76">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klokke Roeland</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72380300</SimpleData>
+                        <SimpleData name="Y">51.05371800</SimpleData>
+                        <SimpleData name="X_LB72">104867.23500000</SimpleData>
+                        <SimpleData name="Y_LB72">193954.19500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7238035697612717,51.05371776273547</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.77">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Bischoppelijk Paleis</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72869100</SimpleData>
+                        <SimpleData name="Y">51.05275500</SimpleData>
+                        <SimpleData name="X_LB72">105209.03300000</SimpleData>
+                        <SimpleData name="Y_LB72">193844.10500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7286915682251895,51.05275476274111</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.78">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Leopoldskazerne</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72281300</SimpleData>
+                        <SimpleData name="Y">51.04031200</SimpleData>
+                        <SimpleData name="X_LB72">104784.87200000</SimpleData>
+                        <SimpleData name="Y_LB72">192463.43400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7228135625377843,51.04031176709329</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.79">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Stadsarchief</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.74943200</SimpleData>
+                        <SimpleData name="Y">51.04596400</SimpleData>
+                        <SimpleData name="X_LB72">106657.02500000</SimpleData>
+                        <SimpleData name="Y_LB72">193076.32200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7494325578177965,51.04596376060341</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.80">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Ambachtelijk (Groentemarkt)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72216600</SimpleData>
+                        <SimpleData name="Y">51.05581100</SimpleData>
+                        <SimpleData name="X_LB72">104754.48100000</SimpleData>
+                        <SimpleData name="Y_LB72">194188.02900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.722166571615644,51.05581076304393</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.81">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Baudeloopark</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73028900</SimpleData>
+                        <SimpleData name="Y">51.05821200</SimpleData>
+                        <SimpleData name="X_LB72">105326.28900000</SimpleData>
+                        <SimpleData name="Y_LB72">194450.21300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7302895705043166,51.05821176122976</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.82">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Aula</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72353600</SimpleData>
+                        <SimpleData name="Y">51.05215300</SimpleData>
+                        <SimpleData name="X_LB72">104847.00400000</SimpleData>
+                        <SimpleData name="Y_LB72">193780.25700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723536568899278,51.052152763860384</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.83">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Lakenhalle</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72521200</SimpleData>
+                        <SimpleData name="Y">51.05372200</SimpleData>
+                        <SimpleData name="X_LB72">104966.03000000</SimpleData>
+                        <SimpleData name="Y_LB72">193953.78400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725212569199585,51.05372176288134</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.84">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Vooruit</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72750300</SimpleData>
+                        <SimpleData name="Y">51.04767700</SimpleData>
+                        <SimpleData name="X_LB72">105120.86600000</SimpleData>
+                        <SimpleData name="Y_LB72">193279.91400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7275035651265465,51.04767676427665</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.85">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Lam Gods</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72685300</SimpleData>
+                        <SimpleData name="Y">51.05300400</SimpleData>
+                        <SimpleData name="X_LB72">105080.39900000</SimpleData>
+                        <SimpleData name="Y_LB72">193872.91500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7268535684414847,51.05300376278749</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.86">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Klooster Dominicanen</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71346700</SimpleData>
+                        <SimpleData name="Y">51.05406700</SimpleData>
+                        <SimpleData name="X_LB72">104142.87200000</SimpleData>
+                        <SimpleData name="Y_LB72">193999.35200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7134675729668185,51.054066765690884</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.87">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Nieuwe Koopwaar (Vrijdagmarkt)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72563600</SimpleData>
+                        <SimpleData name="Y">51.05697800</SimpleData>
+                        <SimpleData name="X_LB72">104998.89000000</SimpleData>
+                        <SimpleData name="Y_LB72">194315.74500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725636570420428,51.05697776190818</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.88">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Nationale Bank</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72861000</SimpleData>
+                        <SimpleData name="Y">51.05238500</SimpleData>
+                        <SimpleData name="X_LB72">105203.00000000</SimpleData>
+                        <SimpleData name="Y_LB72">193802.99200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7286105671360126,51.05238476264862</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.89">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Belfort</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72487400</SimpleData>
+                        <SimpleData name="Y">51.05353500</SimpleData>
+                        <SimpleData name="X_LB72">104942.15100000</SimpleData>
+                        <SimpleData name="Y_LB72">193933.18600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.724874569090764,51.053534763034</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.90">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Stefanuskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72055800</SimpleData>
+                        <SimpleData name="Y">51.05923600</SimpleData>
+                        <SimpleData name="X_LB72">104645.06100000</SimpleData>
+                        <SimpleData name="Y_LB72">194570.02900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720558573782347,51.05923576300161</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.91">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Vogels (Vrijdagsmarkt)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72563600</SimpleData>
+                        <SimpleData name="Y">51.05697800</SimpleData>
+                        <SimpleData name="X_LB72">104998.89000000</SimpleData>
+                        <SimpleData name="Y_LB72">194315.74500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725636570420428,51.05697776190818</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.92">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Rabot</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71310200</SimpleData>
+                        <SimpleData name="Y">51.06043300</SimpleData>
+                        <SimpleData name="X_LB72">104123.52200000</SimpleData>
+                        <SimpleData name="Y_LB72">194707.77100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7131025766870907,51.060432763762705</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.93">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Vleeshuis</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72052100</SimpleData>
+                        <SimpleData name="Y">51.05660500</SimpleData>
+                        <SimpleData name="X_LB72">104639.91700000</SimpleData>
+                        <SimpleData name="Y_LB72">194277.36200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.720521572175803,51.05660476345018</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.94">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Coupure</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71055700</SimpleData>
+                        <SimpleData name="Y">51.05053300</SimpleData>
+                        <SimpleData name="X_LB72">103935.36200000</SimpleData>
+                        <SimpleData name="Y_LB72">193608.01000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.71055757223209,51.050532767327866</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.95">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Voeding (Sint-Michiels)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71885100</SimpleData>
+                        <SimpleData name="Y">51.05363200</SimpleData>
+                        <SimpleData name="X_LB72">104519.94300000</SimpleData>
+                        <SimpleData name="Y_LB72">193947.64900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7188515708249454,51.053631764598144</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.96">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Bloemen (Kouter)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72347600</SimpleData>
+                        <SimpleData name="Y">51.05012500</SimpleData>
+                        <SimpleData name="X_LB72">104840.84000000</SimpleData>
+                        <SimpleData name="Y_LB72">193554.68600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723476567726515,51.05012476436309</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.97">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kapel Norbertijnen</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72365500</SimpleData>
+                        <SimpleData name="Y">51.05913900</SimpleData>
+                        <SimpleData name="X_LB72">104862.08700000</SimpleData>
+                        <SimpleData name="Y_LB72">194557.35100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7236555723182327,51.059138761884356</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.98">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Kleine Sikkel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72716700</SimpleData>
+                        <SimpleData name="Y">51.05406800</SimpleData>
+                        <SimpleData name="X_LB72">105103.43600000</SimpleData>
+                        <SimpleData name="Y_LB72">193991.09100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7271675691591506,51.054067762896516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.99">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Fietsen (Reep)</SimpleData>
+                        <SimpleData name="TYPE">Markten</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73004800</SimpleData>
+                        <SimpleData name="Y">51.05322700</SimpleData>
+                        <SimpleData name="X_LB72">105304.63200000</SimpleData>
+                        <SimpleData name="Y_LB72">193895.79500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.730048566886623,51.05322676197155</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.100">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Elisabethbegijnhof</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71447400</SimpleData>
+                        <SimpleData name="Y">51.05717100</SimpleData>
+                        <SimpleData name="X_LB72">104216.51400000</SimpleData>
+                        <SimpleData name="Y_LB72">194344.03900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7144745736205307,51.05717076456287</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.101">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Orthodoxe kerk Sint-Andreas</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71202700</SimpleData>
+                        <SimpleData name="Y">51.05841300</SimpleData>
+                        <SimpleData name="X_LB72">104046.17600000</SimpleData>
+                        <SimpleData name="Y_LB72">194483.71900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7120275762613253,51.058412764433115</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.102">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Minardschouwburg</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72725700</SimpleData>
+                        <SimpleData name="Y">51.04886300</SimpleData>
+                        <SimpleData name="X_LB72">105104.75400000</SimpleData>
+                        <SimpleData name="Y_LB72">193412.00100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7272819974583546,51.048870515643664</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.103">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Pink Flamingo's</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72570100</SimpleData>
+                        <SimpleData name="Y">51.05573400</SimpleData>
+                        <SimpleData name="X_LB72">105002.25100000</SimpleData>
+                        <SimpleData name="Y_LB72">194177.31500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725701570717739,51.05573376195533</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.104">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum voor Dierkunde</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72371800</SimpleData>
+                        <SimpleData name="Y">51.03644900</SimpleData>
+                        <SimpleData name="X_LB72">104844.61800000</SimpleData>
+                        <SimpleData name="Y_LB72">192033.14100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7237185603893117,51.03644876847791</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.105">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gevel 'Vliegend Hert'</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72374000</SimpleData>
+                        <SimpleData name="Y">51.05781100</SimpleData>
+                        <SimpleData name="X_LB72">104866.76500000</SimpleData>
+                        <SimpleData name="Y_LB72">194409.56400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7237405718087238,51.057810762316606</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.106">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Laresteen</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.610244143555547,51.09217113232957</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.107">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Van Vinderhoute</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6301921983317063,51.089420284140104</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.108">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Muinkpark</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.73097700</SimpleData>
+                        <SimpleData name="Y">51.04259700</SimpleData>
+                        <SimpleData name="X_LB72">105359.63200000</SimpleData>
+                        <SimpleData name="Y_LB72">192712.69000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.730977560536018,51.04259676482046</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.109">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Ten Bos</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.724356106424536,51.13376425449898</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.110">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Temmerman</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72374000</SimpleData>
+                        <SimpleData name="Y">51.05781200</SimpleData>
+                        <SimpleData name="X_LB72">104866.76600000</SimpleData>
+                        <SimpleData name="Y_LB72">194409.67500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723740570910394,51.057811761700044</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.111">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Donkere Poort</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71551300</SimpleData>
+                        <SimpleData name="Y">51.05936500</SimpleData>
+                        <SimpleData name="X_LB72">104291.50100000</SimpleData>
+                        <SimpleData name="Y_LB72">194587.47300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7155135749596124,51.059364763450766</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.112">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kantwinkel</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72037800</SimpleData>
+                        <SimpleData name="Y">51.05563700</SimpleData>
+                        <SimpleData name="X_LB72">104628.95300000</SimpleData>
+                        <SimpleData name="Y_LB72">194169.76300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7203785720606843,51.055636763100345</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.113">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Stenen Voorwerpen (StBaafs abdij)</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73666800</SimpleData>
+                        <SimpleData name="Y">51.05343500</SimpleData>
+                        <SimpleData name="X_LB72">105768.99300000</SimpleData>
+                        <SimpleData name="Y_LB72">193914.97000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7366685648290434,51.05343476057427</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.114">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum voor Archeologie</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72595100</SimpleData>
+                        <SimpleData name="Y">51.04407900</SimpleData>
+                        <SimpleData name="X_LB72">105008.57600000</SimpleData>
+                        <SimpleData name="Y_LB72">192880.59000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7259515637764866,51.04407876590652</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.115">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum voor Schone Kunsten</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72391000</SimpleData>
+                        <SimpleData name="Y">51.03828800</SimpleData>
+                        <SimpleData name="X_LB72">104859.85900000</SimpleData>
+                        <SimpleData name="Y_LB72">192237.60500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723910560908239,51.03828776744528</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.116">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gevaert Minne</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6207661158683275,51.00907041786607</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.117">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Hemelrijk</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6813158897845106,50.99587140117725</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.118">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gevel 'Werken van Barmhartigheid'</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72370900</SimpleData>
+                        <SimpleData name="Y">51.05775900</SimpleData>
+                        <SimpleData name="X_LB72">104864.54200000</SimpleData>
+                        <SimpleData name="Y_LB72">194403.79800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7237095727448852,51.05775876272694</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.119">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum voor Geneeskunde</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71978300</SimpleData>
+                        <SimpleData name="Y">51.05320100</SimpleData>
+                        <SimpleData name="X_LB72">104584.87200000</SimpleData>
+                        <SimpleData name="Y_LB72">193899.13100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7197835711355913,51.05320076469215</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.120">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Medische instituten Louis Cloquet</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71832100</SimpleData>
+                        <SimpleData name="Y">51.04527000</SimpleData>
+                        <SimpleData name="X_LB72">104474.65000000</SimpleData>
+                        <SimpleData name="Y_LB72">193017.73500000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.718321565705645,51.04526976635346</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.121">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Theater De Kreet</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.806092701113935,51.028505560269984</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.122">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">'t Velootje</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72350400</SimpleData>
+                        <SimpleData name="Y">51.05850400</SimpleData>
+                        <SimpleData name="X_LB72">104850.88800000</SimpleData>
+                        <SimpleData name="Y_LB72">194486.80100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7235045718071635,51.05850376239135</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.123">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Ten Broecke</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.711393417773022,51.14393654249628</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.124">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Groenveld</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.711082856704576,51.10588266820553</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.125">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Grand Noble</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6615400878623845,51.00937762674473</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.126">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">School van Toen</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71725200</SimpleData>
+                        <SimpleData name="Y">51.05547900</SimpleData>
+                        <SimpleData name="X_LB72">104409.62900000</SimpleData>
+                        <SimpleData name="Y_LB72">194154.10100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.717252573212501,51.05547876417527</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.127">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Koninklijke Academie voor Nederlandse Taal- en Letterkunde</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72782600</SimpleData>
+                        <SimpleData name="Y">51.05547300</SimpleData>
+                        <SimpleData name="X_LB72">105150.98800000</SimpleData>
+                        <SimpleData name="Y_LB72">194146.99400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7278265696583204,51.05547276249003</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.128">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Design Museum</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72014200</SimpleData>
+                        <SimpleData name="Y">51.05586600</SimpleData>
+                        <SimpleData name="X_LB72">104612.62800000</SimpleData>
+                        <SimpleData name="Y_LB72">194195.38300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7201425711607934,51.05586576366243</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.129">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Groot begijnhof</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.74765500</SimpleData>
+                        <SimpleData name="Y">51.05699600</SimpleData>
+                        <SimpleData name="X_LB72">106542.65500000</SimpleData>
+                        <SimpleData name="Y_LB72">194304.63100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7476555644216747,51.05699575677749</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.130">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Plantentuin universiteit</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72223400</SimpleData>
+                        <SimpleData name="Y">51.03636400</SimpleData>
+                        <SimpleData name="X_LB72">104740.44800000</SimpleData>
+                        <SimpleData name="Y_LB72">192024.58900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.722234559709634,51.03636376918966</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.131">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum voor de geschiedenis vd Wetenschap</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71263400</SimpleData>
+                        <SimpleData name="Y">51.02348800</SimpleData>
+                        <SimpleData name="X_LB72">104054.46500000</SimpleData>
+                        <SimpleData name="Y_LB72">190598.09100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7126345562207126,51.02348777392898</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.132">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Oude adbij Drongen</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.66339800</SimpleData>
+                        <SimpleData name="Y">51.05007800</SimpleData>
+                        <SimpleData name="X_LB72">100628.13500000</SimpleData>
+                        <SimpleData name="Y_LB72">193587.70100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.663398585404259,51.05007777761244</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.133">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Meerhem</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72386300</SimpleData>
+                        <SimpleData name="Y">51.06203100</SimpleData>
+                        <SimpleData name="X_LB72">104879.45800000</SimpleData>
+                        <SimpleData name="Y_LB72">194878.94900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7238635745273236,51.06203076095251</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.134">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Huis van Alijn</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72325200</SimpleData>
+                        <SimpleData name="Y">51.05754600</SimpleData>
+                        <SimpleData name="X_LB72">104832.29600000</SimpleData>
+                        <SimpleData name="Y_LB72">194380.38000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.723252571912101,51.05754576232154</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.135">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Pomp Groentemarkt</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72214000</SimpleData>
+                        <SimpleData name="Y">51.05581200</SimpleData>
+                        <SimpleData name="X_LB72">104752.65900000</SimpleData>
+                        <SimpleData name="Y_LB72">194188.15600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.722140571676386,51.05581176303525</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.136">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Ten Velde</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.639014925537886,51.088981391304685</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.137">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kameleon Barokensemble</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.782390410695655,51.01549964289958</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.138">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Foltertuigen (Gravensteen)</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72083400</SimpleData>
+                        <SimpleData name="Y">51.05711400</SimpleData>
+                        <SimpleData name="X_LB72">104662.35500000</SimpleData>
+                        <SimpleData name="Y_LB72">194333.79600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7208345721702347,51.05711376330961</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.139">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Korenwindmolen</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.64382555120807,51.019194320165035</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.140">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Wereld van Kina - De Tuin</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72550500</SimpleData>
+                        <SimpleData name="Y">51.06446200</SimpleData>
+                        <SimpleData name="X_LB72">104996.90400000</SimpleData>
+                        <SimpleData name="Y_LB72">195148.39300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.725505574492423,51.06446175987192</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.141">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Van Welden</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.68660747794939,50.978166305934494</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.142">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Huis Manneken Pis</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72204000</SimpleData>
+                        <SimpleData name="Y">51.05681900</SimpleData>
+                        <SimpleData name="X_LB72">104746.62100000</SimpleData>
+                        <SimpleData name="Y_LB72">194300.24200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7220334763248553,51.05682369911582</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.143">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Ter Weiden</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7114104911533228,51.10839749144053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.144">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Het Biermuseum</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.739945458187071,51.17634407293241</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.145">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Annakerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.73506300</SimpleData>
+                        <SimpleData name="Y">51.04873600</SimpleData>
+                        <SimpleData name="X_LB72">105652.00500000</SimpleData>
+                        <SimpleData name="Y_LB72">193393.18100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.734806855810046,51.04900146110258</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.146">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Mietje Stroel Standbeeld</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.809339515283018,51.20237777436777</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.147">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Van Lovendegem</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6031508978501043,51.09811596757775</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.148">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kantwinkel</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72480200</SimpleData>
+                        <SimpleData name="Y">51.05345800</SimpleData>
+                        <SimpleData name="X_LB72">104937.02900000</SimpleData>
+                        <SimpleData name="Y_LB72">193924.66400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7248025691207705,51.053457763242804</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.149">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">d' Haene-Steenhuyse</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72142800</SimpleData>
+                        <SimpleData name="Y">51.05169300</SimpleData>
+                        <SimpleData name="X_LB72">104698.75200000</SimpleData>
+                        <SimpleData name="Y_LB72">193730.36700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7214285696771356,51.05169276424777</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.150">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">MIAT</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72898400</SimpleData>
+                        <SimpleData name="Y">51.05975800</SimpleData>
+                        <SimpleData name="X_LB72">105236.27700000</SimpleData>
+                        <SimpleData name="Y_LB72">194622.98600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7289845717213987,51.05975776038479</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.151">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Dreefkasteel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.639795454620284,51.087447703074226</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.152">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Illuseum</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.75324700</SimpleData>
+                        <SimpleData name="Y">51.06001900</SimpleData>
+                        <SimpleData name="X_LB72">106937.49200000</SimpleData>
+                        <SimpleData name="Y_LB72">194637.67200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7532475644889263,51.06001875545786</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.153">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Niklaaskerk</SimpleData>
+                        <SimpleData name="TYPE">Religieus Erfgoed</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72260500</SimpleData>
+                        <SimpleData name="Y">51.05393700</SimpleData>
+                        <SimpleData name="X_LB72">104783.44900000</SimpleData>
+                        <SimpleData name="Y_LB72">193979.28600000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7224439255613193,51.054042950765606</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.154">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Ten Boekel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.737846640645462,51.11416608437902</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.155">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Poppentoneel Fantasia</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.806595541179074,51.02779825662849</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.156">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Dr. Guislain</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.70304400</SimpleData>
+                        <SimpleData name="Y">51.06670700</SimpleData>
+                        <SimpleData name="X_LB72">103424.65700000</SimpleData>
+                        <SimpleData name="Y_LB72">195411.99300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.70304458242195,51.06670676382753</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.157">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Oude Wal</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6215084485848092,51.09261380154537</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.158">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Kasteel Diepenbroeck</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6171865037342816,51.097181670692095</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.159">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Etnologie</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.72500800</SimpleData>
+                        <SimpleData name="Y">51.04418500</SimpleData>
+                        <SimpleData name="X_LB72">104942.54600000</SimpleData>
+                        <SimpleData name="Y_LB72">192892.95400000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7250085635951815,51.04418476573753</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.160">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Wit Kasteel</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6479368959217005,51.08995573546659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.161">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Groene Velden (Mariakerke)</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.68167100</SimpleData>
+                        <SimpleData name="Y">51.06507600</SimpleData>
+                        <SimpleData name="X_LB72">101924.84300000</SimpleData>
+                        <SimpleData name="Y_LB72">195244.17300000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.6816715876027484,51.06507576897629</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.162">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Sint-Pietersstation</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71081500</SimpleData>
+                        <SimpleData name="Y">51.03618700</SimpleData>
+                        <SimpleData name="X_LB72">103939.33800000</SimpleData>
+                        <SimpleData name="Y_LB72">192011.92000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.710815562991796,51.03618677175976</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.163">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gentbrugse meersen</SimpleData>
+                        <SimpleData name="TYPE">Groen-water-parken</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.78003500</SimpleData>
+                        <SimpleData name="Y">51.04380500</SimpleData>
+                        <SimpleData name="X_LB72">108801.20900000</SimpleData>
+                        <SimpleData name="Y_LB72">192818.71900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7800355472469227,51.0438047539769</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.164">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Gevel 'Gekroonde Hoofden'</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71968300</SimpleData>
+                        <SimpleData name="Y">51.05670400</SimpleData>
+                        <SimpleData name="X_LB72">104581.26100000</SimpleData>
+                        <SimpleData name="Y_LB72">194288.88800000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7196835724747968,51.05670376304469</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.165">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Berg van barmhartigheid</SimpleData>
+                        <SimpleData name="TYPE">Monumenten</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.71756500</SimpleData>
+                        <SimpleData name="Y">51.05734200</SimpleData>
+                        <SimpleData name="X_LB72">104433.38900000</SimpleData>
+                        <SimpleData name="Y_LB72">194361.16100000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.717565573206933,51.0573417633845</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.166">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">De Wereld van Kina - Het Huis</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72653600</SimpleData>
+                        <SimpleData name="Y">51.04170400</SimpleData>
+                        <SimpleData name="X_LB72">105047.32100000</SimpleData>
+                        <SimpleData name="Y_LB72">192616.02700000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7265365619608652,51.04170376615593</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.167">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum A Vander Haeghen</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72157700</SimpleData>
+                        <SimpleData name="Y">51.05154500</SimpleData>
+                        <SimpleData name="X_LB72">104709.05700000</SimpleData>
+                        <SimpleData name="Y_LB72">193713.81200000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.721577568741738,51.05154476455976</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.168">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">STAM</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71655900</SimpleData>
+                        <SimpleData name="Y">51.04402000</SimpleData>
+                        <SimpleData name="X_LB72">104349.86600000</SimpleData>
+                        <SimpleData name="Y_LB72">192879.75900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.7165595660899102,51.04401976781365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.169">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Museum Zusters van Liefde</SimpleData>
+                        <SimpleData name="TYPE">Musea</SimpleData>
+                        <SimpleData name="controle"> </SimpleData>
+                        <SimpleData name="X">3.71833900</SimpleData>
+                        <SimpleData name="Y">51.06136400</SimpleData>
+                        <SimpleData name="X_LB72">104491.56500000</SimpleData>
+                        <SimpleData name="Y_LB72">194808.11900000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.718339575130455,51.06136376290748</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="POI-Toerisme.170">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#POI-Toerisme_1">
+                        <SimpleData name="NAAM">Tierenteyn</SimpleData>
+                        <SimpleData name="TYPE">Authentiek</SimpleData>
+                        <SimpleData name="controle">x</SimpleData>
+                        <SimpleData name="X">3.72234600</SimpleData>
+                        <SimpleData name="Y">51.05562700</SimpleData>
+                        <SimpleData name="X_LB72">104766.92300000</SimpleData>
+                        <SimpleData name="Y_LB72">194167.45000000</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>3.722346570642415,51.055626763148624</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
