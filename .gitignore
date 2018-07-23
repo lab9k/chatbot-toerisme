@@ -64,3 +64,4 @@ typings/
 .idea
 
 config.json
+/.history
