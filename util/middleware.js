@@ -56,5 +56,5 @@ const typeMiddleware = (req, res, next) => {
 module.exports = {
   idMiddleWare,
   langMiddleWare,
-  typeMiddleware
+  typeMiddleware,
 };
