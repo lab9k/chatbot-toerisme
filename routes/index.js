@@ -49,7 +49,7 @@ router.post('/', function(request, response) {
   intentMap.set('get_nearby_poi', get_nearby_poi);
   intentMap.set('get_nearest_poi', get_nearest_poi);
   intentMap.set('get_categories', getCategories);
-  intentMap.set('test', getCategories);
+  intentMap.set('test', test);
 
   agent.handleRequest(intentMap);
 });
