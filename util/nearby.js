@@ -32,9 +32,9 @@ const nearby = filePath => {
     .then(data => {
       return function(currentUserLocation) {
         return data
-          .map(location => ({
-            ...location,
+          .map(location => ({            
             dist: distance(location)(currentUserLocation),
+            ...location,
           }))
           .sort(compareLocationsByDistance);
       };
