@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const mw = require('../../util/middleware');
 const { WebhookClient } = require('dialogflow-fulfillment');
 const nearbyHandler = require('../handlers/nearbyHandler');
 
 // Intent actions
-router.all('/', mw.typeMiddleware, (req, res, next) => {
+router.all('/', (req, res, next) => {
   let fn;
   switch (req.type) {
     case 'nearby_poi':
@@ -64,12 +63,8 @@ router.all('/', function(req, res) {
   res.sendStatus(405);
 });
 
-const get_nearby_poi = (req, res) => {
+const get_nearby_poi = (req, res) => {};
 
-};
-
-const get_nearest_poi = (req, res) => {
-
-};
+const get_nearest_poi = (req, res) => {};
 
 module.exports = router;
