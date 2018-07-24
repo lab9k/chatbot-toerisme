@@ -19,7 +19,7 @@ spec:
         app: chatbot-toerisme-gent
     spec:
       containers:
-        - name: chatbot-toerisme
+        - name: chatbot-toerisme-gent
           image: lab9k/chatbot-toerisme-gent:latest
           imagePullPolicy: Always
           ports:
