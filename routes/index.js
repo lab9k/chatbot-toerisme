@@ -66,10 +66,10 @@ router.all('/', function(req, res) {
 
 const get_nearby_poi = (req, res) => {
 
-}
+};
 
 const get_nearest_poi = (req, res) => {
 
-}
+};
 
 module.exports = router;
