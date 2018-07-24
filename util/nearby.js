@@ -43,14 +43,14 @@ const nearbyList = filePath => {
 };
 
 /* example*/
-nearbyList(API_ENDPOINT)
+/*nearbyList(API_ENDPOINT)
   .then(cb => {
     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
     const closest = cb(loc);
-    console.log('nearest: ', JSON.stringify(closest));
+    //console.log('nearest: ', JSON.stringify(closest));
   })
   .catch(err => console.error(err));
-
+*/
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
