@@ -28,7 +28,13 @@
             "always"
         ],
         "no-console": [
-           "off"
+           "off",
+           {
+            "allow": [
+                "warn",
+                "error"
+            ]
+        }
         ]
     },
     "globals": {
