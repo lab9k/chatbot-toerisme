@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "amd": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -23,6 +24,17 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-console": [
+            "warn",
+            { "allow": [
+                "warn",
+                "error"
+            ]}
         ]
+    },
+    "globals": {
+        "process": true,
+        "module": true
     }
 }

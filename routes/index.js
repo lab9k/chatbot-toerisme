@@ -33,7 +33,7 @@ router.post("/", function (request, response) {
  * Blocks all other HTTP requests
  */
 router.all("/", function (req, res) {
-    res.sendStatus(405)
+    res.sendStatus(405);
 });
 
 module.exports = router;
