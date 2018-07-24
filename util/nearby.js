@@ -41,12 +41,10 @@ const nearby = filePath => {
         // });
         //listDistances.sort(compareLocationsByDistance);
         return data
-          .map(location => {
-            return {
-              ...location,
-              dist: distance(location)(currentUserLocation),
-            };
-          })
+          .map(location => ({
+            ...location,
+            dist: distance(location)(currentUserLocation),
+          }))
           .sort(compareLocationsByDistance);
       };
     })
