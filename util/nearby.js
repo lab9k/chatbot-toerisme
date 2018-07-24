@@ -7,7 +7,7 @@ function toRad($Value) {
 }
 
 const distance = location => toLocation => {
-  const [currentLong, currentLat] = location.geometry.coordinates;
+  const [, , currentLong, currentLat] = location.contactPoint.field_geofield;
   const { long: toLong, lat: toLat } = toLocation;
   const R = 6371e3; // metres
   const φ1 = toRad(currentLat);
@@ -24,71 +24,42 @@ const distance = location => toLocation => {
   return d;
 };
 
-const nearest = filePath => {
-  /*return fetch(filePath)
-    .then(res => {
-      return res.text();
-    })
-    .then(text => {
-      const kml = new DOMParser().parseFromString(text);
-      const converted = tj.kml(kml);
-      const data = [...converted.features];
-      return function(currentUserLocation) {
-        const closest = data.reduce((previous, current) => {
-          if (
-            distance(current)(currentUserLocation) >
-            distance(previous)(currentUserLocation)
-          ) {
-            return previous;
-          } else {
-            return current;
-          }
-        });
-        return closest;
-      };
-    })
-    .catch(error => console.error(error));
-    */
 
-  fetch(filePath)
+
+const nearby = filePath => {
+  return fetch(filePath)
     .then(res => {
       return res.json();
     })
     .then(data => {
-      console.log(JSON.stringify(data));
+      //console.log(JSON.stringify(data));
       return function(currentUserLocation) {
-        const closest = data.reduce((previous, current) => {
-          if (
-            distance(current)(currentUserLocation) >
-            distance(previous)(currentUserLocation)
-          ) {
-            return previous;
-          } else {
-            return current;
-          }
+        const listDistances = [];
+        data.forEach(location => {          
+          listDistances.push({
+            dist: distance(location)(currentUserLocation),
+            loc: location,
+          });
         });
-        return closest;
+
+        listDistances.sort(compareLocationsByDistance);
+        return listDistances;
       };
     })
     .catch(error => console.error(error));
 };
 
-/* example
-nearest(FILE_PATH)
-   .then(cb => {
-       const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-       const closest = cb(loc);
-       console.log('nearest: ', closest);
-   })
-   .catch(err => console.error(err));
-*/
-
-fetch(FILE_PATH)
-  .then(res => {
-    return res.json();
+/* example*/
+nearby(FILE_PATH)
+  .then(cb => {
+    const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
+    const closest = cb(loc);
+    console.log('nearest: ', JSON.stringify(closest));
   })
-  .then(data => {
-    console.log(JSON.stringify(data));
-  });
+  .catch(err => console.error(err));
 
-module.exports = nearest(FILE_PATH);
+
+const compareLocationsByDistance = (a, b) => {
+  return a.dist - b.dist;
+};
+module.exports = nearby(FILE_PATH);
