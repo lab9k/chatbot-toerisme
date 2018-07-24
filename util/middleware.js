@@ -5,6 +5,7 @@ const idMiddleWare = (req, res, next) => {
 };
 
 const langMiddleWare = (req, res, next) => {
+  console.log(JSON.stringify(req.body));
   const lang = req.body.languageCode;
   if (!lang) return res.json({ error: 'something went wrong' });
   switch (lang.toLowerCase()) {
