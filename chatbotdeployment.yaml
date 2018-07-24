@@ -1,9 +1,9 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: chatbot-toerisme
+  name: chatbot-toerisme-gent
   labels:
-    component: chatbot-toerisme
+    component: chatbot-toerisme-gent
 spec:
   replicas: 1
   strategy:                               # how updating the deployment affect the Replicat Set and Pods
@@ -12,11 +12,11 @@ spec:
       maxSurge: 1
   selector:
     matchLabels:
-      app: chatbot-toerisme
+      app: chatbot-toerisme-gent
   template:
     metadata:
       labels:
-        app: chatbot-toerisme
+        app: chatbot-toerisme-gent
     spec:
       containers:
         - name: chatbot-toerisme-gent
