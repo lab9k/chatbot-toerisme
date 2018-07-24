@@ -32,22 +32,14 @@ const nearbyHandler = require('../handlers/nearbyHandler');
  * Routes HTTP POST requests to index
  */
 router.post('/', function(request, response) {
-  // TODO: validate origin/host
-  // response.send("Invalid domain", 403);
-
-  if (
-    !request.hasOwnProperty('body') ||
-    Object.keys(request.body).length === 0
-  ) {
+  console.log('Handling post');
+  if (!request.hasOwnProperty('body') || Object.keys(request.body).length === 0) {
     response.status(400).send('Empty body');
   }
 
-  if (
-    !request.body.hasOwnProperty('queryResult') ||
-    Object.keys(request.body.queryResult).length === 0 ||
-    !request.body.queryResult.hasOwnProperty('queryText') ||
-    Object.keys(request.body.queryResult.queryText).length === 0
-  ) {
+  if (!request.body.hasOwnProperty('queryResult') || Object.keys(request.body.queryResult).length === 0
+    || !request.body.queryResult.hasOwnProperty('queryText')
+    || Object.keys(request.body.queryResult.queryText).length === 0) {
     response.status(400).send('Invalid data format');
   }
 
