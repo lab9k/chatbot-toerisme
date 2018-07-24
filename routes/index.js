@@ -61,6 +61,7 @@ router.all('/', function(req, res) {
 });
 
 const get_nearby_poi = (agent) => {
+
   agent.add('Dingen om te doen in jouw buurt: Gent bezoeken.');
 };
 

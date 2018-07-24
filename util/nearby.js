@@ -24,7 +24,7 @@ const distance = location => toLocation => {
   return d;
 };
 
-const nearby = filePath => {
+const nearbyList = filePath => {
   return fetch(filePath)
     .then(res => {
       return res.json();
@@ -44,7 +44,7 @@ const nearby = filePath => {
 };
 
 /* example*/
-nearby(FILE_PATH)
+nearbyList(FILE_PATH)
   .then(cb => {
     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
     const closest = cb(loc);
@@ -55,4 +55,4 @@ nearby(FILE_PATH)
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
-module.exports = nearby(FILE_PATH);
+module.exports = nearbyList(FILE_PATH);
