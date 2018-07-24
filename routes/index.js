@@ -67,8 +67,4 @@ const get_nearest_poi = (agent) => {};
 
 const getCategories = (agent) => {};
 
-const test = (agent) => {
-  agent.add('Test 123');
-};
-
 module.exports = router;
