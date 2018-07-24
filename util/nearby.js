@@ -2,8 +2,8 @@ const fetch = require('node-fetch');
 
 const FILE_PATH = 'https://visit.gent.be/en/lod/poi';
 
-function toRad($Value) {
-  return ($Value * Math.PI) / 180;
+function toRad(degrees) {
+  return (degrees * Math.PI) / 180;
 }
 
 const distance = location => toLocation => {
@@ -30,16 +30,7 @@ const nearby = filePath => {
       return res.json();
     })
     .then(data => {
-      //console.log(JSON.stringify(data));
       return function(currentUserLocation) {
-        // const listDistances = [];
-        // data.forEach(location => {
-        //   listDistances.push({
-        //     dist: distance(location)(currentUserLocation),
-        //     loc: location,
-        //   });
-        // });
-        //listDistances.sort(compareLocationsByDistance);
         return data
           .map(location => ({
             ...location,
