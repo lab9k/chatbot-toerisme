@@ -9,11 +9,7 @@ let app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(morgan('combined'), {
-  skip: function(_req, res) {
-    return res.statusCode < 400;
-  },
-});
+app.use(morgan('dev'));
 app.use(mw.langMiddleWare);
 app.use(mw.typeMiddleware);
 
