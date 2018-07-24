@@ -24,29 +24,7 @@ const distance = location => toLocation => {
   return d;
 };
 
-/*const nearest = filePath => {
-  return fetch(filePath)
-    .then(res => {
-      return res.json();
-    })
-    .then(data => {
-      //console.log(JSON.stringify(data));
-      return function(currentUserLocation) {
-        const closest = data.reduce((previous, current) => {
-          if (
-            distance(current)(currentUserLocation) >
-            distance(previous)(currentUserLocation)
-          ) {
-            return previous;
-          } else {
-            return current;
-          }
-        });
-        return closest;
-      };
-    })
-    .catch(error => console.error(error));
-};*/
+
 
 const nearby = filePath => {
   return fetch(filePath)
@@ -79,16 +57,6 @@ nearby(FILE_PATH)
     console.log('nearest: ', JSON.stringify(closest));
   })
   .catch(err => console.error(err));
-
-/*
-fetch(FILE_PATH)
-  .then(res => {
-    return res.json();
-  })
-  .then(data => {
-    console.log(JSON.stringify(data));
-  });
-*/
 
 
 const compareLocationsByDistance = (a, b) => {
