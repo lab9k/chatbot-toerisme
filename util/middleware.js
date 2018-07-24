@@ -5,7 +5,7 @@ const idMiddleWare = (req, res, next) => {
 };
 
 const langMiddleWare = (req, res, next) => {
-  const lang = req.body.languageCode;
+  const lang = req.body.queryResult.languageCode;
   if (!lang) return res.json({ error: 'something went wrong' });
   switch (lang.toLowerCase()) {
     case 'nl':
