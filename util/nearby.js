@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const FILE_PATH = 'https://visit.gent.be/en/lod/poi';
+const API_ENDPOINT = 'https://visit.gent.be/en/lod/poi';
 
 function toRad(degrees) {
   return (degrees * Math.PI) / 180;
@@ -32,7 +32,7 @@ const nearby = filePath => {
     .then(data => {
       return function(currentUserLocation) {
         return data
-          .map(location => ({            
+          .map(location => ({
             dist: distance(location)(currentUserLocation),
             ...location,
           }))
@@ -42,16 +42,16 @@ const nearby = filePath => {
     .catch(error => console.error(error));
 };
 
-/* example*/
-nearby(FILE_PATH)
-  .then(cb => {
-    const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-    const closest = cb(loc);
-    console.log('nearest: ', JSON.stringify(closest));
-  })
-  .catch(err => console.error(err));
+// * example
+// nearby(API_ENDPOINT)
+//   .then(cb => {
+//     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
+//     const closest = cb(loc);
+//     console.log('nearest: ', JSON.stringify(closest));
+//   })
+//   .catch(err => console.error(err));
 
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
-module.exports = nearby(FILE_PATH);
+module.exports = nearby(API_ENDPOINT);
