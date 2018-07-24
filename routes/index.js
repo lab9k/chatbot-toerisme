@@ -13,6 +13,9 @@ router.all('/', (req, res, next) => {
     case 'nearest_poi':
       fn = get_nearest_poi;
       break;
+    case 'categories':
+      fn = getCategories;
+      break;
     default:
       return next(
         new Error(
@@ -66,5 +69,7 @@ router.all('/', function(req, res) {
 const get_nearby_poi = (req, res) => {};
 
 const get_nearest_poi = (req, res) => {};
+
+const getCategories = (req, res) => {};
 
 module.exports = router;

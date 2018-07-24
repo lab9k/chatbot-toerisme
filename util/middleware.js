@@ -44,6 +44,9 @@ const typeMiddleware = (req, res, next) => {
       case 'get_nearest_poi':
         req.type = 'nearest_poi';
         break;
+      case 'get_categories':
+        req.type = 'categories';
+        break;
       default:
         req.type = 'None';
         break;
