@@ -1,0 +1,4096 @@
+[
+  {
+    "created": {
+      "nl": ["2018-07-03T09:27:30+00:00"],
+      "en": ["2018-07-05T11:52:28+00:00"],
+      "fr": ["2018-07-05T11:42:02+00:00"],
+      "de": ["2018-07-05T11:54:19+00:00"],
+      "es": ["2018-07-05T11:56:59+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [931],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/5455d2d6-94ac-4798-a919-ddecedc2958e"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/eff9e51a-b057-4f7c-a47b-8df3ef5ff4fa"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/fadeb2b7-88ac-4a2b-9c06-f22917ea3670"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44",
+    "modified": {
+      "nl": ["2018-07-05T11:45:06+00:00"],
+      "en": ["2018-07-05T11:57:51+00:00"],
+      "fr": ["2018-07-05T11:57:51+00:00"],
+      "de": ["2018-07-05T11:57:51+00:00"],
+      "es": ["2018-07-05T11:57:51+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Budgetvriendelijk hotel op een boogscheut van het centrum"],
+      "en": ["Budget-friendly hotel a stone\u2019s throw from the city centre"],
+      "fr": [
+        "H\u00f4tel \u00e0 petit budget \u00e0 un jet de pierre du centre"
+      ],
+      "de": ["Preisg\u00fcnstiges Hotel, ein Steinwurf vom Zentrum entfernt"],
+      "es": ["Hotel econ\u00f3mico a un tiro de piedra del centro"]
+    },
+    "keywords": [
+      {
+        "tid": [295],
+        "name": {
+          "nl": ["Budgetvriendelijk"],
+          "en": ["Budget-friendly"],
+          "fr": ["Budget sympa"],
+          "de": ["Budgetfreundlichkeit "],
+          "es": ["l alcance de todos los bolsillos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/e4ac9ec9-3840-4b54-8d9b-b727d6efd404",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-07-03T09:20:48+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.738719 51.059558)",
+        "Point",
+        51.059558000000003,
+        3.7387190000000001,
+        3.7387190000000001,
+        51.059558000000003,
+        3.7387190000000001,
+        51.059558000000003,
+        "u14dmp47qrqz",
+        "51.059558,3.738719"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/8001f3cf-ed9d-4622-8762-e0bd4a71176b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Kleindokkaai 27",
+      "modified": {
+        "nl": ["2018-07-03T09:22:00+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Ibis Budget Gent Centrum Dampoort"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["HA243@accor.com"]],
+      "telephone": [["+32 9 395 20 10"]],
+      "url": "https://visit.gent.be/nl/node/2980",
+      "page": "https://visit.gent.be/node/2980",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/0b5c3714-bb16-4be7-b7cd-765b4d4e69e0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Breakfast%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Double%203.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Lobby%201.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Twin%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Ibis Budget Gent Centrum Dampoort"],
+      "en": ["Ibis Budget Gent Centrum Dampoort"],
+      "fr": ["Ibis Budget Gent Centrum Dampoort"],
+      "de": ["Ibis Budget Gent Centrum Dampoort"],
+      "es": ["Ibis Budget Gent Centrum Dampoort"]
+    },
+    "url":
+      "https://visit.gent.be/es/ver-y-hacer/ibis-budget-gent-centrum-dampoort",
+    "page": "https://visit.gent.be/node/2981",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Ibis Budget Gent Centrum Dampoort ligt dicht bij de haven van Gent, aan het treinstation Gent-Dampoort. Het historische centrum van Gent is makkelijk bereikbaar te voet en met het openbaar vervoer."
+            ],
+            "en": [
+              "Ibis Budget Gent Centrum Dampoort is near the port of Ghent, at Gent-Dampoort railway station. Ghent\u0027s historical centre is easy to reach on foot and by public transport."
+            ],
+            "fr": [
+              "L\u2019Ibis Budget Gent Centrum Dampoort se situe \u00e0 proximit\u00e9 du port de Gand, \u00e0 c\u00f4t\u00e9 de la gare ferroviaire Gent-Dampoort. Le centre historique de Gand est facilement accessible \u00e0 pied et en transports en commun."
+            ],
+            "de": [
+              "Ibis Budget Gent Centrum Dampoort befindet sich ganz in der N\u00e4he des Hafens von Gent, am Bahnhof Gent-Dampoort. Das historische Zentrum von Gent ist zu Fu\u00df und mit den \u00f6ffentlichen Verkehrsmitteln leicht zu erreichen."
+            ],
+            "es": [
+              "Ibis Budget Gent Centrum Dampoort est\u00e1 cerca del puerto de Gante y de la estaci\u00f3n de ferrocarril Gent-Dampoort. Se puede ir f\u00e1cilmente al centro hist\u00f3rico de Gante andando o con transporte p\u00fablico."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-07-03T09:27:30+00:00"],
+      "en": ["2018-07-05T11:52:28+00:00"],
+      "fr": ["2018-07-05T11:42:02+00:00"],
+      "de": ["2018-07-05T11:54:19+00:00"],
+      "es": ["2018-07-05T11:56:59+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [931],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/5455d2d6-94ac-4798-a919-ddecedc2958e"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/eff9e51a-b057-4f7c-a47b-8df3ef5ff4fa"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/fadeb2b7-88ac-4a2b-9c06-f22917ea3670"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44",
+    "modified": {
+      "nl": ["2018-07-05T11:45:06+00:00"],
+      "en": ["2018-07-05T11:57:51+00:00"],
+      "fr": ["2018-07-05T11:57:51+00:00"],
+      "de": ["2018-07-05T11:57:51+00:00"],
+      "es": ["2018-07-05T11:57:51+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Budgetvriendelijk hotel op een boogscheut van het centrum"],
+      "en": ["Budget-friendly hotel a stone\u2019s throw from the city centre"],
+      "fr": [
+        "H\u00f4tel \u00e0 petit budget \u00e0 un jet de pierre du centre"
+      ],
+      "de": ["Preisg\u00fcnstiges Hotel, ein Steinwurf vom Zentrum entfernt"],
+      "es": ["Hotel econ\u00f3mico a un tiro de piedra del centro"]
+    },
+    "keywords": [
+      {
+        "tid": [295],
+        "name": {
+          "nl": ["Budgetvriendelijk"],
+          "en": ["Budget-friendly"],
+          "fr": ["Budget sympa"],
+          "de": ["Budgetfreundlichkeit "],
+          "es": ["l alcance de todos los bolsillos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/e4ac9ec9-3840-4b54-8d9b-b727d6efd404",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-07-03T09:20:48+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.738719 51.059558)",
+        "Point",
+        51.059558000000003,
+        3.7387190000000001,
+        3.7387190000000001,
+        51.059558000000003,
+        3.7387190000000001,
+        51.059558000000003,
+        "u14dmp47qrqz",
+        "51.059558,3.738719"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/8001f3cf-ed9d-4622-8762-e0bd4a71176b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Kleindokkaai 27",
+      "modified": {
+        "nl": ["2018-07-03T09:22:00+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Ibis Budget Gent Centrum Dampoort"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["HA243@accor.com"]],
+      "telephone": [["+32 9 395 20 10"]],
+      "url": "https://visit.gent.be/nl/node/2980",
+      "page": "https://visit.gent.be/node/2980",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/0b5c3714-bb16-4be7-b7cd-765b4d4e69e0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Breakfast%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Double%203.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Lobby%201.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Twin%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Ibis Budget Gent Centrum Dampoort"],
+      "en": ["Ibis Budget Gent Centrum Dampoort"],
+      "fr": ["Ibis Budget Gent Centrum Dampoort"],
+      "de": ["Ibis Budget Gent Centrum Dampoort"],
+      "es": ["Ibis Budget Gent Centrum Dampoort"]
+    },
+    "url":
+      "https://visit.gent.be/de/staunen-erleben/ibis-budget-gent-centrum-dampoort",
+    "page": "https://visit.gent.be/node/2981",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Ibis Budget Gent Centrum Dampoort ligt dicht bij de haven van Gent, aan het treinstation Gent-Dampoort. Het historische centrum van Gent is makkelijk bereikbaar te voet en met het openbaar vervoer."
+            ],
+            "en": [
+              "Ibis Budget Gent Centrum Dampoort is near the port of Ghent, at Gent-Dampoort railway station. Ghent\u0027s historical centre is easy to reach on foot and by public transport."
+            ],
+            "fr": [
+              "L\u2019Ibis Budget Gent Centrum Dampoort se situe \u00e0 proximit\u00e9 du port de Gand, \u00e0 c\u00f4t\u00e9 de la gare ferroviaire Gent-Dampoort. Le centre historique de Gand est facilement accessible \u00e0 pied et en transports en commun."
+            ],
+            "de": [
+              "Ibis Budget Gent Centrum Dampoort befindet sich ganz in der N\u00e4he des Hafens von Gent, am Bahnhof Gent-Dampoort. Das historische Zentrum von Gent ist zu Fu\u00df und mit den \u00f6ffentlichen Verkehrsmitteln leicht zu erreichen."
+            ],
+            "es": [
+              "Ibis Budget Gent Centrum Dampoort est\u00e1 cerca del puerto de Gante y de la estaci\u00f3n de ferrocarril Gent-Dampoort. Se puede ir f\u00e1cilmente al centro hist\u00f3rico de Gante andando o con transporte p\u00fablico."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-07-03T09:27:30+00:00"],
+      "en": ["2018-07-05T11:52:28+00:00"],
+      "fr": ["2018-07-05T11:42:02+00:00"],
+      "de": ["2018-07-05T11:54:19+00:00"],
+      "es": ["2018-07-05T11:56:59+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [931],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/5455d2d6-94ac-4798-a919-ddecedc2958e"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/eff9e51a-b057-4f7c-a47b-8df3ef5ff4fa"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/fadeb2b7-88ac-4a2b-9c06-f22917ea3670"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44",
+    "modified": {
+      "nl": ["2018-07-05T11:45:06+00:00"],
+      "en": ["2018-07-05T11:57:51+00:00"],
+      "fr": ["2018-07-05T11:57:51+00:00"],
+      "de": ["2018-07-05T11:57:51+00:00"],
+      "es": ["2018-07-05T11:57:51+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Budgetvriendelijk hotel op een boogscheut van het centrum"],
+      "en": ["Budget-friendly hotel a stone\u2019s throw from the city centre"],
+      "fr": [
+        "H\u00f4tel \u00e0 petit budget \u00e0 un jet de pierre du centre"
+      ],
+      "de": ["Preisg\u00fcnstiges Hotel, ein Steinwurf vom Zentrum entfernt"],
+      "es": ["Hotel econ\u00f3mico a un tiro de piedra del centro"]
+    },
+    "keywords": [
+      {
+        "tid": [295],
+        "name": {
+          "nl": ["Budgetvriendelijk"],
+          "en": ["Budget-friendly"],
+          "fr": ["Budget sympa"],
+          "de": ["Budgetfreundlichkeit "],
+          "es": ["l alcance de todos los bolsillos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/e4ac9ec9-3840-4b54-8d9b-b727d6efd404",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-07-03T09:20:48+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.738719 51.059558)",
+        "Point",
+        51.059558000000003,
+        3.7387190000000001,
+        3.7387190000000001,
+        51.059558000000003,
+        3.7387190000000001,
+        51.059558000000003,
+        "u14dmp47qrqz",
+        "51.059558,3.738719"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/8001f3cf-ed9d-4622-8762-e0bd4a71176b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Kleindokkaai 27",
+      "modified": {
+        "nl": ["2018-07-03T09:22:00+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Ibis Budget Gent Centrum Dampoort"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["HA243@accor.com"]],
+      "telephone": [["+32 9 395 20 10"]],
+      "url": "https://visit.gent.be/nl/node/2980",
+      "page": "https://visit.gent.be/node/2980",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/0b5c3714-bb16-4be7-b7cd-765b4d4e69e0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Breakfast%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Double%203.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Lobby%201.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Twin%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Ibis Budget Gent Centrum Dampoort"],
+      "en": ["Ibis Budget Gent Centrum Dampoort"],
+      "fr": ["Ibis Budget Gent Centrum Dampoort"],
+      "de": ["Ibis Budget Gent Centrum Dampoort"],
+      "es": ["Ibis Budget Gent Centrum Dampoort"]
+    },
+    "url": "https://visit.gent.be/en/see-do/ibis-budget-gent-centrum-dampoort",
+    "page": "https://visit.gent.be/node/2981",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Ibis Budget Gent Centrum Dampoort ligt dicht bij de haven van Gent, aan het treinstation Gent-Dampoort. Het historische centrum van Gent is makkelijk bereikbaar te voet en met het openbaar vervoer."
+            ],
+            "en": [
+              "Ibis Budget Gent Centrum Dampoort is near the port of Ghent, at Gent-Dampoort railway station. Ghent\u0027s historical centre is easy to reach on foot and by public transport."
+            ],
+            "fr": [
+              "L\u2019Ibis Budget Gent Centrum Dampoort se situe \u00e0 proximit\u00e9 du port de Gand, \u00e0 c\u00f4t\u00e9 de la gare ferroviaire Gent-Dampoort. Le centre historique de Gand est facilement accessible \u00e0 pied et en transports en commun."
+            ],
+            "de": [
+              "Ibis Budget Gent Centrum Dampoort befindet sich ganz in der N\u00e4he des Hafens von Gent, am Bahnhof Gent-Dampoort. Das historische Zentrum von Gent ist zu Fu\u00df und mit den \u00f6ffentlichen Verkehrsmitteln leicht zu erreichen."
+            ],
+            "es": [
+              "Ibis Budget Gent Centrum Dampoort est\u00e1 cerca del puerto de Gante y de la estaci\u00f3n de ferrocarril Gent-Dampoort. Se puede ir f\u00e1cilmente al centro hist\u00f3rico de Gante andando o con transporte p\u00fablico."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-07-03T09:27:30+00:00"],
+      "en": ["2018-07-05T11:52:28+00:00"],
+      "fr": ["2018-07-05T11:42:02+00:00"],
+      "de": ["2018-07-05T11:54:19+00:00"],
+      "es": ["2018-07-05T11:56:59+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [931],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/5455d2d6-94ac-4798-a919-ddecedc2958e"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/eff9e51a-b057-4f7c-a47b-8df3ef5ff4fa"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/fadeb2b7-88ac-4a2b-9c06-f22917ea3670"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44",
+    "modified": {
+      "nl": ["2018-07-05T11:45:06+00:00"],
+      "en": ["2018-07-05T11:57:51+00:00"],
+      "fr": ["2018-07-05T11:57:51+00:00"],
+      "de": ["2018-07-05T11:57:51+00:00"],
+      "es": ["2018-07-05T11:57:51+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Budgetvriendelijk hotel op een boogscheut van het centrum"],
+      "en": ["Budget-friendly hotel a stone\u2019s throw from the city centre"],
+      "fr": [
+        "H\u00f4tel \u00e0 petit budget \u00e0 un jet de pierre du centre"
+      ],
+      "de": ["Preisg\u00fcnstiges Hotel, ein Steinwurf vom Zentrum entfernt"],
+      "es": ["Hotel econ\u00f3mico a un tiro de piedra del centro"]
+    },
+    "keywords": [
+      {
+        "tid": [295],
+        "name": {
+          "nl": ["Budgetvriendelijk"],
+          "en": ["Budget-friendly"],
+          "fr": ["Budget sympa"],
+          "de": ["Budgetfreundlichkeit "],
+          "es": ["l alcance de todos los bolsillos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/e4ac9ec9-3840-4b54-8d9b-b727d6efd404",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-07-03T09:20:48+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.738719 51.059558)",
+        "Point",
+        51.059558000000003,
+        3.7387190000000001,
+        3.7387190000000001,
+        51.059558000000003,
+        3.7387190000000001,
+        51.059558000000003,
+        "u14dmp47qrqz",
+        "51.059558,3.738719"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/8001f3cf-ed9d-4622-8762-e0bd4a71176b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Kleindokkaai 27",
+      "modified": {
+        "nl": ["2018-07-03T09:22:00+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Ibis Budget Gent Centrum Dampoort"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["HA243@accor.com"]],
+      "telephone": [["+32 9 395 20 10"]],
+      "url": "https://visit.gent.be/nl/node/2980",
+      "page": "https://visit.gent.be/node/2980",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/0b5c3714-bb16-4be7-b7cd-765b4d4e69e0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Breakfast%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Double%203.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Lobby%201.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Twin%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Ibis Budget Gent Centrum Dampoort"],
+      "en": ["Ibis Budget Gent Centrum Dampoort"],
+      "fr": ["Ibis Budget Gent Centrum Dampoort"],
+      "de": ["Ibis Budget Gent Centrum Dampoort"],
+      "es": ["Ibis Budget Gent Centrum Dampoort"]
+    },
+    "url":
+      "https://visit.gent.be/fr/voir-et-faire/ibis-budget-gent-centrum-dampoort",
+    "page": "https://visit.gent.be/node/2981",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Ibis Budget Gent Centrum Dampoort ligt dicht bij de haven van Gent, aan het treinstation Gent-Dampoort. Het historische centrum van Gent is makkelijk bereikbaar te voet en met het openbaar vervoer."
+            ],
+            "en": [
+              "Ibis Budget Gent Centrum Dampoort is near the port of Ghent, at Gent-Dampoort railway station. Ghent\u0027s historical centre is easy to reach on foot and by public transport."
+            ],
+            "fr": [
+              "L\u2019Ibis Budget Gent Centrum Dampoort se situe \u00e0 proximit\u00e9 du port de Gand, \u00e0 c\u00f4t\u00e9 de la gare ferroviaire Gent-Dampoort. Le centre historique de Gand est facilement accessible \u00e0 pied et en transports en commun."
+            ],
+            "de": [
+              "Ibis Budget Gent Centrum Dampoort befindet sich ganz in der N\u00e4he des Hafens von Gent, am Bahnhof Gent-Dampoort. Das historische Zentrum von Gent ist zu Fu\u00df und mit den \u00f6ffentlichen Verkehrsmitteln leicht zu erreichen."
+            ],
+            "es": [
+              "Ibis Budget Gent Centrum Dampoort est\u00e1 cerca del puerto de Gante y de la estaci\u00f3n de ferrocarril Gent-Dampoort. Se puede ir f\u00e1cilmente al centro hist\u00f3rico de Gante andando o con transporte p\u00fablico."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-07-03T09:27:30+00:00"],
+      "en": ["2018-07-05T11:52:28+00:00"],
+      "fr": ["2018-07-05T11:42:02+00:00"],
+      "de": ["2018-07-05T11:54:19+00:00"],
+      "es": ["2018-07-05T11:56:59+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [931],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/5455d2d6-94ac-4798-a919-ddecedc2958e"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/eff9e51a-b057-4f7c-a47b-8df3ef5ff4fa"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/fadeb2b7-88ac-4a2b-9c06-f22917ea3670"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44",
+    "modified": {
+      "nl": ["2018-07-05T11:45:06+00:00"],
+      "en": ["2018-07-05T11:57:51+00:00"],
+      "fr": ["2018-07-05T11:57:51+00:00"],
+      "de": ["2018-07-05T11:57:51+00:00"],
+      "es": ["2018-07-05T11:57:51+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Budgetvriendelijk hotel op een boogscheut van het centrum"],
+      "en": ["Budget-friendly hotel a stone\u2019s throw from the city centre"],
+      "fr": [
+        "H\u00f4tel \u00e0 petit budget \u00e0 un jet de pierre du centre"
+      ],
+      "de": ["Preisg\u00fcnstiges Hotel, ein Steinwurf vom Zentrum entfernt"],
+      "es": ["Hotel econ\u00f3mico a un tiro de piedra del centro"]
+    },
+    "keywords": [
+      {
+        "tid": [295],
+        "name": {
+          "nl": ["Budgetvriendelijk"],
+          "en": ["Budget-friendly"],
+          "fr": ["Budget sympa"],
+          "de": ["Budgetfreundlichkeit "],
+          "es": ["l alcance de todos los bolsillos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/e4ac9ec9-3840-4b54-8d9b-b727d6efd404",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-07-03T09:20:48+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.738719 51.059558)",
+        "Point",
+        51.059558000000003,
+        3.7387190000000001,
+        3.7387190000000001,
+        51.059558000000003,
+        3.7387190000000001,
+        51.059558000000003,
+        "u14dmp47qrqz",
+        "51.059558,3.738719"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/8001f3cf-ed9d-4622-8762-e0bd4a71176b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Kleindokkaai 27",
+      "modified": {
+        "nl": ["2018-07-03T09:22:00+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Ibis Budget Gent Centrum Dampoort"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["HA243@accor.com"]],
+      "telephone": [["+32 9 395 20 10"]],
+      "url": "https://visit.gent.be/nl/node/2980",
+      "page": "https://visit.gent.be/node/2980",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/0b5c3714-bb16-4be7-b7cd-765b4d4e69e0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Breakfast%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Double%203.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Lobby%201.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Twin%202.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Ext%204.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Ibis Budget Gent Centrum Dampoort"],
+      "en": ["Ibis Budget Gent Centrum Dampoort"],
+      "fr": ["Ibis Budget Gent Centrum Dampoort"],
+      "de": ["Ibis Budget Gent Centrum Dampoort"],
+      "es": ["Ibis Budget Gent Centrum Dampoort"]
+    },
+    "url":
+      "https://visit.gent.be/nl/zien-doen/ibis-budget-gent-centrum-dampoort",
+    "page": "https://visit.gent.be/node/2981",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Ibis Budget Gent Centrum Dampoort ligt dicht bij de haven van Gent, aan het treinstation Gent-Dampoort. Het historische centrum van Gent is makkelijk bereikbaar te voet en met het openbaar vervoer."
+            ],
+            "en": [
+              "Ibis Budget Gent Centrum Dampoort is near the port of Ghent, at Gent-Dampoort railway station. Ghent\u0027s historical centre is easy to reach on foot and by public transport."
+            ],
+            "fr": [
+              "L\u2019Ibis Budget Gent Centrum Dampoort se situe \u00e0 proximit\u00e9 du port de Gand, \u00e0 c\u00f4t\u00e9 de la gare ferroviaire Gent-Dampoort. Le centre historique de Gand est facilement accessible \u00e0 pied et en transports en commun."
+            ],
+            "de": [
+              "Ibis Budget Gent Centrum Dampoort befindet sich ganz in der N\u00e4he des Hafens von Gent, am Bahnhof Gent-Dampoort. Das historische Zentrum von Gent ist zu Fu\u00df und mit den \u00f6ffentlichen Verkehrsmitteln leicht zu erreichen."
+            ],
+            "es": [
+              "Ibis Budget Gent Centrum Dampoort est\u00e1 cerca del puerto de Gante y de la estaci\u00f3n de ferrocarril Gent-Dampoort. Se puede ir f\u00e1cilmente al centro hist\u00f3rico de Gante andando o con transporte p\u00fablico."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-06-29T07:18:06+00:00"],
+      "en": ["2018-06-29T07:25:15+00:00"],
+      "fr": ["2018-06-29T07:24:10+00:00"],
+      "de": ["2018-06-29T07:26:02+00:00"],
+      "es": ["2018-06-29T07:27:16+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [-959],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/b53c69ac-5ac4-4ac2-ab9f-ef5160edfd60"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/a7f5a68d-8f82-406a-a8c5-9482e74771ec"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/2091292e-e071-4e3a-854c-3d1312b889ac"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/97cf9f77-9c46-44b4-9db4-7b4a6b81bc0b",
+    "modified": {
+      "nl": ["2018-06-29T07:22:45+00:00"],
+      "en": ["2018-06-29T07:27:46+00:00"],
+      "fr": ["2018-06-29T07:27:46+00:00"],
+      "de": ["2018-06-29T07:27:46+00:00"],
+      "es": ["2018-06-29T07:27:46+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Hemel voor snoepers"],
+      "en": ["Heaven for sweet lovers"],
+      "fr": ["Le paradis des bouches sucr\u00e9es "],
+      "de": ["Der Naschkatzenhimmel"],
+      "es": ["El cielo para los amantes del dulce"]
+    },
+    "keywords": [
+      {
+        "tid": [265],
+        "name": {
+          "nl": ["Authentiek"],
+          "en": ["Authentic"],
+          "fr": ["Authentique"],
+          "de": ["Authentisch"],
+          "es": ["Aut\u00e9ntico"]
+        },
+        "description": {
+          "nl":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "en":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "fr":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "de":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "es":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a28eb665-e42b-401f-ae9b-c3d140dfbd09",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        }
+      },
+      {
+        "tid": [277],
+        "name": {
+          "nl": ["Chocolade"],
+          "en": ["Chocolate"],
+          "fr": ["Chocolat"],
+          "de": ["Schokolade"],
+          "es": ["Chocolate"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/060d9c3a-a9cd-4a13-ba5e-45e6e341b157",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [411],
+        "name": {
+          "nl": ["Cuberdon"],
+          "en": ["Cuberdon"],
+          "fr": ["Cuberdon"],
+          "de": ["Cuberdon"],
+          "es": ["Cuberdon"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/0a657b32-1c4b-4da0-847e-1f044c8cf474",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [324],
+        "name": {
+          "nl": ["Gentse specialiteiten"],
+          "en": ["Typical products"],
+          "fr": ["Produits gantois"],
+          "de": ["Typisch Gent"],
+          "es": ["T\u00edpico de Gante"]
+        },
+        "description": {
+          "nl":
+            "\u003Cp\u003EEen bezoek aan Gent is pas echt af als je onze specialiteiten op je tong hebt laten smelten en een selectie ervan in je bagage hebt gestopt voor thuis.\u0026nbsp;\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bieren, jenevers, fijne vleeswaren, kazen, Tierenteyn mosterd, mastellen en de talloze heerlijk ouderwetse Gentse snoepen...\u0026nbsp;Van een moeilijke keuze gesproken!\u0026nbsp;\u003C/p\u003E\r\n",
+          "en":
+            "\u003Cp\u003ENo visit to Ghent is complete unless you have tried and tested our specialities and bought some to share with the home front.\u003C/p\u003E\r\n\r\n\u003Cp\u003EChocolates, beers, genevers, meats, cheeses, Tierenteyn mustard, mastellen and several other deliciously old-fashion sweets... Oh, the choices!\u003C/p\u003E\r\n",
+          "fr":
+            "\u003Cp\u003EUne visite de Gand n\u2019est vraiment termin\u00e9e que lorsque vous avez laiss\u00e9 fondre nos sp\u00e9cialit\u00e9s sur votre langue et emport\u00e9 une s\u00e9lection d\u2019entre elles dans vos bagages.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bi\u00e8res, geni\u00e8vres, charcuterie fine, fromages, moutarde Tierenteyn, mastelles et toute la panoplie des d\u00e9licieuses friandises gantoises d\u2019antan... Le choix est difficile!\u003C/p\u003E\r\n",
+          "de":
+            "\u003Cp\u003EEin Besuch Gents ist erst vollendet, wenn Sie unsere Spezialit\u00e4ten auf der Zunge zergehen lie\u00dfen und sich mit einer verf\u00fchrerischen Auswahl f\u00fcr Zuhause eingedeckt haben.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralinen, Biere, Genever, Wurstwaren, K\u00e4se, Tierenteynsenf, Mastelle und die vielen k\u00f6stlichen Genter S\u00fc\u00dfigkeiten \u2026 Ja, wer die Wahl hat, hat die Qual!\u003C/p\u003E\r\n",
+          "es":
+            "\u003Cp\u003EUna visita a Gante no est\u00e1 completa si no deja que se le deshagan en la boca nuestras especialidades y se lleva unas cuantas en la maleta para cuando llegue a casa.\u003C/p\u003E\r\n\r\n\u003Cp\u003EBombones, cervezas, ginebras, embutidos finos, quesos, mostaza Tierenteyn, mastelles y los incontables y deliciosos dulces a la antigua de Gante... \u00a1Dif\u00edcil elecci\u00f3n!\u003C/p\u003E\r\n"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/6b6b1330-563a-4356-8a59-0206a1ba1b9e",
+        "modified": {
+          "nl": ["2018-02-05T10:34:29+00:00"],
+          "en": ["2018-02-05T10:36:30+00:00"],
+          "fr": ["2018-02-05T10:36:58+00:00"],
+          "de": ["2018-02-05T10:37:22+00:00"],
+          "es": ["2018-02-05T10:37:44+00:00"]
+        }
+      },
+      {
+        "tid": [447],
+        "name": {
+          "nl": ["Snoep"],
+          "en": ["Candy / Sweets"],
+          "fr": ["Friandise"],
+          "de": ["S\u00fc\u00dfigkeiten"],
+          "es": ["Caramelos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a7e918ff-14da-4eb8-89fa-e19ad3202ea9",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-06-28T12:07:37+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.725208 51.054408)",
+        "Point",
+        51.054408000000002,
+        3.7252079999999999,
+        3.7252079999999999,
+        51.054408000000002,
+        3.7252079999999999,
+        51.054408000000002,
+        "u14dky0t7xkq",
+        "51.054408,3.725208"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/2121ba1d-ffc5-4f1a-ab18-332e7453cc3b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Botermarkt 9",
+      "modified": {
+        "nl": ["2018-06-28T12:09:28+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Sophie\u0027s Sweets \u0026 Chocolates"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["info@sophies.be"]],
+      "telephone": [["+32 9 357 71 10"]],
+      "url": "https://visit.gent.be/nl/node/2974",
+      "page": "https://visit.gent.be/node/2974",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/decaec53-6ce4-41ef-b13a-4a622c44a1d0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%281%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%283%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%285%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%287%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%289%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%284%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%2810%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Winkel%20%288%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "en": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "fr": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "de": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "es": ["Sophie\u2019s Sweets \u0026 Chocolates"]
+    },
+    "url": "https://visit.gent.be/es/ver-y-hacer/sophies-sweets-chocolates",
+    "page": "https://visit.gent.be/node/2979",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Sophie\u0027s Sweets \u0026 Chocolates ligt in de schaduw van de monumentale drie torens die het historische hart van Gent vormen. Hier brachten ambachtslui of rondreizende handelaars vroeger hun lokale producten aan de man. Deze traditie wordt voortgezet in een modern jasje."
+            ],
+            "en": [
+              "Sophie\u0027s Sweets \u0026 Chocolates lies in the shadow of the monumental three towers which form the historic heart of Ghent. Craftsmen or itinerant merchants used to sell their local products here. This tradition is now being continued, with a modern twist."
+            ],
+            "fr": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est tapi \u00e0 l\u2019ombre des trois tours monumentales qui forment le c\u0153ur  historique de Gand. C\u2019est ici qu\u2019artisans et commer\u00e7ants ambulants \u00e9coulaient jadis leurs produits locaux. Cette tradition est aujourd\u2019hui revisit\u00e9e pour perdurer."
+            ],
+            "de": [
+              "Sophie\u0027s Sweets \u0026 Chocolates liegt im Schatten der monumentalen drei T\u00fcrme, die das historische Herz von Gent bilden. Handwerker oder reisende H\u00e4ndler boten hier ihre lokalen Produkte zum Kauf an. Diese Tradition wird in einer modernen Version fortgesetzt."
+            ],
+            "es": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est\u00e1 a la sombra de las tres torres monumentales que forman el centro hist\u00f3rico de Gante. Justo aqu\u00ed, en otra \u00e9poca, los comerciantes y artesanos ofrec\u00edan sus productos a la gente. Ahora se continua con esta tradici\u00f3n pero con un toque moderno."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-06-29T07:18:06+00:00"],
+      "en": ["2018-06-29T07:25:15+00:00"],
+      "fr": ["2018-06-29T07:24:10+00:00"],
+      "de": ["2018-06-29T07:26:02+00:00"],
+      "es": ["2018-06-29T07:27:16+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [-959],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/b53c69ac-5ac4-4ac2-ab9f-ef5160edfd60"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/a7f5a68d-8f82-406a-a8c5-9482e74771ec"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/2091292e-e071-4e3a-854c-3d1312b889ac"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/97cf9f77-9c46-44b4-9db4-7b4a6b81bc0b",
+    "modified": {
+      "nl": ["2018-06-29T07:22:45+00:00"],
+      "en": ["2018-06-29T07:27:46+00:00"],
+      "fr": ["2018-06-29T07:27:46+00:00"],
+      "de": ["2018-06-29T07:27:46+00:00"],
+      "es": ["2018-06-29T07:27:46+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Hemel voor snoepers"],
+      "en": ["Heaven for sweet lovers"],
+      "fr": ["Le paradis des bouches sucr\u00e9es "],
+      "de": ["Der Naschkatzenhimmel"],
+      "es": ["El cielo para los amantes del dulce"]
+    },
+    "keywords": [
+      {
+        "tid": [265],
+        "name": {
+          "nl": ["Authentiek"],
+          "en": ["Authentic"],
+          "fr": ["Authentique"],
+          "de": ["Authentisch"],
+          "es": ["Aut\u00e9ntico"]
+        },
+        "description": {
+          "nl":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "en":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "fr":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "de":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "es":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a28eb665-e42b-401f-ae9b-c3d140dfbd09",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        }
+      },
+      {
+        "tid": [277],
+        "name": {
+          "nl": ["Chocolade"],
+          "en": ["Chocolate"],
+          "fr": ["Chocolat"],
+          "de": ["Schokolade"],
+          "es": ["Chocolate"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/060d9c3a-a9cd-4a13-ba5e-45e6e341b157",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [411],
+        "name": {
+          "nl": ["Cuberdon"],
+          "en": ["Cuberdon"],
+          "fr": ["Cuberdon"],
+          "de": ["Cuberdon"],
+          "es": ["Cuberdon"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/0a657b32-1c4b-4da0-847e-1f044c8cf474",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [324],
+        "name": {
+          "nl": ["Gentse specialiteiten"],
+          "en": ["Typical products"],
+          "fr": ["Produits gantois"],
+          "de": ["Typisch Gent"],
+          "es": ["T\u00edpico de Gante"]
+        },
+        "description": {
+          "nl":
+            "\u003Cp\u003EEen bezoek aan Gent is pas echt af als je onze specialiteiten op je tong hebt laten smelten en een selectie ervan in je bagage hebt gestopt voor thuis.\u0026nbsp;\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bieren, jenevers, fijne vleeswaren, kazen, Tierenteyn mosterd, mastellen en de talloze heerlijk ouderwetse Gentse snoepen...\u0026nbsp;Van een moeilijke keuze gesproken!\u0026nbsp;\u003C/p\u003E\r\n",
+          "en":
+            "\u003Cp\u003ENo visit to Ghent is complete unless you have tried and tested our specialities and bought some to share with the home front.\u003C/p\u003E\r\n\r\n\u003Cp\u003EChocolates, beers, genevers, meats, cheeses, Tierenteyn mustard, mastellen and several other deliciously old-fashion sweets... Oh, the choices!\u003C/p\u003E\r\n",
+          "fr":
+            "\u003Cp\u003EUne visite de Gand n\u2019est vraiment termin\u00e9e que lorsque vous avez laiss\u00e9 fondre nos sp\u00e9cialit\u00e9s sur votre langue et emport\u00e9 une s\u00e9lection d\u2019entre elles dans vos bagages.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bi\u00e8res, geni\u00e8vres, charcuterie fine, fromages, moutarde Tierenteyn, mastelles et toute la panoplie des d\u00e9licieuses friandises gantoises d\u2019antan... Le choix est difficile!\u003C/p\u003E\r\n",
+          "de":
+            "\u003Cp\u003EEin Besuch Gents ist erst vollendet, wenn Sie unsere Spezialit\u00e4ten auf der Zunge zergehen lie\u00dfen und sich mit einer verf\u00fchrerischen Auswahl f\u00fcr Zuhause eingedeckt haben.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralinen, Biere, Genever, Wurstwaren, K\u00e4se, Tierenteynsenf, Mastelle und die vielen k\u00f6stlichen Genter S\u00fc\u00dfigkeiten \u2026 Ja, wer die Wahl hat, hat die Qual!\u003C/p\u003E\r\n",
+          "es":
+            "\u003Cp\u003EUna visita a Gante no est\u00e1 completa si no deja que se le deshagan en la boca nuestras especialidades y se lleva unas cuantas en la maleta para cuando llegue a casa.\u003C/p\u003E\r\n\r\n\u003Cp\u003EBombones, cervezas, ginebras, embutidos finos, quesos, mostaza Tierenteyn, mastelles y los incontables y deliciosos dulces a la antigua de Gante... \u00a1Dif\u00edcil elecci\u00f3n!\u003C/p\u003E\r\n"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/6b6b1330-563a-4356-8a59-0206a1ba1b9e",
+        "modified": {
+          "nl": ["2018-02-05T10:34:29+00:00"],
+          "en": ["2018-02-05T10:36:30+00:00"],
+          "fr": ["2018-02-05T10:36:58+00:00"],
+          "de": ["2018-02-05T10:37:22+00:00"],
+          "es": ["2018-02-05T10:37:44+00:00"]
+        }
+      },
+      {
+        "tid": [447],
+        "name": {
+          "nl": ["Snoep"],
+          "en": ["Candy / Sweets"],
+          "fr": ["Friandise"],
+          "de": ["S\u00fc\u00dfigkeiten"],
+          "es": ["Caramelos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a7e918ff-14da-4eb8-89fa-e19ad3202ea9",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-06-28T12:07:37+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.725208 51.054408)",
+        "Point",
+        51.054408000000002,
+        3.7252079999999999,
+        3.7252079999999999,
+        51.054408000000002,
+        3.7252079999999999,
+        51.054408000000002,
+        "u14dky0t7xkq",
+        "51.054408,3.725208"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/2121ba1d-ffc5-4f1a-ab18-332e7453cc3b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Botermarkt 9",
+      "modified": {
+        "nl": ["2018-06-28T12:09:28+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Sophie\u0027s Sweets \u0026 Chocolates"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["info@sophies.be"]],
+      "telephone": [["+32 9 357 71 10"]],
+      "url": "https://visit.gent.be/nl/node/2974",
+      "page": "https://visit.gent.be/node/2974",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/decaec53-6ce4-41ef-b13a-4a622c44a1d0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%281%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%283%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%285%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%287%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%289%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%284%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%2810%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Winkel%20%288%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "en": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "fr": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "de": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "es": ["Sophie\u2019s Sweets \u0026 Chocolates"]
+    },
+    "url": "https://visit.gent.be/de/staunen-erleben/sophies-sweets-chocolates",
+    "page": "https://visit.gent.be/node/2979",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Sophie\u0027s Sweets \u0026 Chocolates ligt in de schaduw van de monumentale drie torens die het historische hart van Gent vormen. Hier brachten ambachtslui of rondreizende handelaars vroeger hun lokale producten aan de man. Deze traditie wordt voortgezet in een modern jasje."
+            ],
+            "en": [
+              "Sophie\u0027s Sweets \u0026 Chocolates lies in the shadow of the monumental three towers which form the historic heart of Ghent. Craftsmen or itinerant merchants used to sell their local products here. This tradition is now being continued, with a modern twist."
+            ],
+            "fr": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est tapi \u00e0 l\u2019ombre des trois tours monumentales qui forment le c\u0153ur  historique de Gand. C\u2019est ici qu\u2019artisans et commer\u00e7ants ambulants \u00e9coulaient jadis leurs produits locaux. Cette tradition est aujourd\u2019hui revisit\u00e9e pour perdurer."
+            ],
+            "de": [
+              "Sophie\u0027s Sweets \u0026 Chocolates liegt im Schatten der monumentalen drei T\u00fcrme, die das historische Herz von Gent bilden. Handwerker oder reisende H\u00e4ndler boten hier ihre lokalen Produkte zum Kauf an. Diese Tradition wird in einer modernen Version fortgesetzt."
+            ],
+            "es": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est\u00e1 a la sombra de las tres torres monumentales que forman el centro hist\u00f3rico de Gante. Justo aqu\u00ed, en otra \u00e9poca, los comerciantes y artesanos ofrec\u00edan sus productos a la gente. Ahora se continua con esta tradici\u00f3n pero con un toque moderno."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-06-29T07:18:06+00:00"],
+      "en": ["2018-06-29T07:25:15+00:00"],
+      "fr": ["2018-06-29T07:24:10+00:00"],
+      "de": ["2018-06-29T07:26:02+00:00"],
+      "es": ["2018-06-29T07:27:16+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [-959],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/b53c69ac-5ac4-4ac2-ab9f-ef5160edfd60"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/a7f5a68d-8f82-406a-a8c5-9482e74771ec"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/2091292e-e071-4e3a-854c-3d1312b889ac"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/97cf9f77-9c46-44b4-9db4-7b4a6b81bc0b",
+    "modified": {
+      "nl": ["2018-06-29T07:22:45+00:00"],
+      "en": ["2018-06-29T07:27:46+00:00"],
+      "fr": ["2018-06-29T07:27:46+00:00"],
+      "de": ["2018-06-29T07:27:46+00:00"],
+      "es": ["2018-06-29T07:27:46+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Hemel voor snoepers"],
+      "en": ["Heaven for sweet lovers"],
+      "fr": ["Le paradis des bouches sucr\u00e9es "],
+      "de": ["Der Naschkatzenhimmel"],
+      "es": ["El cielo para los amantes del dulce"]
+    },
+    "keywords": [
+      {
+        "tid": [265],
+        "name": {
+          "nl": ["Authentiek"],
+          "en": ["Authentic"],
+          "fr": ["Authentique"],
+          "de": ["Authentisch"],
+          "es": ["Aut\u00e9ntico"]
+        },
+        "description": {
+          "nl":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "en":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "fr":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "de":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "es":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a28eb665-e42b-401f-ae9b-c3d140dfbd09",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        }
+      },
+      {
+        "tid": [277],
+        "name": {
+          "nl": ["Chocolade"],
+          "en": ["Chocolate"],
+          "fr": ["Chocolat"],
+          "de": ["Schokolade"],
+          "es": ["Chocolate"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/060d9c3a-a9cd-4a13-ba5e-45e6e341b157",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [411],
+        "name": {
+          "nl": ["Cuberdon"],
+          "en": ["Cuberdon"],
+          "fr": ["Cuberdon"],
+          "de": ["Cuberdon"],
+          "es": ["Cuberdon"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/0a657b32-1c4b-4da0-847e-1f044c8cf474",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [324],
+        "name": {
+          "nl": ["Gentse specialiteiten"],
+          "en": ["Typical products"],
+          "fr": ["Produits gantois"],
+          "de": ["Typisch Gent"],
+          "es": ["T\u00edpico de Gante"]
+        },
+        "description": {
+          "nl":
+            "\u003Cp\u003EEen bezoek aan Gent is pas echt af als je onze specialiteiten op je tong hebt laten smelten en een selectie ervan in je bagage hebt gestopt voor thuis.\u0026nbsp;\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bieren, jenevers, fijne vleeswaren, kazen, Tierenteyn mosterd, mastellen en de talloze heerlijk ouderwetse Gentse snoepen...\u0026nbsp;Van een moeilijke keuze gesproken!\u0026nbsp;\u003C/p\u003E\r\n",
+          "en":
+            "\u003Cp\u003ENo visit to Ghent is complete unless you have tried and tested our specialities and bought some to share with the home front.\u003C/p\u003E\r\n\r\n\u003Cp\u003EChocolates, beers, genevers, meats, cheeses, Tierenteyn mustard, mastellen and several other deliciously old-fashion sweets... Oh, the choices!\u003C/p\u003E\r\n",
+          "fr":
+            "\u003Cp\u003EUne visite de Gand n\u2019est vraiment termin\u00e9e que lorsque vous avez laiss\u00e9 fondre nos sp\u00e9cialit\u00e9s sur votre langue et emport\u00e9 une s\u00e9lection d\u2019entre elles dans vos bagages.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bi\u00e8res, geni\u00e8vres, charcuterie fine, fromages, moutarde Tierenteyn, mastelles et toute la panoplie des d\u00e9licieuses friandises gantoises d\u2019antan... Le choix est difficile!\u003C/p\u003E\r\n",
+          "de":
+            "\u003Cp\u003EEin Besuch Gents ist erst vollendet, wenn Sie unsere Spezialit\u00e4ten auf der Zunge zergehen lie\u00dfen und sich mit einer verf\u00fchrerischen Auswahl f\u00fcr Zuhause eingedeckt haben.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralinen, Biere, Genever, Wurstwaren, K\u00e4se, Tierenteynsenf, Mastelle und die vielen k\u00f6stlichen Genter S\u00fc\u00dfigkeiten \u2026 Ja, wer die Wahl hat, hat die Qual!\u003C/p\u003E\r\n",
+          "es":
+            "\u003Cp\u003EUna visita a Gante no est\u00e1 completa si no deja que se le deshagan en la boca nuestras especialidades y se lleva unas cuantas en la maleta para cuando llegue a casa.\u003C/p\u003E\r\n\r\n\u003Cp\u003EBombones, cervezas, ginebras, embutidos finos, quesos, mostaza Tierenteyn, mastelles y los incontables y deliciosos dulces a la antigua de Gante... \u00a1Dif\u00edcil elecci\u00f3n!\u003C/p\u003E\r\n"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/6b6b1330-563a-4356-8a59-0206a1ba1b9e",
+        "modified": {
+          "nl": ["2018-02-05T10:34:29+00:00"],
+          "en": ["2018-02-05T10:36:30+00:00"],
+          "fr": ["2018-02-05T10:36:58+00:00"],
+          "de": ["2018-02-05T10:37:22+00:00"],
+          "es": ["2018-02-05T10:37:44+00:00"]
+        }
+      },
+      {
+        "tid": [447],
+        "name": {
+          "nl": ["Snoep"],
+          "en": ["Candy / Sweets"],
+          "fr": ["Friandise"],
+          "de": ["S\u00fc\u00dfigkeiten"],
+          "es": ["Caramelos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a7e918ff-14da-4eb8-89fa-e19ad3202ea9",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-06-28T12:07:37+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.725208 51.054408)",
+        "Point",
+        51.054408000000002,
+        3.7252079999999999,
+        3.7252079999999999,
+        51.054408000000002,
+        3.7252079999999999,
+        51.054408000000002,
+        "u14dky0t7xkq",
+        "51.054408,3.725208"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/2121ba1d-ffc5-4f1a-ab18-332e7453cc3b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Botermarkt 9",
+      "modified": {
+        "nl": ["2018-06-28T12:09:28+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Sophie\u0027s Sweets \u0026 Chocolates"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["info@sophies.be"]],
+      "telephone": [["+32 9 357 71 10"]],
+      "url": "https://visit.gent.be/nl/node/2974",
+      "page": "https://visit.gent.be/node/2974",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/decaec53-6ce4-41ef-b13a-4a622c44a1d0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%281%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%283%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%285%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%287%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%289%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%284%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%2810%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Winkel%20%288%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "en": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "fr": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "de": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "es": ["Sophie\u2019s Sweets \u0026 Chocolates"]
+    },
+    "url": "https://visit.gent.be/en/see-do/sophies-sweets-chocolates",
+    "page": "https://visit.gent.be/node/2979",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Sophie\u0027s Sweets \u0026 Chocolates ligt in de schaduw van de monumentale drie torens die het historische hart van Gent vormen. Hier brachten ambachtslui of rondreizende handelaars vroeger hun lokale producten aan de man. Deze traditie wordt voortgezet in een modern jasje."
+            ],
+            "en": [
+              "Sophie\u0027s Sweets \u0026 Chocolates lies in the shadow of the monumental three towers which form the historic heart of Ghent. Craftsmen or itinerant merchants used to sell their local products here. This tradition is now being continued, with a modern twist."
+            ],
+            "fr": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est tapi \u00e0 l\u2019ombre des trois tours monumentales qui forment le c\u0153ur  historique de Gand. C\u2019est ici qu\u2019artisans et commer\u00e7ants ambulants \u00e9coulaient jadis leurs produits locaux. Cette tradition est aujourd\u2019hui revisit\u00e9e pour perdurer."
+            ],
+            "de": [
+              "Sophie\u0027s Sweets \u0026 Chocolates liegt im Schatten der monumentalen drei T\u00fcrme, die das historische Herz von Gent bilden. Handwerker oder reisende H\u00e4ndler boten hier ihre lokalen Produkte zum Kauf an. Diese Tradition wird in einer modernen Version fortgesetzt."
+            ],
+            "es": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est\u00e1 a la sombra de las tres torres monumentales que forman el centro hist\u00f3rico de Gante. Justo aqu\u00ed, en otra \u00e9poca, los comerciantes y artesanos ofrec\u00edan sus productos a la gente. Ahora se continua con esta tradici\u00f3n pero con un toque moderno."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-06-29T07:18:06+00:00"],
+      "en": ["2018-06-29T07:25:15+00:00"],
+      "fr": ["2018-06-29T07:24:10+00:00"],
+      "de": ["2018-06-29T07:26:02+00:00"],
+      "es": ["2018-06-29T07:27:16+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [-959],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/b53c69ac-5ac4-4ac2-ab9f-ef5160edfd60"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/a7f5a68d-8f82-406a-a8c5-9482e74771ec"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/2091292e-e071-4e3a-854c-3d1312b889ac"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/97cf9f77-9c46-44b4-9db4-7b4a6b81bc0b",
+    "modified": {
+      "nl": ["2018-06-29T07:22:45+00:00"],
+      "en": ["2018-06-29T07:27:46+00:00"],
+      "fr": ["2018-06-29T07:27:46+00:00"],
+      "de": ["2018-06-29T07:27:46+00:00"],
+      "es": ["2018-06-29T07:27:46+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Hemel voor snoepers"],
+      "en": ["Heaven for sweet lovers"],
+      "fr": ["Le paradis des bouches sucr\u00e9es "],
+      "de": ["Der Naschkatzenhimmel"],
+      "es": ["El cielo para los amantes del dulce"]
+    },
+    "keywords": [
+      {
+        "tid": [265],
+        "name": {
+          "nl": ["Authentiek"],
+          "en": ["Authentic"],
+          "fr": ["Authentique"],
+          "de": ["Authentisch"],
+          "es": ["Aut\u00e9ntico"]
+        },
+        "description": {
+          "nl":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "en":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "fr":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "de":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "es":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a28eb665-e42b-401f-ae9b-c3d140dfbd09",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        }
+      },
+      {
+        "tid": [277],
+        "name": {
+          "nl": ["Chocolade"],
+          "en": ["Chocolate"],
+          "fr": ["Chocolat"],
+          "de": ["Schokolade"],
+          "es": ["Chocolate"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/060d9c3a-a9cd-4a13-ba5e-45e6e341b157",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [411],
+        "name": {
+          "nl": ["Cuberdon"],
+          "en": ["Cuberdon"],
+          "fr": ["Cuberdon"],
+          "de": ["Cuberdon"],
+          "es": ["Cuberdon"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/0a657b32-1c4b-4da0-847e-1f044c8cf474",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [324],
+        "name": {
+          "nl": ["Gentse specialiteiten"],
+          "en": ["Typical products"],
+          "fr": ["Produits gantois"],
+          "de": ["Typisch Gent"],
+          "es": ["T\u00edpico de Gante"]
+        },
+        "description": {
+          "nl":
+            "\u003Cp\u003EEen bezoek aan Gent is pas echt af als je onze specialiteiten op je tong hebt laten smelten en een selectie ervan in je bagage hebt gestopt voor thuis.\u0026nbsp;\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bieren, jenevers, fijne vleeswaren, kazen, Tierenteyn mosterd, mastellen en de talloze heerlijk ouderwetse Gentse snoepen...\u0026nbsp;Van een moeilijke keuze gesproken!\u0026nbsp;\u003C/p\u003E\r\n",
+          "en":
+            "\u003Cp\u003ENo visit to Ghent is complete unless you have tried and tested our specialities and bought some to share with the home front.\u003C/p\u003E\r\n\r\n\u003Cp\u003EChocolates, beers, genevers, meats, cheeses, Tierenteyn mustard, mastellen and several other deliciously old-fashion sweets... Oh, the choices!\u003C/p\u003E\r\n",
+          "fr":
+            "\u003Cp\u003EUne visite de Gand n\u2019est vraiment termin\u00e9e que lorsque vous avez laiss\u00e9 fondre nos sp\u00e9cialit\u00e9s sur votre langue et emport\u00e9 une s\u00e9lection d\u2019entre elles dans vos bagages.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bi\u00e8res, geni\u00e8vres, charcuterie fine, fromages, moutarde Tierenteyn, mastelles et toute la panoplie des d\u00e9licieuses friandises gantoises d\u2019antan... Le choix est difficile!\u003C/p\u003E\r\n",
+          "de":
+            "\u003Cp\u003EEin Besuch Gents ist erst vollendet, wenn Sie unsere Spezialit\u00e4ten auf der Zunge zergehen lie\u00dfen und sich mit einer verf\u00fchrerischen Auswahl f\u00fcr Zuhause eingedeckt haben.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralinen, Biere, Genever, Wurstwaren, K\u00e4se, Tierenteynsenf, Mastelle und die vielen k\u00f6stlichen Genter S\u00fc\u00dfigkeiten \u2026 Ja, wer die Wahl hat, hat die Qual!\u003C/p\u003E\r\n",
+          "es":
+            "\u003Cp\u003EUna visita a Gante no est\u00e1 completa si no deja que se le deshagan en la boca nuestras especialidades y se lleva unas cuantas en la maleta para cuando llegue a casa.\u003C/p\u003E\r\n\r\n\u003Cp\u003EBombones, cervezas, ginebras, embutidos finos, quesos, mostaza Tierenteyn, mastelles y los incontables y deliciosos dulces a la antigua de Gante... \u00a1Dif\u00edcil elecci\u00f3n!\u003C/p\u003E\r\n"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/6b6b1330-563a-4356-8a59-0206a1ba1b9e",
+        "modified": {
+          "nl": ["2018-02-05T10:34:29+00:00"],
+          "en": ["2018-02-05T10:36:30+00:00"],
+          "fr": ["2018-02-05T10:36:58+00:00"],
+          "de": ["2018-02-05T10:37:22+00:00"],
+          "es": ["2018-02-05T10:37:44+00:00"]
+        }
+      },
+      {
+        "tid": [447],
+        "name": {
+          "nl": ["Snoep"],
+          "en": ["Candy / Sweets"],
+          "fr": ["Friandise"],
+          "de": ["S\u00fc\u00dfigkeiten"],
+          "es": ["Caramelos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a7e918ff-14da-4eb8-89fa-e19ad3202ea9",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-06-28T12:07:37+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.725208 51.054408)",
+        "Point",
+        51.054408000000002,
+        3.7252079999999999,
+        3.7252079999999999,
+        51.054408000000002,
+        3.7252079999999999,
+        51.054408000000002,
+        "u14dky0t7xkq",
+        "51.054408,3.725208"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/2121ba1d-ffc5-4f1a-ab18-332e7453cc3b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Botermarkt 9",
+      "modified": {
+        "nl": ["2018-06-28T12:09:28+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Sophie\u0027s Sweets \u0026 Chocolates"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["info@sophies.be"]],
+      "telephone": [["+32 9 357 71 10"]],
+      "url": "https://visit.gent.be/nl/node/2974",
+      "page": "https://visit.gent.be/node/2974",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/decaec53-6ce4-41ef-b13a-4a622c44a1d0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%281%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%283%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%285%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%287%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%289%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%284%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%2810%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Winkel%20%288%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "en": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "fr": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "de": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "es": ["Sophie\u2019s Sweets \u0026 Chocolates"]
+    },
+    "url": "https://visit.gent.be/fr/voir-et-faire/sophies-sweets-chocolates",
+    "page": "https://visit.gent.be/node/2979",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Sophie\u0027s Sweets \u0026 Chocolates ligt in de schaduw van de monumentale drie torens die het historische hart van Gent vormen. Hier brachten ambachtslui of rondreizende handelaars vroeger hun lokale producten aan de man. Deze traditie wordt voortgezet in een modern jasje."
+            ],
+            "en": [
+              "Sophie\u0027s Sweets \u0026 Chocolates lies in the shadow of the monumental three towers which form the historic heart of Ghent. Craftsmen or itinerant merchants used to sell their local products here. This tradition is now being continued, with a modern twist."
+            ],
+            "fr": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est tapi \u00e0 l\u2019ombre des trois tours monumentales qui forment le c\u0153ur  historique de Gand. C\u2019est ici qu\u2019artisans et commer\u00e7ants ambulants \u00e9coulaient jadis leurs produits locaux. Cette tradition est aujourd\u2019hui revisit\u00e9e pour perdurer."
+            ],
+            "de": [
+              "Sophie\u0027s Sweets \u0026 Chocolates liegt im Schatten der monumentalen drei T\u00fcrme, die das historische Herz von Gent bilden. Handwerker oder reisende H\u00e4ndler boten hier ihre lokalen Produkte zum Kauf an. Diese Tradition wird in einer modernen Version fortgesetzt."
+            ],
+            "es": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est\u00e1 a la sombra de las tres torres monumentales que forman el centro hist\u00f3rico de Gante. Justo aqu\u00ed, en otra \u00e9poca, los comerciantes y artesanos ofrec\u00edan sus productos a la gente. Ahora se continua con esta tradici\u00f3n pero con un toque moderno."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "created": {
+      "nl": ["2018-06-29T07:18:06+00:00"],
+      "en": ["2018-06-29T07:25:15+00:00"],
+      "fr": ["2018-06-29T07:24:10+00:00"],
+      "de": ["2018-06-29T07:26:02+00:00"],
+      "es": ["2018-06-29T07:27:16+00:00"]
+    },
+    "field_contact_person_email": [],
+    "field_contact_person_name": [],
+    "field_group_contact": null,
+    "field_hotel_class": null,
+    "field_openinghours_info": {
+      "nl": [],
+      "en": [],
+      "fr": [],
+      "de": [],
+      "es": []
+    },
+    "field_poi_type": ["see_do"],
+    "field_random_sort": [-959],
+    "field_related_poi": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/b53c69ac-5ac4-4ac2-ab9f-ef5160edfd60"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/a7f5a68d-8f82-406a-a8c5-9482e74771ec"
+        }
+      ],
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/place/tourism/2091292e-e071-4e3a-854c-3d1312b889ac"
+        }
+      ]
+    ],
+    "field_restaurant_class": null,
+    "@id":
+      "http://stad.gent/id/place/tourism/97cf9f77-9c46-44b4-9db4-7b4a6b81bc0b",
+    "modified": {
+      "nl": ["2018-06-29T07:22:45+00:00"],
+      "en": ["2018-06-29T07:27:46+00:00"],
+      "fr": ["2018-06-29T07:27:46+00:00"],
+      "de": ["2018-06-29T07:27:46+00:00"],
+      "es": ["2018-06-29T07:27:46+00:00"]
+    },
+    "subjectOf": [],
+    "description": {
+      "nl": ["Hemel voor snoepers"],
+      "en": ["Heaven for sweet lovers"],
+      "fr": ["Le paradis des bouches sucr\u00e9es "],
+      "de": ["Der Naschkatzenhimmel"],
+      "es": ["El cielo para los amantes del dulce"]
+    },
+    "keywords": [
+      {
+        "tid": [265],
+        "name": {
+          "nl": ["Authentiek"],
+          "en": ["Authentic"],
+          "fr": ["Authentique"],
+          "de": ["Authentisch"],
+          "es": ["Aut\u00e9ntico"]
+        },
+        "description": {
+          "nl":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "en":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "fr":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "de":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!",
+          "es":
+            "National Geographic Traveler Magazine plaatst Gent derde op wereldranglijst authentieke bestemmingen!"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a28eb665-e42b-401f-ae9b-c3d140dfbd09",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2018-03-13T15:04:53+00:00"],
+          "fr": ["2018-03-13T15:05:07+00:00"],
+          "de": ["2018-03-13T15:05:18+00:00"],
+          "es": ["2018-03-13T15:05:30+00:00"]
+        }
+      },
+      {
+        "tid": [277],
+        "name": {
+          "nl": ["Chocolade"],
+          "en": ["Chocolate"],
+          "fr": ["Chocolat"],
+          "de": ["Schokolade"],
+          "es": ["Chocolate"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/060d9c3a-a9cd-4a13-ba5e-45e6e341b157",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [411],
+        "name": {
+          "nl": ["Cuberdon"],
+          "en": ["Cuberdon"],
+          "fr": ["Cuberdon"],
+          "de": ["Cuberdon"],
+          "es": ["Cuberdon"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/0a657b32-1c4b-4da0-847e-1f044c8cf474",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      },
+      {
+        "tid": [324],
+        "name": {
+          "nl": ["Gentse specialiteiten"],
+          "en": ["Typical products"],
+          "fr": ["Produits gantois"],
+          "de": ["Typisch Gent"],
+          "es": ["T\u00edpico de Gante"]
+        },
+        "description": {
+          "nl":
+            "\u003Cp\u003EEen bezoek aan Gent is pas echt af als je onze specialiteiten op je tong hebt laten smelten en een selectie ervan in je bagage hebt gestopt voor thuis.\u0026nbsp;\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bieren, jenevers, fijne vleeswaren, kazen, Tierenteyn mosterd, mastellen en de talloze heerlijk ouderwetse Gentse snoepen...\u0026nbsp;Van een moeilijke keuze gesproken!\u0026nbsp;\u003C/p\u003E\r\n",
+          "en":
+            "\u003Cp\u003ENo visit to Ghent is complete unless you have tried and tested our specialities and bought some to share with the home front.\u003C/p\u003E\r\n\r\n\u003Cp\u003EChocolates, beers, genevers, meats, cheeses, Tierenteyn mustard, mastellen and several other deliciously old-fashion sweets... Oh, the choices!\u003C/p\u003E\r\n",
+          "fr":
+            "\u003Cp\u003EUne visite de Gand n\u2019est vraiment termin\u00e9e que lorsque vous avez laiss\u00e9 fondre nos sp\u00e9cialit\u00e9s sur votre langue et emport\u00e9 une s\u00e9lection d\u2019entre elles dans vos bagages.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralines, bi\u00e8res, geni\u00e8vres, charcuterie fine, fromages, moutarde Tierenteyn, mastelles et toute la panoplie des d\u00e9licieuses friandises gantoises d\u2019antan... Le choix est difficile!\u003C/p\u003E\r\n",
+          "de":
+            "\u003Cp\u003EEin Besuch Gents ist erst vollendet, wenn Sie unsere Spezialit\u00e4ten auf der Zunge zergehen lie\u00dfen und sich mit einer verf\u00fchrerischen Auswahl f\u00fcr Zuhause eingedeckt haben.\u003C/p\u003E\r\n\r\n\u003Cp\u003EPralinen, Biere, Genever, Wurstwaren, K\u00e4se, Tierenteynsenf, Mastelle und die vielen k\u00f6stlichen Genter S\u00fc\u00dfigkeiten \u2026 Ja, wer die Wahl hat, hat die Qual!\u003C/p\u003E\r\n",
+          "es":
+            "\u003Cp\u003EUna visita a Gante no est\u00e1 completa si no deja que se le deshagan en la boca nuestras especialidades y se lleva unas cuantas en la maleta para cuando llegue a casa.\u003C/p\u003E\r\n\r\n\u003Cp\u003EBombones, cervezas, ginebras, embutidos finos, quesos, mostaza Tierenteyn, mastelles y los incontables y deliciosos dulces a la antigua de Gante... \u00a1Dif\u00edcil elecci\u00f3n!\u003C/p\u003E\r\n"
+        },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/6b6b1330-563a-4356-8a59-0206a1ba1b9e",
+        "modified": {
+          "nl": ["2018-02-05T10:34:29+00:00"],
+          "en": ["2018-02-05T10:36:30+00:00"],
+          "fr": ["2018-02-05T10:36:58+00:00"],
+          "de": ["2018-02-05T10:37:22+00:00"],
+          "es": ["2018-02-05T10:37:44+00:00"]
+        }
+      },
+      {
+        "tid": [447],
+        "name": {
+          "nl": ["Snoep"],
+          "en": ["Candy / Sweets"],
+          "fr": ["Friandise"],
+          "de": ["S\u00fc\u00dfigkeiten"],
+          "es": ["Caramelos"]
+        },
+        "description": { "nl": "", "en": "", "fr": "", "de": "", "es": "" },
+        "weight": [0],
+        "parent": null,
+        "content_translation_uid": {
+          "preferred_langcode": ["en"],
+          "preferred_admin_langcode": [],
+          "name": [""],
+          "pass": null,
+          "mail": [],
+          "timezone": [""],
+          "created": ["2017-12-05T10:25:35+00:00"],
+          "access": null,
+          "login": null,
+          "init": null,
+          "roles": null,
+          "user_picture": null,
+          "@id":
+            "http://stad.gent/id/place/tourism/681d36b7-4272-4fbf-a177-193cd99ae320",
+          "modified": [["2017-12-05T10:25:35+00:00"]]
+        },
+        "content_translation_status": {
+          "nl": [true],
+          "en": [true],
+          "fr": [true],
+          "de": [true],
+          "es": [true]
+        },
+        "content_translation_created": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        },
+        "field_icon": [],
+        "@id":
+          "http://stad.gent/id/place/tourism/a7e918ff-14da-4eb8-89fa-e19ad3202ea9",
+        "modified": {
+          "nl": ["2017-12-05T11:00:13+00:00"],
+          "en": ["2017-12-05T11:00:13+00:00"],
+          "fr": ["2017-12-05T11:00:13+00:00"],
+          "de": ["2017-12-05T11:00:13+00:00"],
+          "es": ["2017-12-05T11:00:13+00:00"]
+        }
+      }
+    ],
+    "contactPoint": {
+      "created": {
+        "nl": ["2018-06-28T12:07:37+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "field_geofield": [
+        "POINT (3.725208 51.054408)",
+        "Point",
+        51.054408000000002,
+        3.7252079999999999,
+        3.7252079999999999,
+        51.054408000000002,
+        3.7252079999999999,
+        51.054408000000002,
+        "u14dky0t7xkq",
+        "51.054408,3.725208"
+      ],
+      "field_opening_hours": [],
+      "@id":
+        "http://stad.gent/id/contact-point/tourism/2121ba1d-ffc5-4f1a-ab18-332e7453cc3b",
+      "addressCountry": "BE",
+      "addressLocality": "Gent",
+      "postalCode": "9000",
+      "streetAddress": "Botermarkt 9",
+      "modified": {
+        "nl": ["2018-06-28T12:09:28+00:00"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "name": {
+        "nl": ["Sophie\u0027s Sweets \u0026 Chocolates"],
+        "en": null,
+        "fr": null,
+        "de": null,
+        "es": null
+      },
+      "email": [["info@sophies.be"]],
+      "telephone": [["+32 9 357 71 10"]],
+      "url": "https://visit.gent.be/nl/node/2974",
+      "page": "https://visit.gent.be/node/2974",
+      "@context": [
+        "http://schema.org",
+        {
+          "schema": "http://schema.org",
+          "dcterms": "http://purl.org/dc/terms/",
+          "@vocabulary": "http://schema:org",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "name": { "@id": "schema:name", "@container": "@language" },
+          "description": {
+            "@id": "schema:description",
+            "@container": "@language"
+          },
+          "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+          "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+          "page": { "@id": "foaf:page", "@type": "@id" },
+          "subject": { "@id": "dcterms:subject", "@type": "@id" }
+        }
+      ],
+      "@type": ["ContactPoint", "PostalAddress"]
+    },
+    "offers": null,
+    "subject": [
+      [
+        {
+          "merge_parent": true,
+          "@id":
+            "http://stad.gent/id/category/tourism/decaec53-6ce4-41ef-b13a-4a622c44a1d0"
+        }
+      ]
+    ],
+    "image": [
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%281%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%283%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%285%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%287%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%289%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%284%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/photos/Winkel%20%2810%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      },
+      {
+        "url":
+          "https://visit.gent.be/sites/default/files/img/poi/hero/Winkel%20%288%20van%2010%29.jpg",
+        "caption": {},
+        "name": {}
+      }
+    ],
+    "name": {
+      "nl": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "en": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "fr": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "de": ["Sophie\u2019s Sweets \u0026 Chocolates"],
+      "es": ["Sophie\u2019s Sweets \u0026 Chocolates"]
+    },
+    "url": "https://visit.gent.be/nl/zien-doen/sophies-sweets-chocolates",
+    "page": "https://visit.gent.be/node/2979",
+    "@context": [
+      "http://schema.org",
+      {
+        "schema": "http://schema.org",
+        "dcterms": "http://purl.org/dc/terms/",
+        "@vocabulary": "http://schema:org",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "name": { "@id": "schema:name", "@container": "@language" },
+        "description": {
+          "@id": "schema:description",
+          "@container": "@language"
+        },
+        "created": { "@id": "dcterms:created", "@type": "xsd:dateTime" },
+        "changed": { "@id": "dcterms:modified", "@type": "xsd:dateTime" },
+        "page": { "@id": "foaf:page", "@type": "@id" },
+        "subject": { "@id": "dcterms:subject", "@type": "@id" }
+      }
+    ],
+    "@type": "TouristAttraction",
+    "mainEntityOfPage": {
+      "hasPart": [
+        {
+          "articleBody": {
+            "nl": [
+              "Sophie\u0027s Sweets \u0026 Chocolates ligt in de schaduw van de monumentale drie torens die het historische hart van Gent vormen. Hier brachten ambachtslui of rondreizende handelaars vroeger hun lokale producten aan de man. Deze traditie wordt voortgezet in een modern jasje."
+            ],
+            "en": [
+              "Sophie\u0027s Sweets \u0026 Chocolates lies in the shadow of the monumental three towers which form the historic heart of Ghent. Craftsmen or itinerant merchants used to sell their local products here. This tradition is now being continued, with a modern twist."
+            ],
+            "fr": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est tapi \u00e0 l\u2019ombre des trois tours monumentales qui forment le c\u0153ur  historique de Gand. C\u2019est ici qu\u2019artisans et commer\u00e7ants ambulants \u00e9coulaient jadis leurs produits locaux. Cette tradition est aujourd\u2019hui revisit\u00e9e pour perdurer."
+            ],
+            "de": [
+              "Sophie\u0027s Sweets \u0026 Chocolates liegt im Schatten der monumentalen drei T\u00fcrme, die das historische Herz von Gent bilden. Handwerker oder reisende H\u00e4ndler boten hier ihre lokalen Produkte zum Kauf an. Diese Tradition wird in einer modernen Version fortgesetzt."
+            ],
+            "es": [
+              "Sophie\u0027s Sweets \u0026 Chocolates est\u00e1 a la sombra de las tres torres monumentales que forman el centro hist\u00f3rico de Gante. Justo aqu\u00ed, en otra \u00e9poca, los comerciantes y artesanos ofrec\u00edan sus productos a la gente. Ahora se continua con esta tradici\u00f3n pero con un toque moderno."
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
