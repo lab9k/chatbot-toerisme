@@ -36,6 +36,7 @@ const nearest = filePath => {
             const kml = new DOMParser().parseFromString(text);
             const converted = tj.kml(kml);
             const data = [...converted.features];
+            console.log("kml file downloaded");
             return function(currentUserLocation) {
                 const closest = data.reduce((previous, current) => {
                     if (
