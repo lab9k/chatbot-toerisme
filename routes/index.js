@@ -45,10 +45,9 @@ router.post('/', function(request, response) {
   const agent = new WebhookClient({ request, response });
 
   let intentMap = new Map();
-  intentMap.set('get_nearby_poi', get_nearby_poi);
+  intentMap.set('Nearby Intent', get_nearby_poi);
   intentMap.set('get_nearest_poi', get_nearest_poi);
-  intentMap.set('get_categories', getCategories);
-  intentMap.set('test', test);
+  intentMap.set('Category Intent', getCategories);
 
   agent.handleRequest(intentMap);
 });
