@@ -57,6 +57,7 @@ router.post('/', function(request, response) {
   intentMap.set('get_nearby_poi', get_nearby_poi);
   intentMap.set('get_nearest_poi', get_nearest_poi);
   intentMap.set('get_categories', getCategories);
+  intentMap.set('test', getCategories);
 
   agent.handleRequest(intentMap);
 });
@@ -75,5 +76,9 @@ const get_nearby_poi = (agent) => {
 const get_nearest_poi = (agent) => {};
 
 const getCategories = (agent) => {};
+
+const test = (agent) => {
+  agent.add('Test 123');
+};
 
 module.exports = router;
