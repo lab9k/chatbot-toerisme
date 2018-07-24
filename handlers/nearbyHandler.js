@@ -4,10 +4,11 @@ const { Card } = require('dialogflow-fulfillment');
  * Handler for "Nearby" intent
  */
 function nearbyHandler(agent) {
-  getLocationCards().forEach(card => {
+  const cards = getLocationCards();
+  cards.forEach(card => {
     agent.add(card);
   });
-  
+  console.log(cards);
 }
 
 
