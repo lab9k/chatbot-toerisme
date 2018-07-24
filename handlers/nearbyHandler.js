@@ -1,4 +1,4 @@
-const nearby = require('../util/nearby.js');
+const nearbyList = require('../util/nearby.js');
 const { Card } = require('dialogflow-fulfillment');
 /**
  * Handler for "Nearby" intent
@@ -11,11 +11,16 @@ function nearbyHandler(agent) {
   console.log(cards);
 }
 
-
 const getLocationCards = () => {
-  const list = nearby.nearbyList();//currentLocation);
-  return list.map(loc => new Card()
-    .setTitle(loc.name.nl)
-    .setImage(loc.image[0].url));
+  return nearbyList.then(cb => {
+    const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
+    const locations = cb(loc);
+    return locations.map(location => {
+      new Card()
+        .setTitle(location.name.nl)
+        .setImage(location.image[0].url);
+    });
+  });
+  
 };
 module.exports = nearbyHandler;

@@ -54,4 +54,4 @@ const nearbyList = filePath => {
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
-module.exports = nearby(API_ENDPOINT);
+module.exports = nearbyList(API_ENDPOINT);
