@@ -39,10 +39,10 @@ const typeMiddleware = (req, res, next) => {
   if (qResult) {
     switch (qResult.action) {
       case 'get_nearby_poi':
-        req.type = 'get_plein_location';
+        req.type = 'nearby_poi';
         break;
       case 'get_nearest_poi':
-        req.type = 'all_squares';
+        req.type = 'nearest_poi';
         break;
       default:
         req.type = 'None';
