@@ -70,7 +70,7 @@ const nearest = filePath => {
         return closest;
       };
     })
-    .catch(error => console.error(error));    
+    .catch(error => console.error(error));
 };
 
 /* example
