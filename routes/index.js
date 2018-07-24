@@ -32,7 +32,6 @@ const nearbyHandler = require('../handlers/nearbyHandler');
  * Routes HTTP POST requests to index
  */
 router.post('/', function(request, response) {
-  console.log('Handling post');
   if (!request.hasOwnProperty('body') || Object.keys(request.body).length === 0) {
     response.status(400).send('Empty body');
   }
