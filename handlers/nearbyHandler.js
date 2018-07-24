@@ -5,6 +5,7 @@ const { Card } = require('dialogflow-fulfillment');
  */
 function nearbyHandler(agent) {
   const cards = getLocationCards();
+  console.log('cards', cards);
   cards.forEach(card => {
     agent.add(card);
   });
