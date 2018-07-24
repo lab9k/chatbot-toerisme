@@ -2,6 +2,9 @@ const express = require('express');
 const router = express.Router();
 const { WebhookClient } = require('dialogflow-fulfillment');
 const nearbyHandler = require('../handlers/nearbyHandler');
+const nearestHanldler = require('../handlers/nearestHandler');
+const categoryHandler = require('../handlers/categoryHandler');
+
 
 // // Intent actions
 // router.all('/', (req, res, next) => {
@@ -45,10 +48,9 @@ router.post('/', function(request, response) {
   const agent = new WebhookClient({ request, response });
 
   let intentMap = new Map();
-  intentMap.set('get_nearby_poi', get_nearby_poi);
-  intentMap.set('get_nearest_poi', get_nearest_poi);
-  intentMap.set('get_categories', getCategories);
-  intentMap.set('test', test);
+  intentMap.set('Nearby Intent', nearbyHandler);
+  intentMap.set('Nearest Intent', nearestHanldler);
+  intentMap.set('Category Intent', categoryHandler);
 
   agent.handleRequest(intentMap);
 });
@@ -60,17 +62,5 @@ router.all('/', function(req, res) {
   res.sendStatus(405);
 });
 
-const get_nearby_poi = (agent) => {
-
-  agent.add('Dingen om te doen in jouw buurt: Gent bezoeken.');
-};
-
-const get_nearest_poi = (agent) => {};
-
-const getCategories = (agent) => {};
-
-const test = (agent) => {
-  agent.add('Test 123');
-};
 
 module.exports = router;
