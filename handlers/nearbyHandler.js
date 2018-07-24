@@ -1,4 +1,4 @@
-const nearby = require('./util/nearby.js');
+const nearby = require('../util/nearby.js');
 const { Card } = require('dialogflow-fulfillment');
 /**
  * Handler for "Nearby" intent
