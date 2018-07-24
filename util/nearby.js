@@ -24,7 +24,7 @@ const distance = location => toLocation => {
   return d;
 };
 
-const nearby = filePath => {
+const nearbyList = filePath => {
   return fetch(filePath)
     .then(res => {
       return res.json();
@@ -42,16 +42,16 @@ const nearby = filePath => {
     .catch(error => console.error(error));
 };
 
-// * example
-// nearby(API_ENDPOINT)
-//   .then(cb => {
-//     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-//     const closest = cb(loc);
-//     console.log('nearest: ', JSON.stringify(closest));
-//   })
-//   .catch(err => console.error(err));
+/* example*/
+nearbyList(API_ENDPOINT)
+  .then(cb => {
+    const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
+    const closest = cb(loc);
+    console.log('nearest: ', JSON.stringify(closest));
+  })
+  .catch(err => console.error(err));
 
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
-module.exports = nearby(API_ENDPOINT);
+module.exports = nearbyList(API_ENDPOINT);
