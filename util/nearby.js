@@ -24,8 +24,6 @@ const distance = location => toLocation => {
   return d;
 };
 
-
-
 const nearby = filePath => {
   return fetch(filePath)
     .then(res => {
@@ -34,16 +32,22 @@ const nearby = filePath => {
     .then(data => {
       //console.log(JSON.stringify(data));
       return function(currentUserLocation) {
-        const listDistances = [];
-        data.forEach(location => {          
-          listDistances.push({
-            dist: distance(location)(currentUserLocation),
-            loc: location,
-          });
-        });
-
-        listDistances.sort(compareLocationsByDistance);
-        return listDistances;
+        // const listDistances = [];
+        // data.forEach(location => {
+        //   listDistances.push({
+        //     dist: distance(location)(currentUserLocation),
+        //     loc: location,
+        //   });
+        // });
+        //listDistances.sort(compareLocationsByDistance);
+        return data
+          .map(location => {
+            return {
+              ...location,
+              dist: distance(location)(currentUserLocation),
+            };
+          })
+          .sort(compareLocationsByDistance);
       };
     })
     .catch(error => console.error(error));
@@ -57,7 +61,6 @@ nearby(FILE_PATH)
     console.log('nearest: ', JSON.stringify(closest));
   })
   .catch(err => console.error(err));
-
 
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
