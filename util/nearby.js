@@ -49,4 +49,4 @@ const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
 
-module.exports = nearbyList();
+module.exports = nearbyList;
