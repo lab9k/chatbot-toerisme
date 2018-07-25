@@ -23,7 +23,7 @@ const getLocationCards = () => {
     const locations = cb(loc);
     const cards2 = locations.map(location => {
       console.log(JSON.stringify(location.name));
-      return new Card(location.name.nl[0]).setImage(location.image[0].url);
+      return new Card(location.name.nl[0]).setImage('https://cdn.pixabay.com/photo/2016/01/14/11/43/ghent-1139784_960_720.jpg');
     });
     console.log('cards2', cards2);
     return cards2;
