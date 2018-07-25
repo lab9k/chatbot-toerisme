@@ -13,7 +13,7 @@ class POICard extends Card {
           .resize(512, Jimp.AUTO)
           .quality(60)
           .write(__dirname)
-          .write(rootDir + '/images/' + nameNL + '.jpg');
+          .write(rootDir + '/images/' + nameNL + '.jpg', Jimp.MIME_JPEG);
       })
       .catch(function(err) {
         console.error(err);
