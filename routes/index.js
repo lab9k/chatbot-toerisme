@@ -27,7 +27,9 @@ router.post('/', function(request, response) {
 
   let agent = new WebhookClient({ request, response });
 
+  console.log('Handling request');
   agent.handleRequest(intentMap);
+  console.log('Request handled');
 });
 
 /**

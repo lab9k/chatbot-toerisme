@@ -8,6 +8,7 @@ function nearbyHandler(agent) {
   console.log('cardsPromise', cardsPromise);
   cardsPromise
     .then(cards => {
+      console.log('Promise resolved');
       agent.add(cards);
       console.log('cards', cards);
     })
