@@ -1,34 +1,15 @@
 const express = require('express');
 const router = express.Router();
 const { WebhookClient } = require('dialogflow-fulfillment');
+
 const nearbyHandler = require('../handlers/nearbyHandler');
 const nearestHanldler = require('../handlers/nearestHandler');
 const categoryHandler = require('../handlers/categoryHandler');
 
-// // Intent actions
-// router.all('/', (req, res, next) => {
-//   let fn;
-//   switch (req.type) {
-//     case 'nearby_poi':
-//       fn = get_nearby_poi;
-//       break;
-//     case 'nearest_poi':
-//       fn = get_nearest_poi;
-//       break;
-//     case 'categories':
-//       fn = getCategories;
-//       break;
-//     default:
-//       return next(
-//         new Error(
-//           `type not defined: ${req.type}, action: ${
-//             req.body.queryResult.action
-//           }`
-//         )
-//       );
-//   }
-//   return fn(req, res, next);
-// });
+const intentMap = new Map();
+intentMap.set('Nearby Intent', nearbyHandler);
+intentMap.set('Nearest Intent', nearestHanldler);
+intentMap.set('Category Intent', categoryHandler);
 
 /**
  * Routes HTTP POST requests to index
@@ -44,18 +25,13 @@ router.post('/', function(request, response) {
     response.status(400).send('Invalid data format');
   }
 
-  const agent = new WebhookClient({ request, response });
-
-  let intentMap = new Map();
-  intentMap.set('Nearby Intent', nearbyHandler);
-  intentMap.set('Nearest Intent', nearestHanldler);
-  intentMap.set('Category Intent', categoryHandler);
+  let agent = new WebhookClient({ request, response });
 
   agent.handleRequest(intentMap);
 });
 
 /**
- * Blocks all other HTTP requests
+ * Blocks all other HTTP methods
  */
 router.all('/', function(req, res) {
   res.sendStatus(405);

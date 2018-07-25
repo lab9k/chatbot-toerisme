@@ -1,4 +1,4 @@
-const pois = require('./poi');
+const poi = require('./poi');
 
 function toRad(degrees) {
   return (degrees * Math.PI) / 180;
@@ -23,7 +23,7 @@ const distance = location => toLocation => {
 };
 
 const nearbyList = () => {
-  return pois
+  return poi
     .then(data => {
       return function(currentUserLocation) {
         return data
