@@ -7,7 +7,7 @@ const {
  * Handler for "Nearest" intent
  */
 function nearestHandler(agent) {
-  near.then(callback => {
+  return near.then(callback => {
     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
     const closest = callback(loc)[0];
     const response = new Card(closest.name.nl[0]);
