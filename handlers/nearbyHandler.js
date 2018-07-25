@@ -8,9 +8,7 @@ function nearbyHandler(agent) {
   console.log('cardsPromise', cardsPromise);
   cardsPromise
     .then(cards => {
-      cards.forEach(card => {
-        agent.add(card);
-      });
+      agent.add(cards);
       console.log('cards', cards);
     })
     .catch(error => {
@@ -24,8 +22,7 @@ const getLocationCards = () => {
     const locations = cb(loc);
     const cards2 = locations.map(location => {
       console.log(JSON.stringify(location.name));
-      return new Card(location.name.nl[0])
-        .setImage(location.image[0].url);
+      return new Card(location.name.nl[0]).setImage(location.image[0].url);
     });
     console.log('cards2', cards2);
     return cards2;
