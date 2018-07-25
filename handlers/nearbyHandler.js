@@ -15,9 +15,10 @@ function nearbyHandler(agent) {
     });
 }
 
-const getLocationCards = agent => {
+const getLocationCards = (agent) => {
   return nearby
     .then(cb => {
+      console.log('param', agent.parameters);
       const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
       const locations = cb(loc);
       return locations.map(location => {

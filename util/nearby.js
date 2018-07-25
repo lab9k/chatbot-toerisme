@@ -22,18 +22,16 @@ const distance = location => toLocation => {
   return d;
 };
 
-const nearbyList = () => {
+const nearbyList = currentUserLocation => {
   return poi
-    .then(data => {
-      return function(currentUserLocation) {
-        return data
-          .map(location => ({
-            dist: distance(location)(currentUserLocation),
-            ...location,
-          }))
-          .sort(compareLocationsByDistance);
-      };
-    })
+    .then(data =>
+      data
+        .map(location => ({
+          dist: distance(location)(currentUserLocation),
+          ...location
+        }))
+        .sort(compareLocationsByDistance)
+    )
     .catch(error => console.error(error));
 };
 
