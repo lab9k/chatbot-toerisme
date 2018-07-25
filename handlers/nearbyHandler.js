@@ -24,8 +24,7 @@ const getLocationCards = () => {
     const locations = cb(loc);
     console.log(JSON.stringify(locations[0]).replace('\n', ' '));
     const cards2 = locations.map(location =>
-      new Card()
-        .setTitle('name: ' + location.name.nl[0])
+      new Card(location.name.nl[0])
         .setImage(location.image[0].url)
     );
     console.log('cards2', cards2);
