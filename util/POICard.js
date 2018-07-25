@@ -10,12 +10,12 @@ class POICard extends Card {
         image
           .resize(512, Jimp.AUTO) 
           .quality(60) 
-          .write('../images/' + nameNL+'jpg');
+          .write('./images/' + nameNL+'jpg');
       })
       .catch(function(err) {
         console.error(err);
       });
-    this.setImage('../images/' + nameNL+'jpg');
+    this.setImage('./images/' + nameNL+'jpg');
     this.setText(poi.description[agent.locale][0]);
     this.setButton({
       text: 'Toon mij de weg',
