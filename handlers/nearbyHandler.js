@@ -22,12 +22,12 @@ const getLocationCards = () => {
   return nearbyList.then(cb => {
     const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
     const locations = cb(loc);
-    console.log(JSON.stringify(locations[0]).replace('\n', ' '));
-    const cards2 = locations.map(location =>
-      new Card()
+    const cards2 = locations.map(location => {
+      console.log(JSON.stringify(location.name));
+      return new Card()
         .setTitle('name: ' + location.name.nl[0])
-        .setImage(location.image[0].url)
-    );
+        .setImage(location.image[0].url);
+    });
     console.log('cards2', cards2);
     return cards2;
   });
