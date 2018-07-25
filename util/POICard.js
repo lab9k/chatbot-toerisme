@@ -4,7 +4,7 @@ const Jimp = require('jimp');
 class POICard extends Card {
   constructor(poi, agent) {
     super(poi.name[agent.locale][0]);
-    const nameNL = poi.name.nl;
+    const nameNL = poi.name.nl[0];
     Jimp.read(poi.image[0].url)
       .then(function(image) {
         image
