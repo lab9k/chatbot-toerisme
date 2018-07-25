@@ -9,6 +9,7 @@ function categoryHandler(agent) {
     let categories = [];
     data.forEach(poi => {
       let category = poi.subject[0][0]['@id'];
+      category.substring(category.length - 36, category.length);
       if (categories.indexOf(poi.subject[0][0]['@id']) === -1) {
         categories.push(category);
       }
