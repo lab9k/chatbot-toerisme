@@ -17,7 +17,7 @@ function nearestHandler(agent) {
     response.setPlatform(PLATFORMS.FACEBOOK);
     response.setButton({ text: 'test', url: closest.page });
     response.setText(closest.description);
-    agent.add(closest);
+    agent.add(response);
   });
 }
 
