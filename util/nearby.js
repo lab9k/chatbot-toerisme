@@ -1,6 +1,4 @@
-const fetch = require('node-fetch');
-
-const API_ENDPOINT = 'https://visit.gent.be/en/lod/poi';
+const pois = require('./poi');
 
 function toRad(degrees) {
   return (degrees * Math.PI) / 180;
@@ -24,11 +22,8 @@ const distance = location => toLocation => {
   return d;
 };
 
-const nearbyList = filePath => {
-  return fetch(filePath)
-    .then(res => {
-      return res.json();
-    })
+const nearbyList = () => {
+  return pois
     .then(data => {
       return function(currentUserLocation) {
         return data
@@ -51,7 +46,9 @@ const nearbyList = filePath => {
   })
   .catch(err => console.error(err));
 */
+
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;
 };
-module.exports = nearbyList(API_ENDPOINT);
+
+module.exports = nearbyList();

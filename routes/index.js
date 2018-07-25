@@ -5,7 +5,6 @@ const nearbyHandler = require('../handlers/nearbyHandler');
 const nearestHanldler = require('../handlers/nearestHandler');
 const categoryHandler = require('../handlers/categoryHandler');
 
-
 // // Intent actions
 // router.all('/', (req, res, next) => {
 //   let fn;
