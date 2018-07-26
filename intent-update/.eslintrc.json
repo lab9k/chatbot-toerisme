@@ -20,6 +20,8 @@
       {
         "objects": "always"
       }
-    ]
+    ],
+    "no-unused-vars": "error",
+    "no-param-reassign": "error"
   }
 }
