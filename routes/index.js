@@ -8,7 +8,7 @@ const categoriesHandler = require('../handlers/categoriesHandler');
 const categoryHandler = require('../handlers/categoryHandler');
 
 const intentMap = new Map();
-intentMap.set('info.nearby', nearbyHandler);
+intentMap.set('info.show.nearby', nearbyHandler);
 intentMap.set('Nearest Intent', nearestHanldler);
 intentMap.set('info.categories', categoriesHandler);
 intentMap.set('info.category', categoryHandler);
