@@ -2,7 +2,7 @@ const poi = require('../util/poi');
 const { Suggestion } = require('dialogflow-fulfillment');
 
 /**
- * Handler for "Category" intent
+ * Handler for "info.categories" intent
  */
 function categoriesHandler(agent) {
   return poi.then(data => {

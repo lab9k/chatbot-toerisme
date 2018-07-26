@@ -2,7 +2,7 @@ const nearby = require('../util/nearby');
 const POICard = require('../util/POICard');
 
 /**
- * Handler for "Nearby" intent
+ * Handler for "info.nearby" intent
  */
 function nearbyHandler(agent) {
   const cardsPromise = getLocationCards(agent);
