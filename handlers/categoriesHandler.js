@@ -22,7 +22,7 @@ function categoriesHandler(agent) {
           title: category,
           payload: category
         };
-      })
+      }).slice(0, 11)
     }));
   });
 }
