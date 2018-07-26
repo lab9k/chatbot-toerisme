@@ -13,7 +13,7 @@ class POICard extends Card {
     url = url.replace('files/', 'files/styles/header_desktop/public/');
     this.setImage(url);
     this.setText(poi.description[locale][0]);
-    if (poi.contactPoint.hasOwnProperty('field_geofield')) {
+    if (poi.hasOwnProperty('contact_point') && poi.contactPoint.hasOwnProperty('field_geofield')) {
       this.setButton({
         text: 'Toon mij de weg',
         url: `https://www.google.be/maps/dir/?api=1&destination=${poi.contactPoint.field_geofield[9]}`,
