@@ -7,9 +7,9 @@ const nearestHanldler = require('../handlers/nearestHandler');
 const categoryHandler = require('../handlers/categoryHandler');
 
 const intentMap = new Map();
-intentMap.set('Nearby Intent', nearbyHandler);
+intentMap.set('info.nearby', nearbyHandler);
 intentMap.set('Nearest Intent', nearestHanldler);
-intentMap.set('Category Intent', categoryHandler);
+intentMap.set('info.category', categoryHandler);
 
 /**
  * Routes HTTP POST requests to index
