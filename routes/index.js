@@ -4,12 +4,12 @@ const { WebhookClient } = require('dialogflow-fulfillment');
 
 const nearbyHandler = require('../handlers/nearbyHandler');
 const nearestHanldler = require('../handlers/nearestHandler');
-const categoryHandler = require('../handlers/categoryHandler');
+const categoriesHandler = require('../handlers/categoriesHandler');
 
 const intentMap = new Map();
 intentMap.set('info.nearby', nearbyHandler);
 intentMap.set('Nearest Intent', nearestHanldler);
-intentMap.set('info.category', categoryHandler);
+intentMap.set('info.categories', categoriesHandler);
 
 /**
  * Routes HTTP POST requests to index

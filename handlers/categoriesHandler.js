@@ -4,7 +4,7 @@ const { Suggestion } = require('dialogflow-fulfillment');
 /**
  * Handler for "Category" intent
  */
-function categoryHandler(agent) {
+function categoriesHandler(agent) {
   return poi.then(data => {
     let categories = [];
     data.forEach(poi => {
@@ -20,4 +20,4 @@ function categoryHandler(agent) {
   });
 }
 
-module.exports = categoryHandler;
+module.exports = categoriesHandler;
