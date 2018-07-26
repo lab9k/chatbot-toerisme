@@ -12,7 +12,7 @@ function categoryHandler(agent) {
       let category = data[i].subject[0][0]['@id'];
       category = category.substring(category.length - 36, category.length);
       if (cardCount < 10 && category === agent.parameters.category) {
-        agent.add(new POICard(poi, agent.locale));
+        agent.add(new POICard(data[i], agent.locale));
         cardCount++;
       }
       i++;
