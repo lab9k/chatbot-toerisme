@@ -21,7 +21,7 @@ const getLocationCards = (agent) => {
   return nearby(loc)
     .then(locations => {               
       return locations.map(location => {
-        return new POICard(location, agent);
+        return new POICard(location, agent.locale);
       });
     })
     .catch(error => {
