@@ -17,7 +17,12 @@ function categoriesHandler(agent) {
     });
     agent.add(new Payload(PLATFORMS.FACEBOOK, {
       text: 'Kies uit één van de volgende categorieën',
-      quick_replies: categories
+      quick_replies: categories.map(category => {
+        return {
+          content_type: 'text',
+          title: category
+        };
+      })
     }));
   });
 }
