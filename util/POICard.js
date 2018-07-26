@@ -8,8 +8,6 @@ class POICard extends Card {
     // URL can be replaced to reference image which has smaller size
     this.setImage(poi.image[poi.image.length - 1].url
       .replace('files/', 'files/styles/header_desktop/public/'));
-    console.log(poi.image[poi.image.length - 1].url
-      .replace('files/', 'files/styles/header_desktop/public/'));
     this.setText(poi.description[locale][0]);
     this.setButton({
       text: 'Toon mij de weg',
