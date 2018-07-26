@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dialogflow": "^0.6.0",
     "dotenv": "^6.0.0",
     "node-fetch": "^2.2.0"
   },
