@@ -5,7 +5,7 @@ function toRad(degrees) {
 }
 
 const distance = location => toLocation => {
-  const [, , currentLong, currentLat] = location.contactPoint.field_geofield;
+  const [, , currentLat, currentLong] = location.contactPoint.field_geofield;
   const { long: toLong, lat: toLat } = toLocation;
   const R = 6371e3; // metres
   const φ1 = toRad(currentLat);
