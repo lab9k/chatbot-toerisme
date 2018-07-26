@@ -1,0 +1,24 @@
+{
+  "name": "intent-update",
+  "version": "1.0.0",
+  "description": "Automatically updating Dialogflow intents with a CRON job",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^0.6.0",
+    "dotenv": "^6.0.0",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

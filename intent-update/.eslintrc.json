@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": false,
+    "es6": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": "standard",
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "ecmaFeatures": {
+      "spread": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "semi": ["off", "always"],
+    "comma-dangle": [
+      "error",
+      {
+        "objects": "always"
+      }
+    ]
+  }
+}
