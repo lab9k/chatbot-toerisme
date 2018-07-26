@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const { WebhookClient } = require('dialogflow-fulfillment');
-const { PLATFORMS } = require('dialogflow-fulfillment/src/rich-responses/rich-response');
 
 const nearbyHandler = require('../handlers/nearbyHandler');
 const nearestHanldler = require('../handlers/nearestHandler');
@@ -18,7 +17,6 @@ intentMap.set('info.category', categoryHandler);
  * Routes HTTP POST requests to index
  */
 router.post('/', function(request, response) {
-  console.log(JSON.stringify(request.body));
   if (!request.hasOwnProperty('body') || Object.keys(request.body).length === 0) {
     response.status(400).send('Empty body');
   }
@@ -30,8 +28,7 @@ router.post('/', function(request, response) {
   }
 
   let agent = new WebhookClient({ request, response });
-  // set agent request source to Facebook so custom payloads can be used
-  agent.requestSource = PLATFORMS.FACEBOOK;
+  agent.requestSource = request.body.originalDetectIntentRequest.source;
 
   agent.handleRequest(intentMap);
 });
