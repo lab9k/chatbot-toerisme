@@ -22,7 +22,7 @@ class App {
             if (index < 0 && newIndex < 0) {
               newEntries.push({
                 value: poi.name(l),
-                synonyms: [...this._getSynonymsForPoi(poi)],
+                synonyms: this._getSynonymsForPoi(poi),
               });
             }
           });
