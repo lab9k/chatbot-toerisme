@@ -5,7 +5,7 @@ function toRad(degrees) {
 }
 
 const distance = location => toLocation => {
-  const [, , currentLong, currentLat] = location.contactPoint.field_geofield;
+  const [, , currentLat, currentLong] = location.contactPoint.field_geofield;
   const { long: toLong, lat: toLat } = toLocation;
   const R = 6371e3; // metres
   const φ1 = toRad(currentLat);
@@ -23,15 +23,18 @@ const distance = location => toLocation => {
 };
 
 const nearbyList = currentUserLocation => {
+  console.log("test nearby");
   return poi
-    .then(data =>
+    .then(data =>{
+      console.log('data', JSON.stringify(data).replace('\n', ' '));
       data
+      .filter(location !== undefined && location.contactPoint)
         .map(location => ({
           dist: distance(location)(currentUserLocation),
           ...location
         }))
         .sort(compareLocationsByDistance)
-    )
+    })
     .catch(error => console.error(error));
 };
 

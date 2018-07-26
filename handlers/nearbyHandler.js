@@ -1,6 +1,5 @@
 const nearby = require('../util/nearby');
 const POICard = require('../util/POICard');
-const util = require('util');
 
 /**
  * Handler for "info.nearby" intent
@@ -17,10 +16,10 @@ function nearbyHandler(agent) {
 }
 
 const getLocationCards = (agent) => {
-  const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-  console.log('param', util.inspect(agent.originalRequest));  
+  const loc = agent.originalRequest.payload.data.postback.data; 
   return nearby(loc)
-    .then(locations => {               
+    .then(locations => {  
+      console.log('locations', JSON.stringify(locations));             
       return locations.map(location => {
         return new POICard(location, agent.locale);
       });
