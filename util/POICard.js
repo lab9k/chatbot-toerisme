@@ -6,7 +6,8 @@ class POICard extends Card {
     // temp hack
     // URL in data references image which has large size
     // URL can be replaced to reference image which has smaller size
-    this.setImage(poi.image[0].url.replace('img/poi/photos', 'styles/header_desktop/public/img/poi/hero'));
+    this.setImage(poi.image[poi.image.length - 1].url
+      .replace('img/poi/photos', 'styles/header_desktop/public/img/poi/hero'));
     this.setText(poi.description[locale][0]);
     this.setButton({
       text: 'Toon mij de weg',
