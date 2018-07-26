@@ -1,5 +1,6 @@
 const poi = require('../util/poi');
-const { Suggestion } = require('dialogflow-fulfillment');
+const { Payload } = require('dialogflow-fulfillment');
+const { PLATFORMS } = require('dialogflow-fulfillment/src/rich-responses/rich-response');
 
 /**
  * Handler for "info.categories" intent
@@ -12,11 +13,17 @@ function categoriesHandler(agent) {
       category = category.substring(category.length - 36, category.length);
       if (categories.indexOf(category) === -1) {
         categories.push(category);
-        let suggestion = new Suggestion(category);
-        suggestion.setPlatform('FACEBOOK');
-        agent.add(suggestion);
       }
     });
+    agent.add(new Payload(PLATFORMS.FACEBOOK, {
+      text: 'Kies uit één van de volgende categorieën',
+      quick_replies: categories.map(category => {
+        return {
+          content_type: 'text',
+          title: category
+        };
+      })
+    }));
   });
 }
 
