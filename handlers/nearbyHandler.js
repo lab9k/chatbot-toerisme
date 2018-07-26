@@ -20,7 +20,8 @@ const getLocationCards = (agent) => {
   const loc = agent.originalRequest.payload.data.postback.data;
   console.log('param', JSON.stringify(agent.originalRequest).replace('\n', ' '));  
   return nearby(loc)
-    .then(locations => {               
+    .then(locations => {  
+      console.log('locations', loc);             
       return locations.map(location => {
         return new POICard(location, agent.locale);
       });
