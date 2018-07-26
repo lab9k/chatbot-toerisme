@@ -17,7 +17,6 @@ intentMap.set('info.category', categoryHandler);
  * Routes HTTP POST requests to index
  */
 router.post('/', function(request, response) {
-  console.log(JSON.stringify(response));
   if (!request.hasOwnProperty('body') || Object.keys(request.body).length === 0) {
     response.status(400).send('Empty body');
   }
