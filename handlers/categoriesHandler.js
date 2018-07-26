@@ -1,6 +1,5 @@
 const poi = require('../util/poi');
 const { Payload } = require('dialogflow-fulfillment');
-const { PLATFORMS } = require('dialogflow-fulfillment/src/rich-responses/rich-response');
 
 /**
  * Handler for "info.categories" intent
@@ -15,7 +14,7 @@ function categoriesHandler(agent) {
         categories.push(category);
       }
     });
-    agent.add(new Payload(PLATFORMS.FACEBOOK, {
+    agent.add(new Payload(agent.FACEBOOK, {
       text: 'Kies uit één van de volgende categorieën',
       quick_replies: categories.map(category => {
         return {
