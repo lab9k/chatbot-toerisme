@@ -27,7 +27,7 @@ const nearbyList = currentUserLocation => {
   return poi
     .then(data =>{
       console.log('data', JSON.stringify(data).replace('\n', ' '));
-      data
+      return data
       .filter(location !== undefined && location.contactPoint)
         .map(location => ({
           dist: distance(location)(currentUserLocation),
