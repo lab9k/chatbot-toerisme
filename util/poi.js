@@ -10,6 +10,7 @@ function fetchPOI() {
       for (let i = 0; i < files.length; i++) {
         promises.push(new Promise((resolve1, reject1) => {
           fs.readFile(path.join(dataPath, files[i]), 'utf8', (error, data) => {
+            console.log('file ',i, data);
             if (error) {
               reject1();
             } else {
