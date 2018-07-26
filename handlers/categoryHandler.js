@@ -9,7 +9,7 @@ function categoryHandler(agent) {
     data.forEach(poi => {
       let category = poi.subject[0][0]['@id'];
       category = category.substring(category.length - 36, category.length);
-      if (category === agent.paramater.category) {
+      if (category === agent.paramaters.category) {
         agent.add(new POICard(poi, agent.locale));
       }
     });

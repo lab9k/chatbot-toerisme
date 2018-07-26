@@ -6,7 +6,6 @@ const { Suggestion } = require('dialogflow-fulfillment');
  */
 function categoriesHandler(agent) {
   return poi.then(data => {
-    console.log(agent);
     let categories = [];
     data.forEach(poi => {
       let category = poi.subject[0][0]['@id'];
