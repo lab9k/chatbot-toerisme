@@ -20,7 +20,8 @@ function categoriesHandler(agent) {
       quick_replies: categories.map(category => {
         return {
           content_type: 'text',
-          title: category
+          title: category,
+          payload: category
         };
       })
     }));
