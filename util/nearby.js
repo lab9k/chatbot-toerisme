@@ -24,15 +24,16 @@ const distance = location => toLocation => {
 
 const nearbyList = currentUserLocation => {
   return poi
-    .then(data =>
+    .then(data =>{
+      console.log('data', JSON.stringify(data).replace('\n', ' '));
       data
-      .filter(location => location.contactPoint && location.contactPoint.field_geofield)
+      .filter(location => location.contactPoint)
         .map(location => ({
           dist: distance(location)(currentUserLocation),
           ...location
         }))
         .sort(compareLocationsByDistance)
-    )
+    })
     .catch(error => console.error(error));
 };
 
