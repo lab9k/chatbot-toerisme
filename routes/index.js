@@ -28,7 +28,7 @@ router.post('/', function(request, response) {
   }
 
   let agent = new WebhookClient({ request, response });
-  agent.requestSource = request.body.originalDetectIntentRequest.source;
+  agent.requestSource = request.body.originalDetectIntentRequest.source.toUpperCase();
 
   agent.handleRequest(intentMap);
 });
