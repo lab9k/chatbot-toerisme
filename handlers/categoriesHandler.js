@@ -12,10 +12,8 @@ function categoriesHandler(agent) {
       category = category.substring(category.length - 36, category.length);
       if (categories.indexOf(category) === -1) {
         categories.push(category);
+        agent.add(new Suggestion(category));
       }
-    });
-    categories.forEach(category => {
-      agent.add(new Suggestion(category));
     });
   });
 }
