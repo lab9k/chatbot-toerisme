@@ -26,6 +26,7 @@ const nearbyList = currentUserLocation => {
   return poi
     .then(data =>
       data
+      .filter(location => location.contactPoint && location.contactPoint.field_geofield)
         .map(location => ({
           dist: distance(location)(currentUserLocation),
           ...location
