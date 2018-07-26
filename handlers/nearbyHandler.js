@@ -17,7 +17,7 @@ function nearbyHandler(agent) {
 
 const getLocationCards = (agent) => {
   const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-  console.log('param', agent);  
+  console.log('param', JSON.stringify(gent));  
   return nearby(loc)
     .then(locations => {               
       return locations.map(location => {
