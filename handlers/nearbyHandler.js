@@ -19,7 +19,7 @@ const getLocationCards = agent => {
   const loc = agent.originalRequest.payload.data.postback.data;
   return nearby(loc)
     .then(locations => {
-      console.log('locations', JSON.stringify(locations));
+      //console.log('locations', JSON.stringify(locations));
       if (locations) {
         return locations
           .filter(location => location !== undefined)
