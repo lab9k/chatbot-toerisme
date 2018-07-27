@@ -1,17 +1,16 @@
-const { fetch, } = require('./src/util/util');
 const Poi = require('./src/poi');
 const app = require('./src/app');
 const dotenv = require('dotenv');
-
-const API_ENDPOINT = 'https://visit.gent.be/en/lod/poi';
+const fs = require('fs');
+const path = require('path');
 
 dotenv.config();
 
-fetch(API_ENDPOINT)
-  .then(json => {
-    const pois = json.map(el => new Poi(el));
-    app.launch(pois);
-  })
-  .catch(error => {
-    console.log(error);
-  });
+fs.readFile(
+  path.join(__dirname, '..', 'data', 'combined.json'),
+  (err, data) => {
+    if (err) throw err;
+    const json = JSON.parse(data);
+    app.launch(json.map(el => new Poi(el)));
+  }
+);

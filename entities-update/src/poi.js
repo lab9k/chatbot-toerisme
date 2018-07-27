@@ -5,10 +5,24 @@ class Poi {
   }
 
   name (lang) {
-    if (!this._names[lang] || this._names[lang].length === 0) {
-      throw new Error(
-        `Language '${lang}' is missing in poi: \n${JSON.stringify(this.json)}`
-      );
+    if (!this._names[lang]) {
+      switch (lang) {
+        case 'nl':
+          this._names[lang] = ['geen naam'];
+          break;
+        case 'fr':
+          this._names[lang] = ['pas de nom'];
+          break;
+        case 'es':
+          this._names[lang] = ['sin nombre'];
+          break;
+        case 'de':
+          this._names[lang] = ['kein name'];
+          break;
+        case 'en':
+          this._names[lang] = ['no name'];
+          break;
+      }
     }
     return this._names[lang][0];
   }
