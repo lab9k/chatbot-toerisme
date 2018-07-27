@@ -28,7 +28,7 @@ class POICard extends Card {
   }
 
   getV2ResponseObject_(platform) {
-    const response = super(platform);
+    const response = super.getV2ResponseObject_(platform);
     response.card.buttons.push({
       text: 'testbutton',
       postback: 'https://www.google.be',
