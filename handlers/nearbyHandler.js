@@ -22,7 +22,7 @@ const getLocationCards = agent => {
       //console.log('locations', JSON.stringify(locations));
       if (locations) {
         return locations
-          .filter(location => location !== undefined)
+          //.filter(location => location !== undefined)
           .map(location => {
             return new POICard(location, agent.locale);
           });
