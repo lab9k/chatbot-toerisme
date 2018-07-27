@@ -30,10 +30,12 @@ class POICard extends Card {
 
   getV2ResponseObject_(platform) {
     const response = super.getV2ResponseObject_(platform);
-    response.card.buttons.push({
-      text: 'website',
-      postback: `${this.poi.page}`,
-    });
+    if (this.poi.page) {
+      response.card.buttons.push({
+        text: 'website',
+        postback: `${this.poi.page}`,
+      });
+    }
     return response;
   }
 }
