@@ -17,7 +17,6 @@ for (let i = 1; i <= 55; i++) {
   promises.push(readFile(i));
 }
 
-// TODO is data broken or this code ?
 Promise.all(promises)
   .then(data => {
     let singleArray = data.reduce((accum, value) => {
