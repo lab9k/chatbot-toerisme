@@ -6,9 +6,10 @@ const POICard = require('../util/POICard');
  */
 function nearbyHandler(agent) {
   const cardsPromise = getLocationCards(agent);
-  console.log('cards', cardsPromise);
+  
   return cardsPromise
     .then(cards => {
+      console.log('cards', cards);
       agent.add(cards);
     })
     .catch(error => {
