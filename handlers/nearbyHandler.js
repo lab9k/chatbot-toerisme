@@ -20,7 +20,9 @@ const getLocationCards = (agent) => {
   return nearby(loc)
     .then(locations => {  
       console.log('locations', JSON.stringify(locations));             
-      return locations.map(location => {
+      return locations
+      .filter(location => location !== undefined)
+      .map(location => {
         return new POICard(location, agent.locale);
       });
     })
