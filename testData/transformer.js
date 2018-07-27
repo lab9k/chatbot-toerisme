@@ -35,17 +35,18 @@ Promise.all(promises)
         }
         return pre;
       }, []);
-      parsedObjects.push(toSingleObj(match));
+      const single = toSingleObj(match);
+      parsedObjects.push(single);
     }
     return parsedObjects;
   })
   .then(parsedArray => {
+    console.log(parsedArray.map(el => el.url));
     console.log(parsedArray.length);
   })
   .catch(err => console.log(err));
 
 function toSingleObj(arr) {
-  console.log(arr.map(el => el.url));
   const urls = {
     nl: [],
     en: [],
@@ -56,6 +57,9 @@ function toSingleObj(arr) {
   arr.forEach(el => {
     urls[getLangUrl(el)].push(el.url);
   });
+  for (const k in urls) {
+    urls[k] = [...new Set(urls[k])];
+  }
   return {
     ...arr[0],
     url: urls,
