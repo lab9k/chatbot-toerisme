@@ -43,6 +43,13 @@ Promise.all(promises)
   .then(parsedArray => {
     console.log(parsedArray.map(el => el.url));
     console.log(parsedArray.length);
+    fs.writeFile(
+      `${dataPath}/combined.json`,
+      JSON.stringify(parsedArray),
+      err => {
+        if (err) console.log(err);
+      }
+    );
   })
   .catch(err => console.log(err));
 
