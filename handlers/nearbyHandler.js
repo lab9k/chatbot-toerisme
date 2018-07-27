@@ -15,16 +15,19 @@ function nearbyHandler(agent) {
     });
 }
 
-const getLocationCards = (agent) => {
-  const loc = agent.originalRequest.payload.data.postback.data; 
+const getLocationCards = agent => {
+  const loc = agent.originalRequest.payload.data.postback.data;
   return nearby(loc)
-    .then(locations => {  
-      console.log('locations', JSON.stringify(locations));             
-      return locations
-      .filter(location => location !== undefined)
-      .map(location => {
-        return new POICard(location, agent.locale);
-      });
+    .then(locations => {
+      console.log('locations', JSON.stringify(locations));
+      if (locations) {
+        return locations
+          .filter(location => location !== undefined)
+          .map(location => {
+            return new POICard(location, agent.locale);
+          });
+      }
+      return [];
     })
     .catch(error => {
       console.log(error);
