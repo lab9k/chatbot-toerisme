@@ -32,7 +32,7 @@ class POICard extends Card {
     const response = super.getV2ResponseObject_(platform);
     if (this.poi.page) {
       response.card.buttons.push({
-        text: 'website',
+        text: 'Meer hierover',
         postback: `${this.poi.page}`,
       });
     }
