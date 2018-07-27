@@ -33,7 +33,8 @@ const nearbyList = currentUserLocation => {
           dist: distance(location)(currentUserLocation),
           ...location
         }))
-        .sort(compareLocationsByDistance);
+        .sort(compareLocationsByDistance)
+        .slice(0, 10);
     })
     .catch(error => console.error(error));
 };
