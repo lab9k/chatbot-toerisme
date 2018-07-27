@@ -6,8 +6,8 @@ class App {
     this._pois = pois;
     this._langs = ['nl', 'en', 'fr', 'de', 'es'];
     this._listEntityTypes().then(entities => {
-      const plaatsenEntity = entities.find(el => el.name === 'Plaatsen');
-      if (!plaatsenEntity) throw new Error('Plaatsen Entity does not exist');
+      const plaatsenEntity = entities.find(el => el.name === 'poi');
+      if (!plaatsenEntity) throw new Error('poi Entity does not exist');
 
       this.langs.forEach(l => {
         this._listEntriesForLang(plaatsenEntity.id, l).then(entry => {
