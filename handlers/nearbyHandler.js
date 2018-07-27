@@ -9,7 +9,6 @@ function nearbyHandler(agent) {
   
   return cardsPromise
     .then(cards => {
-      console.log('cards', cards);
       agent.add(cards);
     })
     .catch(error => {

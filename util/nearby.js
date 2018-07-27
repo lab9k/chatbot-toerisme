@@ -23,10 +23,8 @@ const distance = location => toLocation => {
 };
 
 const nearbyList = currentUserLocation => {
-  console.log('test nearby');
   return poi
     .then(data => {
-      //console.log('data', JSON.stringify(data).replace('\n', ' '));
       return data
         .filter(location => location !== undefined && location.contactPoint)
         .map(location => ({
@@ -34,7 +32,7 @@ const nearbyList = currentUserLocation => {
           ...location
         }))
         .sort(compareLocationsByDistance)
-        .slice(0, 20);
+        .slice(0, 10);
     })
     .catch(error => console.error(error));
 };
