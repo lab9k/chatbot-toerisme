@@ -4,6 +4,7 @@ class POICard extends Card {
   constructor(poi, locale) {
     super(poi.name[locale][0]);
     // TEMP
+    this.poi = poi;
     let url = poi.image[poi.image.length - 1].url;
     // change URL to non-test URL
     url = url.replace('web.test.gentgrp.', '');
@@ -30,8 +31,8 @@ class POICard extends Card {
   getV2ResponseObject_(platform) {
     const response = super.getV2ResponseObject_(platform);
     response.card.buttons.push({
-      text: 'testbutton',
-      postback: 'https://www.google.be',
+      text: 'website',
+      postback: `${this.poi.page}`,
     });
     return response;
   }
