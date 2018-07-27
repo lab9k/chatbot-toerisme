@@ -15,41 +15,37 @@ const readFile = index => {
 let promises = [];
 for (let i = 1; i <= 55; i++) {
   promises.push(readFile(i));
-} //TODO ix this :(
+}
 
+// TODO is data broken or this code ?
 Promise.all(promises)
   .then(data => {
-    const singleArray = data.reduce((accum, value) => {
+    let singleArray = data.reduce((accum, value) => {
       return [...accum, ...value];
     }, []);
-    let check = singleArray[0];
-    const newArray = [];
+    const parsedObjects = [];
     while (singleArray.length > 0) {
-      const temp = [];
-      let plaats = singleArray.findIndex(val => val['@id'] === check['@id']);
-      while (plaats > -1) {
-        const index = singleArray.findIndex(val => val['@id'] === check['@id']);
-        temp.push(singleArray.splice(index, 1)[0]);
-        plaats = singleArray.findIndex(val => val['@id'] === check['@id']);
-      }
-      check = singleArray[0];
-
-      const obj = toSingleObj(temp);
-      newArray.push(obj);
+      const check = singleArray[0];
+      const match = [];
+      singleArray = singleArray.reduce(function(pre, curr) {
+        if (curr['@id'] !== check['@id']) {
+          pre.push(curr);
+        } else {
+          match.push(curr);
+        }
+        return pre;
+      }, []);
+      parsedObjects.push(toSingleObj(match));
     }
-    return newArray;
+    return parsedObjects;
   })
   .then(parsedArray => {
     console.log(parsedArray.length);
-    console.log(
-      parsedArray.find(
-        el => el.page === 'http://visit.web.test.gentgrp.gent.be/node/2456'
-      ).url
-    );
   })
   .catch(err => console.log(err));
 
 function toSingleObj(arr) {
+  console.log(arr.map(el => el.url));
   const urls = {
     nl: [],
     en: [],

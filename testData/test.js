@@ -1,60 +1,14 @@
-const a = [
-  {
-    created: {},
-    field_contact_person_email: [],
-    field_contact_person_name: [],
-    field_group_contact: null,
-    field_hotel_class: null,
-    field_openinghours_info: {},
-    field_poi_type: [],
-    field_random_sort: [],
-    field_related_poi: [],
-    field_restaurant_class: null,
-    '@id':
-      'http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44',
-    modified: {},
-    subjectOf: [],
-    description: {},
-    keywords: [],
-    contactPoint: {},
-    offers: null,
-    subject: [],
-    image: [],
-    name: {},
-    url:
-      'https://visit.gent.be/es/ver-y-hacer/ibis-budget-gent-centrum-dampoort',
-    page: 'https://visit.gent.be/node/2981',
-    '@context': [],
-    '@type': 'TouristAttraction',
-    mainEntityOfPage: {},
-  },
-  {
-    created: {},
-    field_contact_person_email: [],
-    field_contact_person_name: [],
-    field_group_contact: null,
-    field_hotel_class: null,
-    field_openinghours_info: {},
-    field_poi_type: [],
-    field_random_sort: [],
-    field_related_poi: [],
-    field_restaurant_class: null,
-    '@id':
-      'http://stad.gent/id/place/tourism/7dc10bd0-27d0-4ae5-b72e-a37677141b44',
-    modified: {},
-    subjectOf: [],
-    description: {},
-    keywords: [],
-    contactPoint: {},
-    offers: null,
-    subject: [],
-    image: [],
-    name: {},
-    url:
-      'https://visit.gent.be/de/staunen-erleben/ibis-budget-gent-centrum-dampoort',
-    page: 'https://visit.gent.be/node/2981',
-    '@context': [],
-    '@type': 'TouristAttraction',
-    mainEntityOfPage: {},
-  },
-];
+var a = [{ name: 'tc_001' }, { name: 'tc_002' }, { name: 'tc_003' }];
+// a = a.reduce((p, c) => (c.name !== 'tc_001' && p.push(c), p), []);
+const match = [];
+const c = a.reduce(function(pre, curr) {
+  if (curr.name !== 'tc_001') {
+    pre.push(curr);
+  } else {
+    match.push(curr);
+  }
+  return pre;
+}, []);
+console.log(a);
+console.log(c);
+console.log(match);
