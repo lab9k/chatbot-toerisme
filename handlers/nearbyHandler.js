@@ -14,12 +14,13 @@ function nearbyHandler(agent) {
   return cardsPromise
     .then(cards => {
       agent.add(cards);
-      console.log('contexts', JSON.stringify(agent.contexts));
+      
 
       //agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
       agent.contexts.find(
         context => context.name == 'show_nearby'
       ).lifespan = 2;
+      console.log('contexts', JSON.stringify(agent.contexts));
     })
     .catch(error => {
       console.log(error);
@@ -32,7 +33,10 @@ const getLocationCards = agent => {
     agent.contexts.find(context => context.name == 'show_nearby').parameters
       .page
   );
-  const startNextPage = (currentPage + 1 ) * 10;
+  const startNextPage = (currentPage + 1) * 10;
+  agent.contexts.find(context => context.name == 'show_nearby').parameters
+    .page ==
+    currentPage + 1;
   return nearby(loc)
     .then(locations => {
       if (locations) {
