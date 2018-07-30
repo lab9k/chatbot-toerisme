@@ -1,10 +1,13 @@
 const poi = require('./poi');
 
-function toRad(degrees) {
-  return (degrees * Math.PI) / 180;
-}
-
-const distance = location => toLocation => {
+/**
+ * calculate the distance between 2 points
+ *
+ * @param {*} location
+ * @param {{long:number,lat:number}} toLocation
+ * @returns {number} the distance between the 2 coordinates
+ */
+const distance = (location, toLocation) => {
   const [, , currentLat, currentLong] = location.contactPoint.field_geofield;
   const { long: toLong, lat: toLat } = toLocation;
   const R = 6371e3; // metres
@@ -22,14 +25,20 @@ const distance = location => toLocation => {
   return d;
 };
 
+/**
+ *
+ *
+ * @param {{long:number,lat:number}} currentUserLocation
+ * @returns {Promise<Object>} resolves to a list of 10 pois, sorted by proximity to the user.
+ */
 const nearbyList = currentUserLocation => {
   return poi
     .then(data => {
       return data
         .filter(location => location !== undefined && location.contactPoint)
         .map(location => ({
-          dist: distance(location)(currentUserLocation),
-          ...location
+          dist: distance(location, currentUserLocation),
+          ...location,
         }))
         .sort(compareLocationsByDistance)
         .slice(0, 10);
@@ -37,15 +46,9 @@ const nearbyList = currentUserLocation => {
     .catch(error => console.error(error));
 };
 
-/* example*/
-/*nearbyList(API_ENDPOINT)
-  .then(cb => {
-    const loc = { lat: 51.055626763148624, long: 3.722346570642415 };
-    const closest = cb(loc);
-    //console.log('nearest: ', JSON.stringify(closest));
-  })
-  .catch(err => console.error(err));
-*/
+function toRad(degrees) {
+  return (degrees * Math.PI) / 180;
+}
 
 const compareLocationsByDistance = (a, b) => {
   return a.dist - b.dist;

@@ -28,6 +28,14 @@ class POICard extends Card {
     }
   }
 
+  /**
+   * ! This method is not meant to be called manually, the dialogflow library handles this.
+   * Will create and return the dialogflow response object.
+   *
+   * @param {*} platform the platform the response is specified for
+   * @returns dialogflow V2 response object
+   * @memberof POICard
+   */
   getV2ResponseObject_(platform) {
     const response = super.getV2ResponseObject_(platform);
     if (this.poi.page) {
