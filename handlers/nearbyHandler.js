@@ -16,8 +16,8 @@ function nearbyHandler(agent) {
       agent.add(cards);
       console.log('contexts', JSON.stringify(agent.contexts));
 
-      agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
-      agent.contexts.set('show_nearby');
+      //agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
+      agent.contexts.set('show_nearby', 2);
     })
     .catch(error => {
       console.log(error);
