@@ -17,7 +17,9 @@ function nearbyHandler(agent) {
       console.log('contexts', JSON.stringify(agent.contexts));
 
       //agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
-      agent.contexts.set('show_nearby', 2);
+      agent.contexts.find(
+        context => context.name == 'show_nearby'
+      ).lifespan = 2;
     })
     .catch(error => {
       console.log(error);
@@ -26,15 +28,16 @@ function nearbyHandler(agent) {
 
 const getLocationCards = agent => {
   const loc = agent.originalRequest.payload.data.postback.data;
-  const currentPage = parseInt(agent.contexts
-    .find(context => context.name == 'show_nearby')
-    .parameters.page);
-  const startNextPage = currentPage + 10;
+  const currentPage = parseInt(
+    agent.contexts.find(context => context.name == 'show_nearby').parameters
+      .page
+  );
+  const startNextPage = (currentPage + 1 ) * 10;
   return nearby(loc)
     .then(locations => {
       if (locations) {
         return locations
-          .slice(startNextPage, startNextPage+10)
+          .slice(startNextPage, startNextPage + 10)
           .map(location => {
             return new POICard(location, agent.locale);
           });
