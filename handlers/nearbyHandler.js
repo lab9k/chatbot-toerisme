@@ -10,6 +10,8 @@ function nearbyHandler(agent) {
   return cardsPromise
     .then(cards => {
       agent.add(cards);
+      console.log('data', JSON.stringify(agent.data));
+      console.log('contexts', JSON.stringify(agent.outgoingContexts));
     })
     .catch(error => {
       console.log(error);
@@ -20,10 +22,8 @@ const getLocationCards = agent => {
   const loc = agent.originalRequest.payload.data.postback.data;
   return nearby(loc)
     .then(locations => {
-      //console.log('locations', JSON.stringify(locations));
       if (locations) {
         return locations
-          //.filter(location => location !== undefined)
           .map(location => {
             return new POICard(location, agent.locale);
           });
