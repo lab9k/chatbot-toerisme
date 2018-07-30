@@ -11,7 +11,7 @@ function nearbyHandler(agent) {
     .then(cards => {
       agent.add(cards);
       console.log('data', agent);
-      console.log('contexts', JSON.stringify(agent.outgoingContexts));
+      console.log('contexts', JSON.stringify(agent.contexts));
     })
     .catch(error => {
       console.log(error);
