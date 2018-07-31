@@ -16,10 +16,11 @@ function nearbyHandler(agent) {
       agent.add(cards);
       
 
-      //agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
+      agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
       agent.contexts.find(
         context => context.name == 'show_nearby'
       ).lifespan = 2;
+      console.log('responseMessages', JSON.stringify(agent.responseMessages_));
       console.log('contexts', JSON.stringify(agent.contexts));
     })
     .catch(error => {
