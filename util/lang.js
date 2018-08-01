@@ -61,7 +61,7 @@ const check = translator => {
 
 module.exports = (() => {
   const translator = new Translator();
-  const p = path.resolve('translations');
+  const p = path.resolve('./translations');
 
   const files = fs.readdirSync(p, 'utf8');
   files.forEach(file => {
@@ -89,3 +89,5 @@ module.exports = (() => {
 })();
 
 module.exports.check = check;
+
+console.log(module.exports);
