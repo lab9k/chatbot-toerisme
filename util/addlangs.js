@@ -23,7 +23,6 @@ inquirer.prompt(questions).then(answers => {
       if (err) throw err;
       const json = JSON.parse(data);
       json[key] = translation;
-      console.log(json);
       fs.writeFile(path, JSON.stringify(json), 'utf8', err => {
         if (err) throw err;
       });
