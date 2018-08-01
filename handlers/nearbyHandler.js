@@ -16,11 +16,6 @@ function nearbyHandler(agent) {
       agent.contexts.find(
         context => context.name == 'show_nearby'
       ).lifespan = 2;
-      console.log(
-        'responseMessages',
-        JSON.stringify(agent.responseMessages_).replace('\n', ' ')
-      );
-      console.log('contexts', JSON.stringify(agent.contexts));
     })
     .catch(error => {
       console.log(error);
