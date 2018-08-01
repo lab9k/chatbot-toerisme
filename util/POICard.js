@@ -30,7 +30,7 @@ class POICard extends Card {
 
   /**
    * ! This method is not meant to be called manually, the dialogflow library handles this.
-   * Will create and return the dialogflow response object.
+   * Will create and return the dialogflow response object, adding an extra button if the poi has a homepage.
    *
    * @param {*} platform the platform the response is specified for
    * @returns dialogflow V2 response object

@@ -3,6 +3,12 @@ const path = require('path');
 
 const dataPath = path.join(__dirname, '..', 'data');
 
+/**
+ * reads the specified file in the data folder.
+ *
+ * @param {number} index
+ * @returns {Promise} Promise that resolves to the parsed data.
+ */
 const readFile = index => {
   return new Promise((resolve, reject) => {
     fs.readFile(`${dataPath}/${index}.json`, 'utf8', (err, data) => {
