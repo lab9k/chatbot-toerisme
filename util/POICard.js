@@ -1,4 +1,5 @@
 const { Card } = require('dialogflow-fulfillment');
+const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
@@ -40,7 +41,7 @@ class POICard extends Card {
     const response = super.getV2ResponseObject_(platform);
     if (this.poi.page) {
       response.card.buttons.push({
-        text: 'Meer hierover',
+        text: lang.translate('en', 'extra_info'),
         postback: `${this.poi.page}`,
       });
     }

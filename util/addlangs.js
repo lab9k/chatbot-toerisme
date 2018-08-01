@@ -9,7 +9,7 @@ missing.forEach(miss => {
   questions.push({
     type: 'input',
     name: `${miss.key}^${miss.lang}`,
-    message: `How is "${miss.key}" translated in ${miss.lang}?`,
+    message: `How is "${miss.key}" defined in ${miss.lang}?`,
   });
 });
 inquirer.prompt(questions).then(answers => {
@@ -19,13 +19,9 @@ inquirer.prompt(questions).then(answers => {
     const lang = k.split('^')[1];
     const translation = answers[k];
     const path = `./translations/${lang}.json`;
-    fs.readFile(path, 'utf8', (err, data) => {
-      if (err) throw err;
-      const json = JSON.parse(data);
-      json[key] = translation;
-      fs.writeFile(path, JSON.stringify(json), 'utf8', err => {
-        if (err) throw err;
-      });
-    });
+    const data = fs.readFileSync(path, 'utf8');
+    const json = JSON.parse(data);
+    json[key] = translation;
+    fs.writeFileSync(path, JSON.stringify(json), 'utf8');
   });
 });
