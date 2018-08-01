@@ -55,10 +55,7 @@ const check = translator => {
       });
     });
   });
-  if (missing.length !== 0) {
-    console.warn('Missing translations found');
-    console.warn(JSON.stringify(missing, null, '  '));
-  }
+  return missing;
 };
 
 module.exports = (() => {
@@ -80,7 +77,13 @@ module.exports = (() => {
   });
 
   // check for not translated strings
-  check(translator);
+  const missing = check(translator);
+  if (missing.length !== 0) {
+    console.warn('Missing translations found');
+    console.warn(JSON.stringify(missing, null, '  '));
+  }
 
   return translator;
 })();
+
+module.exports.check = check;
