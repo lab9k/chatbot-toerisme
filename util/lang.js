@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 class Translator {
   constructor() {
@@ -60,10 +61,11 @@ const check = translator => {
 
 module.exports = (() => {
   const translator = new Translator();
+  const p = path.resolve('translations');
 
-  const files = fs.readdirSync('./translations', 'utf8');
+  const files = fs.readdirSync(p, 'utf8');
   files.forEach(file => {
-    const data = fs.readFileSync('./translations/' + file, 'utf8');
+    const data = fs.readFileSync(p + '/' + file, 'utf8');
     const lang = file.split('.')[0];
     const json = JSON.parse(data);
     const keys = Object.keys(json);
