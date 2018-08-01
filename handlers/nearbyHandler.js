@@ -1,7 +1,6 @@
 const nearby = require('../util/nearby');
 const POICard = require('../util/POICard');
 const QuickReplies = require('../models/quickReplies');
-const { Payload } = require('dialogflow-fulfillment');
 
 /**
  * Handler for "info.nearby" intent
@@ -14,13 +13,13 @@ function nearbyHandler(agent) {
   return cardsPromise
     .then(cards => {
       agent.add(cards);
-      
-
-      //agent.add(new Payload(agent.FACEBOOK, quickReplies.getResponse()));
       agent.contexts.find(
         context => context.name == 'show_nearby'
       ).lifespan = 2;
-      console.log('responseMessages', JSON.stringify(agent.responseMessages_).replace('\n', ' '));
+      console.log(
+        'responseMessages',
+        JSON.stringify(agent.responseMessages_).replace('\n', ' ')
+      );
       console.log('contexts', JSON.stringify(agent.contexts));
     })
     .catch(error => {
