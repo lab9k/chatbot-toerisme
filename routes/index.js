@@ -1,39 +1,52 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const { WebhookClient } = require("dialogflow-fulfillment");
-const nearbyHandler = require("../handlers/nearbyHandler");
+const { WebhookClient } = require('dialogflow-fulfillment');
+
+const nearbyHandler = require('../handlers/nearbyHandler');
+const nearestHanldler = require('../handlers/nearestHandler');
+const categoriesHandler = require('../handlers/categoriesHandler');
+const categoryHandler = require('../handlers/categoryHandler');
+
+// ? handle dialogflow intents
+const intentMap = new Map();
+intentMap.set('info.show.nearby', nearbyHandler);
+intentMap.set('Nearest Intent', nearestHanldler);
+intentMap.set('info.categories', categoriesHandler);
+intentMap.set('info.category', categoryHandler);
 
 /**
  * Routes HTTP POST requests to index
  */
-router.post("/", function (request, response) {
-    // TODO: validate origin/host
-    // response.send("Invalid domain", 403);
+router.post('/', function(request, response) {
+  if (
+    !request.hasOwnProperty('body') ||
+    Object.keys(request.body).length === 0
+  ) {
+    response.status(400).send('Empty body');
+  }
 
-    if (!request.hasOwnProperty("body") || Object.keys(request.body).length === 0) {
-        response.status(400).send("Empty body");
-    }
+  if (
+    !request.body.hasOwnProperty('queryResult') ||
+    Object.keys(request.body.queryResult).length === 0 ||
+    !request.body.queryResult.hasOwnProperty('queryText') ||
+    Object.keys(request.body.queryResult.queryText).length === 0
+  ) {
+    response.status(400).send('Invalid data format');
+  }
 
-    if (!request.body.hasOwnProperty("queryResult")
-        || Object.keys(request.body.queryResult).length === 0
-        || !request.body.queryResult.hasOwnProperty("queryText")
-        || Object.keys(request.body.queryResult.queryText).length === 0) {
-        response.status(400).send("Invalid data format");
-    }
+  let agent = new WebhookClient({ request, response });
+  if (request.body.originalDetectIntentRequest.hasOwnProperty('source')) {
+    agent.requestSource = request.body.originalDetectIntentRequest.source.toUpperCase();
+  }
 
-    const agent = new WebhookClient({request, response});
-
-    let intentMap = new Map();
-    intentMap.set("Nearby Intent", nearbyHandler);
-
-    agent.handleRequest(intentMap);
+  agent.handleRequest(intentMap);
 });
 
 /**
- * Blocks all other HTTP requests
+ * Blocks all other HTTP methods
  */
-router.all("/", function (req, res) {
-    res.sendStatus(405)
+router.all('/', function(req, res) {
+  res.sendStatus(405);
 });
 
 module.exports = router;
