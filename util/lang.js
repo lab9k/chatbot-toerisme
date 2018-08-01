@@ -62,7 +62,7 @@ const check = translator => {
 module.exports = (() => {
   const translator = new Translator();
   const root = path.dirname(require.main.filename);
-  const p = `${root}/translations`;
+  const p = `${root}/util/translations`;
 
   const files = fs.readdirSync(p, 'utf8');
   files.forEach(file => {
