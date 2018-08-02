@@ -98,7 +98,6 @@ module.exports.detectLang = (req, res, next) => {
   if (queryResult && queryResult.parameters) {
     const { parameters } = queryResult;
     console.log(`params: ${JSON.stringify(parameters)}`);
-    console.log(JSON.stringify(req.body));
   }
   if (queryResult && queryResult.parameters && queryResult.parameters.lang) {
     const {
