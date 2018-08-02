@@ -90,3 +90,20 @@ module.exports = (() => {
 })();
 
 module.exports.check = check;
+
+module.exports.detectLang = (req, res, next) => {
+  const {
+    body: { queryResult },
+  } = req;
+  if (queryResult && queryResult.parameters && queryResult.parameters.lang) {
+    const {
+      parameters: { lang },
+    } = queryResult;
+    console.log(`Lang parameter was: ${lang}`);
+    req.language = lang;
+  } else {
+    console.log(`lang was not found: ${JSON.stringify(queryResult)}`);
+    req.language = 'nl';
+  }
+  next();
+};
