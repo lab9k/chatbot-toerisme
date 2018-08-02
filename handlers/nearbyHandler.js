@@ -1,15 +1,11 @@
 const nearby = require('../util/nearby');
 const POICard = require('../util/POICard');
-const QuickReplies = require('../models/quickReplies');
 
 /**
  * Handler for "info.nearby" intent
  */
 function nearbyHandler(agent) {
   const cardsPromise = getLocationCards(agent);
-  const quickReplies = new QuickReplies('Wat wil je doen?');
-  quickReplies.addQuickReply('Toon meer in de buurt', 'toon meer');
-  quickReplies.addQuickReply('Zoeken per categorie', 'per categorie');
   return cardsPromise
     .then(cards => {
       agent.add(cards);

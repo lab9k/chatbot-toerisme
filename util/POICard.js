@@ -1,11 +1,12 @@
 const { Card } = require('dialogflow-fulfillment');
-//const lang = require('../util/lang');
+const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
     super(poi.name[locale][0]);
     // TEMP
     this.poi = poi;
+    this.locale = locale;
     let url = poi.image[poi.image.length - 1].url;
     // change URL to non-test URL
     url = url.replace('web.test.gentgrp.', '');
@@ -21,7 +22,7 @@ class POICard extends Card {
       poi.contactPoint.hasOwnProperty('field_geofield')
     ) {
       this.setButton({
-        text: 'Toon mij de weg',
+        text: lang.translate(this.locale, 'show_route'),
         url: `https://www.google.be/maps/dir/?api=1&destination=${
           poi.contactPoint.field_geofield[9]
         }`,
@@ -41,7 +42,7 @@ class POICard extends Card {
     const response = super.getV2ResponseObject_(platform);
     if (this.poi.page) {
       response.card.buttons.push({
-        text: 'Meer hierover',
+        text: lang.translate(this.locale, 'show_more'),
         postback: `${this.poi.page}`,
       });
     }
