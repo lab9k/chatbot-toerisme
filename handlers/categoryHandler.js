@@ -8,7 +8,7 @@ function categoryHandler(agent) {
   return poi.then(data => {
     let cardCount = 0;
     let i = 0;
-    console.log(JSON.stringify(agent));
+    console.log(agent.request_.queryResult.queryText);
     while (i < data.length && cardCount < 10) {
       let category = data[i].subject[0][0]['@id'];
       category = category.substring(category.length - 36, category.length);
