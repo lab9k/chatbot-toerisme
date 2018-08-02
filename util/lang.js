@@ -102,7 +102,8 @@ module.exports.detectLang = (req, res, next) => {
     console.log(`Lang parameter was: ${lang}`);
     req.language = lang;
   } else {
-    console.log(`lang was not found: ${JSON.stringify(queryResult)}`);
+    console.log(`Lang param was not found. queryResult:
+    ${JSON.stringify(queryResult)}`);
     req.language = 'nl';
   }
   next();
