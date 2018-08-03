@@ -5,5 +5,7 @@
   "welcome_message": "Goeiedag!",
   "search_places": "Zoek naar plaatsen...",
   "search_nearby": "In de buurt",
-  "search_category": "Per categorie"
+  "search_category": "Per categorie",
+  "ask_location":
+    "Gelieve uw locatie te delen, zodat ik het beziens in jouw buurt kan vinden"
 }

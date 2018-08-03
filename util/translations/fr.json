@@ -1,9 +1,1 @@
-{
-  "choose_category": "Veuillez choisir l'une des catégories suivantes",
-  "show_route": "Montre moi le chemin",
-  "show_more": "plus à ce sujet",
-  "welcome_message": "Bonjour",
-  "search_places": "Chercher des lieux",
-  "search_nearby": "proches",
-  "search_category": "par catégorie"
-}
+{"choose_category":"Veuillez choisir l'une des catégories suivantes","show_route":"Montre moi le chemin","show_more":"plus à ce sujet","welcome_message":"Bonjour","search_places":"Chercher des lieux","search_nearby":"proches","search_category":"par catégorie","ask_location":"S'il vous plaît partagez votre emplacement afin que je puisse trouver de bons endroits dans votre quartier"}
