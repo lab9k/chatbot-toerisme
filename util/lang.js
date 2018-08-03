@@ -92,22 +92,13 @@ module.exports = (() => {
 module.exports.check = check;
 
 module.exports.detectLang = (req, res, next) => {
+  const { outputContexts } = req.body;
   const {
-    body: { queryResult },
-  } = req;
-  if (queryResult && queryResult.parameters) {
-    const { parameters } = queryResult;
-    console.log(`params: ${JSON.stringify(parameters)}`);
+    parameters: { lang },
+  } = outputContexts.find(el => el.name === 'lang');
+  if (!lang) {
+    req.language = 'en';
   }
-  if (queryResult && queryResult.parameters && queryResult.parameters.lang) {
-    const {
-      parameters: { lang },
-    } = queryResult;
-    req.language = lang;
-  } else {
-    console.log(`Lang param was not found. queryResult:
-    ${JSON.stringify(queryResult)}`);
-    req.language = 'nl';
-  }
+  req.language = lang;
   next();
 };
