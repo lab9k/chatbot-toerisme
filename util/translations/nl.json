@@ -1,11 +1,11 @@
 {
-  "choose_category": "Kies uit één van de volgende categorieën",
-  "show_route": "Toon mij de weg",
-  "show_more": "Meer hierover",
+  "choose_category": "Kies één van de volgende opties",
+  "show_route": "Toon route",
+  "show_more": "Meer weten",
   "welcome_message": "Goeiedag!",
   "search_places": "Zoek naar plaatsen...",
   "search_nearby": "in de buurt",
-  "search_category": "per categorie",
+  "search_category": "per type",
   "ask_location":
-    "Gelieve uw locatie te delen, zodat ik het beziens in jouw buurt kan vinden"
+    "Mag ik je locatie weten? Dan zoek ik wat leuke dingen in de buurt."
 }
