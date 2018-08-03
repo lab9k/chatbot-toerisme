@@ -103,7 +103,6 @@ module.exports.detectLang = (req, res, next) => {
     const {
       parameters: { lang },
     } = queryResult;
-    console.log(`Lang parameter was: ${lang}`);
     req.language = lang;
   } else {
     console.log(`Lang param was not found. queryResult:
