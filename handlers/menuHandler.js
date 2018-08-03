@@ -9,10 +9,16 @@ module.exports = function menuHandler(agent) {
   const quickReply = new quickReplies(
     lang.translate(agent.locale, 'search_places')
   );
-  
+
   quickReply.addQuickReplies(
-    lang.translate(agent.locale, 'search_nearby'),
-    lang.translate(agent.locale, 'search_category')
+    {
+      text: lang.translate(agent.locale, 'search_nearby'),
+      payload: lang.translate('nl', 'search_nearby')
+    },
+    {
+      text: lang.translate(agent.locale, 'search_category'),
+      payload: lang.translate('nl', 'search_category')
+    }
   );
 
   agent.add(new Payload(PLATFORMS.FACEBOOK, quickReply.getResponse()));
