@@ -41,6 +41,9 @@ class POICard extends Card {
   getV2ResponseObject_(platform) {
     const response = super.getV2ResponseObject_(platform);
     if (this.poi.page) {
+      if (!response.card.buttons) {
+        response.card.buttons = [];
+      }
       response.card.buttons.push({
         text: lang.translate(this.locale, 'show_more'),
         postback: `${this.poi.page}`,
