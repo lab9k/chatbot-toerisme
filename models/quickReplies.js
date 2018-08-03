@@ -8,18 +8,17 @@ class QuickReplies {
   constructor(title) {
     this.title = title;
     this.quick_replies = [];
-    this.content_type = 'text';
   }
 
   /**
-   * @param {String} text Text that appears on a button
-   * @param {String} payload Data to be sent to be sent
+   * @param {String} locale Locale for text displayed on button
+   * @param {String} translateKeyword Keyword for translation
    */
-  addQuickReply(locale, translationKey){
+  addQuickReply(locale, translateKeyword){
     this.quick_replies.push({
-      content_type: this.content_type, 
-      title: lang.translate(locale, translationKey),
-      payload: lang.translate('nl', translationKey)
+      content_type: 'text', 
+      title: lang.translate(locale, translateKeyword),
+      payload: lang.translate('nl', translateKeyword)
     });
   }
 
