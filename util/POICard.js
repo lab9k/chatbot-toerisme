@@ -3,7 +3,7 @@ const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
-    super(poi.name[locale][0]);
+    super(poi.name[locale] ? poi.name[locale][0] : `No name in ${locale}`);
     // TEMP
     this.poi = poi;
     this.locale = locale;
