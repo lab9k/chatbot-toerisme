@@ -1,1 +1,9 @@
-{"choose_category":"Please choose one of the following categories","show_route":"Show me the way","show_more":"more about this","welcome_message":"Hello"}
+{
+  "choose_category": "Please choose one of the following categories",
+  "show_route": "Show me the way",
+  "show_more": "more about this",
+  "welcome_message": "Hello",
+  "search_places": "Search for places...",
+  "search_nearby": "nearby",
+  "search_category": "by category"
+}

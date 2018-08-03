@@ -1,1 +1,9 @@
-{"choose_category":"Veuillez choisir l'une des catégories suivantes","show_route":"Montre moi le chemin","show_more":"plus à ce sujet","welcome_message":"Bonjour"}
+{
+  "choose_category": "Veuillez choisir l'une des catégories suivantes",
+  "show_route": "Montre moi le chemin",
+  "show_more": "plus à ce sujet",
+  "welcome_message": "Bonjour",
+  "search_places": "Chercher des lieux",
+  "search_nearby": "proches",
+  "search_category": "par catégorie"
+}

@@ -1,1 +1,9 @@
-{"choose_category":"Por favor, elija una de las siguientes categorías","show_route":"Muéstrame el camino","show_more":"más sobre esto","welcome_message":"Ola"}
+{
+  "choose_category": "Por favor, elija una de las siguientes categorías",
+  "show_route": "Muéstrame el camino",
+  "show_more": "más sobre esto",
+  "welcome_message": "Ola",
+  "search_places": "Buscar lugares...",
+  "search_nearby": "próximo",
+  "search_category": "por categoría"
+}

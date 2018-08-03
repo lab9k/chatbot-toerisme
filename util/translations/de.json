@@ -1,1 +1,9 @@
-{"choose_category":"Bitte wählen Sie eine der folgenden Kategorien","show_route":"Zeig mir den Weg","show_more":"mehr dazu","welcome_message":"Guten tag"}
+{
+  "choose_category": "Bitte wählen Sie eine der folgenden Kategorien",
+  "show_route": "Zeig mir den Weg",
+  "show_more": "mehr dazu",
+  "welcome_message": "Guten tag",
+  "search_places": "Suche nach Orten...",
+  "search_nearby": "in der Nähe",
+  "search_category": "nach Kategorie"
+}
