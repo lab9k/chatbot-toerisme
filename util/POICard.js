@@ -57,8 +57,8 @@ class POICard extends Card {
 }
 
 const getDefinedValue = (val, locale) => {
-  const defaultVal = val;
-  
+  let defaultVal = val;
+  console.log('val', val);
   try {
     val = val[locale][0];
     if (val) {
@@ -69,7 +69,7 @@ const getDefinedValue = (val, locale) => {
   }
 
   try {
-    defaultVal['nl'][0];
+    defaultVal = defaultVal['nl'][0];
     if (defaultVal) {
       return defaultVal;
     }
