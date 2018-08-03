@@ -18,7 +18,9 @@ class POICard extends Card {
     this.setText(
       poi.description[locale] !== null
         ? poi.description[locale][0]
-        : poi.description['nl'][0]
+        : poi.description['nl'][0] !== null
+          ? poi.description['nl'][0] !== null
+          : `No description available in ${locale}`
     );
     if (
       poi.hasOwnProperty('contactPoint') &&
