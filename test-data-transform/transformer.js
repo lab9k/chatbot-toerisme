@@ -28,7 +28,6 @@ Promise.all(promises)
     let singleArray = data.reduce((accum, value) => {
       return [...accum, ...value];
     }, []);
-    console.log(`\nObjects before parsing: \t${singleArray.length}`);
     const parsedObjects = [];
     while (singleArray.length > 0) {
       const check = singleArray[0];
@@ -47,7 +46,6 @@ Promise.all(promises)
     return parsedObjects;
   })
   .then(parsedArray => {
-    console.log(`Objects after parsing: \t\t${parsedArray.length}`);
     fs.writeFile(
       `${dataPath}/combined.json`,
       JSON.stringify(parsedArray),

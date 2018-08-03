@@ -60,7 +60,6 @@ class App {
     return fetch(BASE_URL, {});
   }
   _postNewEntries (entityID, entries, lang) {
-    console.log(lang, entries);
     const url = `https://api.dialogflow.com/v1/entities/${entityID}/entries?v=20150910&lang=${lang}`;
     const body = JSON.stringify(entries).replace(/’s/g, '');
     return fetch(url, {
