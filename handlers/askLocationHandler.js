@@ -10,8 +10,7 @@ module.exports = function askLocationHandler(agent) {
       text: lang.translate(agent.locale, 'ask_location'),
       quick_replies: [
         {
-          content_type: 'location',
-          text: 'Stuur locatie'
+          content_type: 'location'
         }
       ]
     })
