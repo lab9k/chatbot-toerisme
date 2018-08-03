@@ -3,7 +3,8 @@ const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
-    super(getValueOrUndefined(poi.name, locale));
+    super(getValueOrUndefined(poi.name, locale) ||
+      poi.name['nl'][0]);
     // TEMP
     this.poi = poi;
     this.locale = locale;
@@ -17,6 +18,7 @@ class POICard extends Card {
     this.setImage(url);
     this.setText(
       getValueOrUndefined(poi.description, locale) ||
+      getValueOrUndefined(poi.description, 'nl') ||
         `No description available in ${locale}`
     );
     if (
@@ -57,21 +59,10 @@ class POICard extends Card {
 }
 
 const getValueOrUndefined = (val, locale) => {
-  let defaultVal = val;
-  
   try {
     val = val[locale][0];
     if (val) {
       return val;
-    }
-  } catch (e) {
-    console.log(e);
-  }
-
-  try {
-    defaultVal = defaultVal['nl'][0];
-    if (defaultVal) {
-      return defaultVal;
     }
   } catch (e) {
     console.log(e);
