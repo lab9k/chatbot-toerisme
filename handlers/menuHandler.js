@@ -11,14 +11,8 @@ module.exports = function menuHandler(agent) {
   );
 
   quickReply.addQuickReplies(
-    {
-      text: lang.translate(agent.locale, 'search_nearby'),
-      payload: lang.translate('nl', 'search_nearby')
-    },
-    {
-      text: lang.translate(agent.locale, 'search_category'),
-      payload: lang.translate('nl', 'search_category')
-    }
+    { locale: agent.locale, key: 'search_nearby' },
+    { locale: agent.locale, key: 'search_category' }
   );
 
   agent.add(new Payload(PLATFORMS.FACEBOOK, quickReply.getResponse()));
