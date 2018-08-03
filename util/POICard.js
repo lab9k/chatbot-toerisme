@@ -3,7 +3,7 @@ const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
-    super((poi.name[locale] != undefined && poi.name[locale][0]) ? poi.name[locale][0] : poi.name['nl'][0]);
+    super(getDefinedValue(poi.name[locale][0], poi.name['nl'][0]));
     // TEMP
     this.poi = poi;
     this.locale = locale;
@@ -16,8 +16,7 @@ class POICard extends Card {
     url = url.replace('files/', 'files/styles/header_desktop/public/');
     this.setImage(url);
     this.setText(
-      poi.description[locale][0] ||
-        poi.description['nl'][0] ||
+      getDefinedValue(poi.description[locale][0], poi.description['nl'][0]) ||
         `No description available in ${locale}`
     );
     if (
@@ -29,7 +28,7 @@ class POICard extends Card {
         text: lang.translate(this.locale, 'show_route'),
         url: `https://www.google.be/maps/dir/?api=1&destination=${
           poi.contactPoint.field_geofield[9]
-        }`,
+        }`
       });
     }
   }
@@ -50,11 +49,29 @@ class POICard extends Card {
       }
       response.card.buttons.push({
         text: lang.translate(this.locale, 'show_more'),
-        postback: `${this.poi.page}`,
+        postback: `${this.poi.page}`
       });
     }
     return response;
   }
 }
 
+const getDefinedValue = (val, defaultVal) => {
+  try {
+    if (val) {
+      return val;
+    }
+  } catch (e) {
+    console.log(e);
+  }
+  
+  try {
+    if (defaultVal) {
+      return defaultVal;
+    }
+  } catch (e) {
+    console.log(e);
+  }
+  return undefined;
+};
 module.exports = POICard;
