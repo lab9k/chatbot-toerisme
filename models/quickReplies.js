@@ -10,15 +10,18 @@ class QuickReplies {
   }
 
   /**
-   * @param {String} text Text that appears before the buttons
-   * @param {String} payload Data to be sent to be sent
+   * @param {String} text Text that appears on a button
    */
-  addQuickReply(text, payload){
+  addQuickReply(text){
     this.quick_replies.push({
       content_type: this.content_type, 
       title: text,
-      payload: payload
+      payload: text
     });
+  }
+
+  addQuickReplies(texts){
+    texts.forEach(text => this.addQuickReply(text));    
   }
 
   getResponse() {
