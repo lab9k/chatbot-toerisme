@@ -20,7 +20,7 @@ class QuickReplies {
     });
   }
 
-  addQuickReplies(texts){
+  addQuickReplies(...texts){
     texts.forEach(text => this.addQuickReply(text));    
   }
 
