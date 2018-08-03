@@ -17,7 +17,11 @@ class POICard extends Card {
     // URL can be replaced to reference image which has smaller size
     url = url.replace('files/', 'files/styles/header_desktop/public/');
     this.setImage(url);
-    this.setText(poi.description[locale][0]);
+    this.setText(
+      poi.description[locale] !== null
+        ? poi.description[locale][0]
+        : `No description for ${locale}`
+    );
     if (
       poi.hasOwnProperty('contactPoint') &&
       poi.contactPoint !== null &&
