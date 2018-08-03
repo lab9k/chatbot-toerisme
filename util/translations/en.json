@@ -1,1 +1,11 @@
-{"choose_category":"Please choose one of the following categories","show_route":"Show me the way","show_more":"more about this","welcome_message":"Hello","search_places":"Search for places...","search_nearby":"nearby","search_category":"by category","ask_location":"Please share your location so that I can find nice places in your neighborhood"}
+{
+  "choose_category": "Please choose one of the following categories",
+  "show_route": "Show me the way",
+  "show_more": "more about this",
+  "welcome_message": "Hello",
+  "search_places": "Search for places...",
+  "search_nearby": "nearby",
+  "search_category": "by category",
+  "ask_location":
+    "Please share your location so that I can find nice places in your neighborhood"
+}

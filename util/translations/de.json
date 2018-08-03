@@ -1,1 +1,11 @@
-{"choose_category":"Bitte wählen Sie eine der folgenden Kategorien","show_route":"Zeig mir den Weg","show_more":"mehr dazu","welcome_message":"Guten tag","search_places":"Suche nach Orten...","search_nearby":"in der Nähe","search_category":"nach Kategorie","ask_location":"Bitte teilen Sie Ihren Standort, damit ich schöne Plätze in Ihrer Nachbarschaft finden kann"}
+{
+  "choose_category": "Bitte wählen Sie eine der folgenden Kategorien",
+  "show_route": "Zeig mir den Weg",
+  "show_more": "mehr dazu",
+  "welcome_message": "Guten tag",
+  "search_places": "Suche nach Orten...",
+  "search_nearby": "in der Nähe",
+  "search_category": "nach Kategorie",
+  "ask_location":
+    "Bitte teilen Sie Ihren Standort, damit ich schöne Plätze in Ihrer Nachbarschaft finden kann"
+}
