@@ -17,7 +17,7 @@ intentMap.set('Nearest Intent', nearestHanldler);
 intentMap.set('info.categories', categoriesHandler);
 intentMap.set('info.category', categoryHandler);
 intentMap.set('smalltalk.welcome', welcomeHandler);
-intentMap.set('smalltalk.menu', menuHandler);
+intentMap.set('info.menu', menuHandler);
 intentMap.set('info.nearby', askLocationHandler);
 
 /**
