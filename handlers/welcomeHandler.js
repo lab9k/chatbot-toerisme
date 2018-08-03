@@ -23,9 +23,9 @@ function welcomeHandler(agent) {
     ],
     quick_replies: [
       'English',
-      'Espanol',
       'Nederlands',
       'Français',
+      'Espanol',            
       'Deutsch',
     ].map(el => ({
       content_type: 'text',
