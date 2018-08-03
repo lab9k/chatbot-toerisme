@@ -8,6 +8,7 @@ const categoriesHandler = require('../handlers/categoriesHandler');
 const categoryHandler = require('../handlers/categoryHandler');
 const welcomeHandler = require('../handlers/welcomeHandler');
 const menuHandler = require('../handlers/menuHandler');
+const askLocationHandler = require('../handlers/askLocationHandler');
 
 // ? handle dialogflow intents
 const intentMap = new Map();
@@ -17,6 +18,7 @@ intentMap.set('info.categories', categoriesHandler);
 intentMap.set('info.category', categoryHandler);
 intentMap.set('smalltalk.welcome', welcomeHandler);
 intentMap.set('smalltalk.menu', menuHandler);
+intentMap.set('info.nearby', askLocationHandler);
 
 /**
  * Routes HTTP POST requests to index
