@@ -3,7 +3,7 @@ const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
-    super(getDefinedValue(poi.name[locale][0], poi.name['nl'][0]));
+    super(getDefinedValue(poi.name, locale));
     // TEMP
     this.poi = poi;
     this.locale = locale;
@@ -16,7 +16,7 @@ class POICard extends Card {
     url = url.replace('files/', 'files/styles/header_desktop/public/');
     this.setImage(url);
     this.setText(
-      getDefinedValue(poi.description[locale][0], poi.description['nl'][0]) ||
+      getDefinedValue(poi.description, locale) ||
         `No description available in ${locale}`
     );
     if (
@@ -56,7 +56,9 @@ class POICard extends Card {
   }
 }
 
-const getDefinedValue = (val, defaultVal) => {
+const getDefinedValue = (val, locale) => {
+  const defaultVal = val['nl'][0];
+  val = val[locale][0];
   try {
     if (val) {
       return val;
@@ -64,7 +66,7 @@ const getDefinedValue = (val, defaultVal) => {
   } catch (e) {
     console.log(e);
   }
-  
+
   try {
     if (defaultVal) {
       return defaultVal;
