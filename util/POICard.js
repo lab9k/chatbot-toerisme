@@ -3,9 +3,7 @@ const lang = require('../util/lang');
 
 class POICard extends Card {
   constructor(poi, locale) {
-    super(
-      poi.name[locale] !== null ? poi.name[locale][0] : `No name in ${locale}`
-    );
+    super(poi.name[locale] !== null ? poi.name[locale][0] : poi.name['nl'][0]);
     // TEMP
     this.poi = poi;
     this.locale = locale;
@@ -20,7 +18,7 @@ class POICard extends Card {
     this.setText(
       poi.description[locale] !== null
         ? poi.description[locale][0]
-        : `No description for ${locale}`
+        : poi.description['nl'][0]
     );
     if (
       poi.hasOwnProperty('contactPoint') &&
