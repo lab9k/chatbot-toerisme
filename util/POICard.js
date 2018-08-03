@@ -16,11 +16,13 @@ class POICard extends Card {
     url = url.replace('files/', 'files/styles/header_desktop/public/');
     this.setImage(url);
     this.setText(
-      poi.description[locale] !== null
-        ? poi.description[locale][0]
-        : poi.description['nl'][0] !== null
-          ? poi.description['nl'][0] !== null
-          : `No description available in ${locale}`
+      `${
+        poi.description[locale] !== null
+          ? poi.description[locale][0]
+          : poi.description['nl'][0] !== null
+            ? poi.description['nl'][0]
+            : `No description available in ${locale}`
+      }.`
     );
     if (
       poi.hasOwnProperty('contactPoint') &&
