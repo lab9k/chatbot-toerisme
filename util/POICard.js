@@ -65,8 +65,8 @@ const getValueOrUndefined = (val, locale) => {
       return val;
     }
   } catch (e) {
-    console.log(e);
+    return undefined;
   }
-  return undefined;
+  
 };
 module.exports = POICard;
