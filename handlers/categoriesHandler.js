@@ -14,16 +14,20 @@ function categoriesHandler(agent) {
         categories.push(category);
       }
     });
-    agent.add(new Payload(agent.FACEBOOK, {
-      text: 'Kies uit één van de volgende categorieën',
-      quick_replies: categories.map(category => {
-        return {
-          content_type: 'text',
-          title: category,
-          payload: category
-        };
-      }).slice(0, 11)
-    }));
+    agent.add(
+      new Payload(agent.FACEBOOK, {
+        text: 'Kies uit één van de volgende categorieën',
+        quick_replies: categories
+          .map(category => {
+            return {
+              content_type: 'text',
+              title: category,
+              payload: category
+            };
+          })
+          .slice(0, 11)
+      })
+    );
   });
 }
 

@@ -9,7 +9,7 @@ missing.forEach(miss => {
   questions.push({
     type: 'input',
     name: `${miss.key}^${miss.lang}`,
-    message: `How is "${miss.key}" defined in ${miss.lang}?`,
+    message: `How is "${miss.key}" defined in ${miss.lang}?`
   });
 });
 inquirer.prompt(questions).then(answers => {

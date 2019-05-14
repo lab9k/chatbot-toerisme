@@ -8,7 +8,7 @@ class Translator {
       nl: [],
       es: [],
       de: [],
-      fr: [],
+      fr: []
     };
   }
 
@@ -74,7 +74,7 @@ module.exports = (() => {
       translator.addTranslation({
         key: key,
         lang: lang,
-        translation: json[key],
+        translation: json[key]
       });
     });
   });

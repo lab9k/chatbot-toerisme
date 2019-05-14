@@ -24,7 +24,7 @@ class POICard extends Card {
         text: 'Toon mij de weg',
         url: `https://www.google.be/maps/dir/?api=1&destination=${
           poi.contactPoint.field_geofield[9]
-        }`,
+        }`
       });
     }
   }
@@ -42,7 +42,7 @@ class POICard extends Card {
     if (this.poi.page) {
       response.card.buttons.push({
         text: 'Meer hierover',
-        postback: `${this.poi.page}`,
+        postback: `${this.poi.page}`
       });
     }
     return response;

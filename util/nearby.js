@@ -38,7 +38,7 @@ const nearbyList = currentUserLocation => {
         .filter(location => location !== undefined && location.contactPoint)
         .map(location => ({
           dist: distance(location, currentUserLocation),
-          ...location,
+          ...location
         }))
         .sort(compareLocationsByDistance);
     })

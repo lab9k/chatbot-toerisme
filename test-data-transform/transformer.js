@@ -64,7 +64,7 @@ function toSingleObj(arr) {
     en: [],
     fr: [],
     es: [],
-    de: [],
+    de: []
   };
   arr.forEach(el => {
     urls[getLangUrl(el)].push(el.url);
@@ -74,7 +74,7 @@ function toSingleObj(arr) {
   }
   return {
     ...arr[0],
-    url: urls,
+    url: urls
   };
 }
 
